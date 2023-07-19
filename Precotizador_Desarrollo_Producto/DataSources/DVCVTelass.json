@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr59d_dvcvtelas",
+    "MaxGetRowsCount": 500,
     "Name": "DVCVTelass",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Propietario",

@@ -1,6 +1,32 @@
 {
   "QualifiedValues": [
     {
+      "Kind": "default.cds_mailboxtrackingfolder_forms",
+      "Namespace": "Carpetas de seguimiento automático del buzón (Formularios)",
+      "Values": {}
+    },
+    {
+      "Kind": "default.cds_cr59d_dvcvmaestro_3_forms",
+      "Namespace": "DVCVMaestros (Formularios)",
+      "Values": {
+        "Información": "fd39dfb9-0e5c-47ef-b114-effac79dbf06"
+      }
+    },
+    {
+      "Kind": "default.cds_cr59d_dvcvtallas_forms",
+      "Namespace": "DVCVTallass (Formularios)",
+      "Values": {
+        "Información": "24f86d7a-a386-471f-bf93-aef3d936750f"
+      }
+    },
+    {
+      "Kind": "default.cds_cr59d_dvcvtelas_forms",
+      "Namespace": "DVCVTelass (Formularios)",
+      "Values": {
+        "Información": "57f83df4-6db8-4dcb-b8ad-8cd4da8db5f5"
+      }
+    },
+    {
       "Kind": "default.cds_cr59d_insumos_forms",
       "Namespace": "Insumos (Formularios)",
       "Values": {
@@ -20,32 +46,6 @@
       "Values": {
         "Información": "dfa32afa-314d-4953-a98a-f3a1ad1bb8b5"
       }
-    },
-    {
-      "Kind": "default.cds_cr59d_dvcvmaestro_3_forms",
-      "Namespace": "DVCVMaestros (Formularios)",
-      "Values": {
-        "Información": "fd39dfb9-0e5c-47ef-b114-effac79dbf06"
-      }
-    },
-    {
-      "Kind": "default.cds_cr59d_dvcvtelas_forms",
-      "Namespace": "DVCVTelass (Formularios)",
-      "Values": {
-        "Información": "57f83df4-6db8-4dcb-b8ad-8cd4da8db5f5"
-      }
-    },
-    {
-      "Kind": "default.cds_cr59d_dvcvtallas_forms",
-      "Namespace": "DVCVTallass (Formularios)",
-      "Values": {
-        "Información": "24f86d7a-a386-471f-bf93-aef3d936750f"
-      }
-    },
-    {
-      "Kind": "default.cds_mailboxtrackingfolder_forms",
-      "Namespace": "Carpetas de seguimiento automático del buzón (Formularios)",
-      "Values": {}
     },
     {
       "Kind": "default.cds_cr59d_dd_maestro_forms",

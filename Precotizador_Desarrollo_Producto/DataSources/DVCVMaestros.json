@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr59d_dvcvmaestro_3",
+    "MaxGetRowsCount": 500,
     "Name": "DVCVMaestros",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Propietario",
