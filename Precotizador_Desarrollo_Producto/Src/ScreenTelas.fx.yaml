@@ -166,9 +166,9 @@ ScreenTelas As screen:
         BorderColor: =RGBA(0, 0, 0, 0.5)
         BorderThickness: =1
         DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(217, 217, 217, 0.38)
+        Fill: =RGBA(230, 230, 230, 1)
         FocusedBorderThickness: =4
-        Height: =816
+        Height: =729
         HoverFill: =
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =1197
@@ -839,9 +839,9 @@ ScreenTelas As screen:
         Height: =50
         Size: =13
         Text: =First(Filter(DVCVMaestros , Sku = skuSeleccionadoVar)).LargoPrenda
-        Width: =249
-        X: =872
-        Y: =282
+        Width: =161
+        X: =1018
+        Y: =295
         ZIndex: =37
 
     LabelAnchoPrenda As label:
@@ -856,9 +856,9 @@ ScreenTelas As screen:
         Height: =50
         Size: =13
         Text: =First(Filter(DVCVMaestros , Sku = skuSeleccionadoVar)).AnchoPrenda
-        Width: =249
-        X: =872
-        Y: =359
+        Width: =161
+        X: =1018
+        Y: =372
         ZIndex: =38
 
     LabelCategoria As label:
@@ -873,9 +873,9 @@ ScreenTelas As screen:
         Height: =50
         Size: =13
         Text: =First(Filter(DVCVMaestros , Sku = skuSeleccionadoVar)).Categoria
-        Width: =249
-        X: =872
-        Y: =439
+        Width: =161
+        X: =1018
+        Y: =452
         ZIndex: =39
 
     LabelCliente As label:
@@ -890,9 +890,9 @@ ScreenTelas As screen:
         Height: =50
         Size: =13
         Text: =First(Filter(DVCVMaestros , Sku = skuSeleccionadoVar)).Cliente
-        Width: =249
-        X: =872
-        Y: =513
+        Width: =161
+        X: =1018
+        Y: =526
         ZIndex: =40
 
     Rectangle_1 As button:
@@ -982,8 +982,8 @@ ScreenTelas As screen:
         Size: =13
         Text: ="Partes de la prenda"
         Width: =180
-        X: =555
-        Y: =594
+        X: =506
+        Y: =592
         ZIndex: =44
 
     LabelLargoPrenda_2 As label:
@@ -1000,7 +1000,7 @@ ScreenTelas As screen:
         Size: =13
         Text: ="Código de telas"
         Width: =180
-        X: =885
+        X: =986
         Y: =594
         ZIndex: =45
 
@@ -1038,9 +1038,9 @@ ScreenTelas As screen:
             Font: =Font.'Segoe UI'
             Height: =28
             OnSelect: =Select(Parent)
-            Size: =13
+            Size: =12
             Text: =ThisItem.PartePrenda
-            Width: =270
+            Width: =220
             Y: =12
             ZIndex: =6
 
@@ -1055,7 +1055,7 @@ ScreenTelas As screen:
             HoverFill: =RGBA(0, 120, 212, 1)
             PressedFill: =RGBA(0, 120, 212, 1)
             Width: =1
-            X: =270
+            X: =220
             ZIndex: =7
 
         TextInput1 As text:
@@ -1068,7 +1068,7 @@ ScreenTelas As screen:
             DisabledFill: =RGBA(244, 244, 244, 1)
             FocusedBorderThickness: =4
             Font: =Font.'Segoe UI'
-            Height: =25
+            Height: =27
             HoverBorderColor: =RGBA(0, 0, 0, 1)
             HoverColor: =RGBA(51, 51, 51, 1)
             HoverFill: =RGBA(255, 255, 255, 1)
@@ -1081,9 +1081,9 @@ ScreenTelas As screen:
             RadiusTopLeft: =0
             RadiusTopRight: =0
             Size: =13
-            Width: =200
-            X: =286
-            Y: =12
+            Width: =86
+            X: =469
+            Y: =13
             ZIndex: =8
 
         Label9 As label:
@@ -1095,10 +1095,12 @@ ScreenTelas As screen:
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
             Font: =Font.'Segoe UI'
+            Height: =34
             OnSelect: =Select(Parent)
             Size: =13
             Text: =ThisItem.TipoTela
-            X: =539
+            Width: =121
+            X: =555
             Y: =6
             ZIndex: =9
 
@@ -1116,4 +1118,107 @@ ScreenTelas As screen:
         X: =253
         Y: =97
         ZIndex: =47
+
+    "'Label-largoPrenda4' As label":
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Size: =12
+        Text: ="Largo de prenda"
+        X: =850
+        Y: =300
+        ZIndex: =48
+
+    Label_Anchoprenda5 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =38
+        Size: =12
+        Text: ="Ancho de prenda"
+        Width: =138
+        X: =856
+        Y: =376
+        ZIndex: =49
+
+    LabelCategoria6 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Size: =12
+        Text: ="Categoria"
+        X: =856
+        Y: =456
+        ZIndex: =50
+
+    "'Label-Cliente7' As label":
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Size: =12
+        Text: ="Cliente"
+        X: =850
+        Y: =530
+        ZIndex: =51
+
+    Label_Tipodetela8 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =29
+        Size: =13
+        Text: ="Tipo de tela"
+        X: =761
+        Y: =592
+        ZIndex: =52
+
+    Rectangle2 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(0, 0, 0, 1)
+        FocusedBorderThickness: =4
+        Height: =240
+        HoverFill: =RGBA(0, 120, 212, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        Width: =1
+        X: =938
+        Y: =632
+        ZIndex: =53
 
