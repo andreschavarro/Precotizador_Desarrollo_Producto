@@ -1097,7 +1097,7 @@ ScreenTelas As screen:
             Font: =Font.'Segoe UI'
             Height: =34
             OnSelect: =Select(Parent)
-            Size: =13
+            Size: =12
             Text: =ThisItem.TipoTela
             Width: =121
             X: =555
