@@ -168,12 +168,12 @@ ScreenTelas As screen:
         DisabledFill: =RGBA(166, 166, 166, 1)
         Fill: =RGBA(230, 230, 230, 1)
         FocusedBorderThickness: =4
-        Height: =729
+        Height: =702
         HoverFill: =
         PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =1197
-        X: =243
-        Y: =208
+        Width: =1102
+        X: =264
+        Y: =240
         ZIndex: =8
 
     ButtonGuardar_1 As button:
@@ -809,7 +809,7 @@ ScreenTelas As screen:
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =659
+        Height: =674
         HoverBorderColor: =RGBA(0, 0, 0, 1)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =RGBA(0, 0, 0, 0)
@@ -822,7 +822,7 @@ ScreenTelas As screen:
         RadiusTopRight: =15
         Size: =15
         Text: =""
-        Width: =717
+        Width: =736
         X: =475
         Y: =253
         ZIndex: =36
@@ -836,12 +836,12 @@ ScreenTelas As screen:
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Lighter
-        Height: =50
+        Height: =45
         Size: =13
         Text: =First(Filter(DVCVMaestros , Sku = skuSeleccionadoVar)).LargoPrenda
-        Width: =161
-        X: =1018
-        Y: =295
+        Width: =103
+        X: =1075
+        Y: =275
         ZIndex: =37
 
     LabelAnchoPrenda As label:
@@ -853,12 +853,12 @@ ScreenTelas As screen:
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Lighter
-        Height: =50
+        Height: =42
         Size: =13
         Text: =First(Filter(DVCVMaestros , Sku = skuSeleccionadoVar)).AnchoPrenda
-        Width: =161
-        X: =1018
-        Y: =372
+        Width: =103
+        X: =1075
+        Y: =352
         ZIndex: =38
 
     LabelCategoria As label:
@@ -870,12 +870,12 @@ ScreenTelas As screen:
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Lighter
-        Height: =50
+        Height: =44
         Size: =13
         Text: =First(Filter(DVCVMaestros , Sku = skuSeleccionadoVar)).Categoria
-        Width: =161
-        X: =1018
-        Y: =452
+        Width: =103
+        X: =1075
+        Y: =432
         ZIndex: =39
 
     LabelCliente As label:
@@ -887,12 +887,12 @@ ScreenTelas As screen:
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Lighter
-        Height: =50
+        Height: =44
         Size: =13
         Text: =First(Filter(DVCVMaestros , Sku = skuSeleccionadoVar)).Cliente
-        Width: =161
-        X: =1018
-        Y: =526
+        Width: =103
+        X: =1075
+        Y: =506
         ZIndex: =40
 
     Rectangle_1 As button:
@@ -906,7 +906,7 @@ ScreenTelas As screen:
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =34
+        Height: =56
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
@@ -919,9 +919,9 @@ ScreenTelas As screen:
         RadiusTopRight: =5
         Size: =5
         Text: =""
-        Width: =667
-        X: =499
-        Y: =589
+        Width: =684
+        X: =501
+        Y: =576
         ZIndex: =41
 
     Rectangle_2 As button:
@@ -935,7 +935,7 @@ ScreenTelas As screen:
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =293
+        Height: =313
         HoverBorderColor: =RGBA(0, 0, 0, 1)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =
@@ -944,10 +944,9 @@ ScreenTelas As screen:
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         Size: =15
         Text: =""
-        Width: |
-            =688
-        X: =499
-        Y: =589
+        Width: =684
+        X: =501
+        Y: =576
         ZIndex: =42
 
     Image1 As image:
@@ -1007,15 +1006,15 @@ ScreenTelas As screen:
     "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         BorderThickness: =1.5
         DelayItemLoading: =true
-        Height: =248
+        Height: =257
         Items: =Sort(Filter(DVCVTelass, Sku = skuSeleccionadoVar),CodigoTela)
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
         TemplateSize: =51
-        Width: =676
-        X: =503
-        Y: =630
+        Width: =684
+        X: =501
+        Y: =632
         ZIndex: =46
 
         Separator1 As rectangle:
@@ -1132,8 +1131,8 @@ ScreenTelas As screen:
         FontWeight: =FontWeight.Semibold
         Size: =12
         Text: ="Largo de prenda"
-        X: =850
-        Y: =300
+        X: =911
+        Y: =275
         ZIndex: =48
 
     Label_Anchoprenda5 As label:
@@ -1151,8 +1150,8 @@ ScreenTelas As screen:
         Size: =12
         Text: ="Ancho de prenda"
         Width: =138
-        X: =856
-        Y: =376
+        X: =923
+        Y: =356
         ZIndex: =49
 
     LabelCategoria6 As label:
@@ -1168,8 +1167,8 @@ ScreenTelas As screen:
         FontWeight: =FontWeight.Semibold
         Size: =12
         Text: ="Categoria"
-        X: =856
-        Y: =456
+        X: =909
+        Y: =433
         ZIndex: =50
 
     "'Label-Cliente7' As label":
@@ -1185,8 +1184,8 @@ ScreenTelas As screen:
         FontWeight: =FontWeight.Semibold
         Size: =12
         Text: ="Cliente"
-        X: =850
-        Y: =530
+        X: =909
+        Y: =505
         ZIndex: =51
 
     Label_Tipodetela8 As label:
@@ -1214,11 +1213,11 @@ ScreenTelas As screen:
         DisabledFill: =RGBA(166, 166, 166, 1)
         Fill: =RGBA(0, 0, 0, 1)
         FocusedBorderThickness: =4
-        Height: =240
+        Height: =257
         HoverFill: =RGBA(0, 120, 212, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =1
-        X: =938
+        X: =940
         Y: =632
         ZIndex: =53
 

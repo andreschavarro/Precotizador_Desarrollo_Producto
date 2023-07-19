@@ -1392,7 +1392,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonInsumos_1",
-      "ParentIndex": 26,
+      "ParentIndex": 27,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2997,7 +2997,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonTelas_1",
-      "ParentIndex": 21,
+      "ParentIndex": 23,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3283,7 +3283,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CircleInsumos_1",
-      "ParentIndex": 24,
+      "ParentIndex": 26,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4834,7 +4834,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "Height",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Height",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "ZIndex",
         {
           "AFDDataSourceName": "",
@@ -8322,7 +8329,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label_Anchoprenda5",
-      "ParentIndex": 27,
+      "ParentIndex": 25,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9480,7 +9487,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "LabelAnchoPrenda",
-      "ParentIndex": 25,
+      "ParentIndex": 24,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10413,7 +10420,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "LabelCliente",
-      "ParentIndex": 32,
+      "ParentIndex": 33,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10696,7 +10703,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label-Cliente7",
-      "ParentIndex": 33,
+      "ParentIndex": 32,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11982,7 +11989,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label-largoPrenda4",
-      "ParentIndex": 23,
+      "ParentIndex": 21,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
