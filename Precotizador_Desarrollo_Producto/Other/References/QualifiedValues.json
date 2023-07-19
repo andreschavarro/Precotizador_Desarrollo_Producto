@@ -1,0 +1,100 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_cr59d_insumos_forms",
+      "Namespace": "Insumos (Formularios)",
+      "Values": {
+        "Información": "202a04a0-5e1b-4497-95cd-a929dbec15da"
+      }
+    },
+    {
+      "Kind": "default.cds_cr59d_dd_manodeobra_forms",
+      "Namespace": "ManoDeObras (Formularios)",
+      "Values": {
+        "Información": "e1a7f20d-1673-4440-81a6-4bae91172f9d"
+      }
+    },
+    {
+      "Kind": "default.cds_cr59d_dd_procesosespeciales_forms",
+      "Namespace": "ProcesosEspecialess (Formularios)",
+      "Values": {
+        "Información": "dfa32afa-314d-4953-a98a-f3a1ad1bb8b5"
+      }
+    },
+    {
+      "Kind": "default.cds_cr59d_dvcvmaestro_3_forms",
+      "Namespace": "DVCVMaestros (Formularios)",
+      "Values": {
+        "Información": "fd39dfb9-0e5c-47ef-b114-effac79dbf06"
+      }
+    },
+    {
+      "Kind": "default.cds_cr59d_dvcvtelas_forms",
+      "Namespace": "DVCVTelass (Formularios)",
+      "Values": {
+        "Información": "57f83df4-6db8-4dcb-b8ad-8cd4da8db5f5"
+      }
+    },
+    {
+      "Kind": "default.cds_cr59d_dvcvtallas_forms",
+      "Namespace": "DVCVTallass (Formularios)",
+      "Values": {
+        "Información": "24f86d7a-a386-471f-bf93-aef3d936750f"
+      }
+    },
+    {
+      "Kind": "default.cds_mailboxtrackingfolder_forms",
+      "Namespace": "Carpetas de seguimiento automático del buzón (Formularios)",
+      "Values": {}
+    },
+    {
+      "Kind": "default.cds_cr59d_dd_maestro_forms",
+      "Namespace": "Maestros (Formularios)",
+      "Values": {
+        "Información": "ee3ca14d-44ac-4643-a2b5-e4255a0a61cb"
+      }
+    },
+    {
+      "Kind": "default.cds_cr59d_dd_areas_forms",
+      "Namespace": "Areass (Formularios)",
+      "Values": {
+        "Información": "9bd92c23-9ac3-4c45-b63f-4902e760a302"
+      }
+    },
+    {
+      "Kind": "default.cds_cr59d_dd_maestrotelas_forms",
+      "Namespace": "MaestroTelass (Formularios)",
+      "Values": {
+        "Información": "e8c2dced-5c79-4600-a70b-a062c4183178"
+      }
+    },
+    {
+      "Kind": "default.cds_cr59d_dd_telas_forms",
+      "Namespace": "Telass (Formularios)",
+      "Values": {
+        "Información": "3f10e006-a6c6-446f-a235-e95c82b8c0a7"
+      }
+    },
+    {
+      "Kind": "default.cds_cr59d_dvcvmaestro_2_forms",
+      "Namespace": "DVCVMaestros (Formularios)1",
+      "Values": {
+        "Información": "b7fc111b-e2ad-449a-bfc2-9b9c42b8e009"
+      }
+    },
+    {
+      "Kind": "default.cds_cr59d_dd_insumos_forms",
+      "Namespace": "Insumoss (Formularios)",
+      "Values": {
+        "Información": "c3c81dc2-3aea-4ae1-948a-cc9aa74dda74"
+      }
+    },
+    {
+      "Kind": "default.cds_cr59d_dvcvmaestro_3_forms",
+      "Namespace": "DVCVMaestros (Formularios)11",
+      "Values": {
+        "Información": "fd39dfb9-0e5c-47ef-b114-effac79dbf06"
+      }
+    }
+  ]
+}

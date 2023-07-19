@@ -1,0 +1,108 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr59d_insumoses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr59d_insumos",
+    "MaxGetRowsCount": 500,
+    "Name": "Insumos",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Propietario",
+      "cr59d_descripcion": "Descripcion",
+      "cr59d_insumos_AsyncOperations": "Trabajos del sistema",
+      "cr59d_insumos_BulkDeleteFailures": "Errores de eliminación en masa",
+      "cr59d_insumos_DuplicateBaseRecord": "Registros duplicados (cr59d_insumos_DuplicateBaseRecord)",
+      "cr59d_insumos_DuplicateMatchingRecord": "Registros duplicados (cr59d_insumos_DuplicateMatchingRecord)",
+      "cr59d_insumos_MailboxTrackingFolders": "Carpetas de seguimiento automático del buzón",
+      "cr59d_insumos_PrincipalObjectAttributeAccesses": "Uso compartido de campos",
+      "cr59d_insumos_ProcessSession": "Sesiones de proceso",
+      "cr59d_insumos_SyncErrors": "Errores de sincronización",
+      "cr59d_insumosid": "Insumos",
+      "cr59d_name": "Name",
+      "cr59d_sku": "Sku",
+      "cr59d_talla1": "Talla1",
+      "cr59d_talla2": "Talla2",
+      "cr59d_talla3": "Talla3",
+      "cr59d_talla4": "Talla4",
+      "cr59d_talla5": "Talla5",
+      "cr59d_talla6": "Talla6",
+      "cr59d_talla7": "Talla7",
+      "cr59d_talla8": "Talla8",
+      "cr59d_unidadmedida": "UnidadMedida",
+      "createdby": "Autor",
+      "createdon": "Fecha de creación",
+      "createdonbehalfby": "Autor (delegado)",
+      "importsequencenumber": "Número de secuencia de importación",
+      "modifiedby": "Modificado por",
+      "modifiedon": "Fecha de modificación",
+      "modifiedonbehalfby": "Modificado por (delegado)",
+      "overriddencreatedon": "Fecha de creación del registro",
+      "owningbusinessunit": "Unidad de negocio propietaria",
+      "owningteam": "Equipo propietario",
+      "owninguser": "Usuario propietario",
+      "statecode": "Estado",
+      "statuscode": "Razón para el estado",
+      "timezoneruleversionnumber": "Número de versión de regla de zona horaria",
+      "utcconversiontimezonecode": "Código de zona horaria de conversión UTC",
+      "versionnumber": "Número de versión"
+    },
+    "PreferredName": "Insumos",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Insumos (Vistas)",
+    "Name": "_cr59d_insumos_views",
+    "RelatedEntityName": "Insumos",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "27139f92-f9b9-4046-902b-738841fdde4d": "Vista de búsqueda avanzada de Insumos",
+      "4092ca52-ac74-43f1-a687-67c5a93808d0": "Insumos inactivo",
+      "cdf1851f-904a-43eb-b97b-8bfc13d34811": "Vista asociada de Insumos",
+      "d9491e41-18a2-48a8-809f-94907973afc4": "Insumos activo",
+      "e78d540d-d4a7-4932-a968-888034bcb142": "Vista de búsqueda de Insumos"
+    }
+  },
+  {
+    "DisplayName": "Estado (Insumos)",
+    "Name": "cr59d_insumos_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Activo",
+      "1": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Insumos"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Insumos",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razón para el estado (Insumos)",
+    "Name": "cr59d_insumos_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Activo",
+      "2": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Insumos"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Insumos",
+    "Type": "OptionSetInfo"
+  }
+]

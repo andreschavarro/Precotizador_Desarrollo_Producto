@@ -1,0 +1,98 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr59d_dd_procesosespecialeses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr59d_dd_procesosespeciales",
+    "MaxGetRowsCount": 500,
+    "Name": "ProcesosEspecialess",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Propietario",
+      "cr59d_dd_procesosespeciales_AsyncOperations": "Trabajos del sistema",
+      "cr59d_dd_procesosespeciales_BulkDeleteFailures": "Errores de eliminación en masa",
+      "cr59d_dd_procesosespeciales_MailboxTrackingFolders": "Carpetas de seguimiento automático del buzón",
+      "cr59d_dd_procesosespeciales_PrincipalObjectAttributeAccesses": "Uso compartido de campos",
+      "cr59d_dd_procesosespeciales_ProcessSession": "Sesiones de proceso",
+      "cr59d_dd_procesosespeciales_SyncErrors": "Errores de sincronización",
+      "cr59d_dd_procesosespecialesid": "ProcesosEspeciales",
+      "cr59d_descripcion": "descripcion",
+      "cr59d_nombre": "Nombre",
+      "cr59d_precio": "precio",
+      "cr59d_proveedor": "proveedor",
+      "createdby": "Autor",
+      "createdon": "Fecha de creación",
+      "createdonbehalfby": "Autor (delegado)",
+      "importsequencenumber": "Número de secuencia de importación",
+      "modifiedby": "Modificado por",
+      "modifiedon": "Fecha de modificación",
+      "modifiedonbehalfby": "Modificado por (delegado)",
+      "overriddencreatedon": "Fecha de creación del registro",
+      "owningbusinessunit": "Unidad de negocio propietaria",
+      "owningteam": "Equipo propietario",
+      "owninguser": "Usuario propietario",
+      "statecode": "Estado",
+      "statuscode": "Razón para el estado",
+      "timezoneruleversionnumber": "Número de versión de regla de zona horaria",
+      "utcconversiontimezonecode": "Código de zona horaria de conversión UTC",
+      "versionnumber": "Número de versión"
+    },
+    "PreferredName": "ProcesosEspecialess",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "ProcesosEspecialess (Vistas)",
+    "Name": "_cr59d_dd_procesosespeciales_views",
+    "RelatedEntityName": "ProcesosEspecialess",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "a5b251f2-fd5b-4ac0-baa4-bcba53a7b292": "ProcesosEspecialess inactivo",
+      "b643fcce-fb95-437b-ab7d-865a67951233": "Vista de búsqueda avanzada de ProcesosEspeciales",
+      "d3b8d429-9b48-422a-89a5-7e05da37d128": "ProcesosEspecialess activo",
+      "dc76667e-4240-4e14-be5a-ebb04d62f035": "Vista de búsqueda de ProcesosEspeciales",
+      "f7bbae79-723a-4d3b-89ea-8e712d7fc8db": "Vista asociada de ProcesosEspeciales"
+    }
+  },
+  {
+    "DisplayName": "Estado (ProcesosEspecialess)",
+    "Name": "cr59d_dd_procesosespeciales_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Activo",
+      "1": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "ProcesosEspecialess"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "ProcesosEspecialess",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razón para el estado (ProcesosEspecialess)",
+    "Name": "cr59d_dd_procesosespeciales_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Activo",
+      "2": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "ProcesosEspecialess"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "ProcesosEspecialess",
+    "Type": "OptionSetInfo"
+  }
+]

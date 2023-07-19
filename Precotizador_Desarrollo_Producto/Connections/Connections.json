@@ -1,0 +1,31 @@
+{
+  "388ac5e9-3b84-4f35-944b-3f001a2fbf28": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://grupocrystal.sharepoint.com/sites/DesarrolloVestuarioPA": {
+        "dataSources": {
+          "ListaConfiguracionCliente": {
+            "tableName": "24a6d81b-9a46-4666-94f1-71c4508270ad"
+          },
+          "ListaConfiguracionTipoPrenda": {
+            "tableName": "9da70e63-e557-4abe-bd9b-7334f52b51dd"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "ListaConfiguracionTipoPrenda",
+      "ListaConfiguracionCliente"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "388ac5e9-3b84-4f35-944b-3f001a2fbf28"
+  }
+}

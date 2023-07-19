@@ -1,0 +1,104 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr59d_dvcvmaestro_3s",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr59d_dvcvmaestro_3",
+    "Name": "DVCVMaestros",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Propietario",
+      "cr59d_anchoprenda": "AnchoPrenda",
+      "cr59d_categoria": "Categoria",
+      "cr59d_cliente": "Cliente",
+      "cr59d_dvcvmaestro_3_AsyncOperations": "Trabajos del sistema",
+      "cr59d_dvcvmaestro_3_BulkDeleteFailures": "Errores de eliminación en masa",
+      "cr59d_dvcvmaestro_3_MailboxTrackingFolders": "Carpetas de seguimiento automático del buzón",
+      "cr59d_dvcvmaestro_3_PrincipalObjectAttributeAccesses": "Uso compartido de campos",
+      "cr59d_dvcvmaestro_3_ProcessSession": "Sesiones de proceso",
+      "cr59d_dvcvmaestro_3_SyncErrors": "Errores de sincronización",
+      "cr59d_dvcvmaestro_3id": "DVCVMaestro",
+      "cr59d_enlaceimagen": "EnlaceImagen",
+      "cr59d_largoprenda": "LargoPrenda",
+      "cr59d_nombre": "Nombre",
+      "cr59d_partitionkey": "PartitionKey",
+      "cr59d_rowkey": "RowKey",
+      "cr59d_sku": "Sku",
+      "cr59d_timestamp": "Timestamp",
+      "cr59d_tipoprenda": "TipoPrenda",
+      "createdby": "Autor",
+      "createdon": "Fecha de creación",
+      "createdonbehalfby": "Autor (delegado)",
+      "importsequencenumber": "Número de secuencia de importación",
+      "modifiedby": "Modificado por",
+      "modifiedon": "Fecha de modificación",
+      "modifiedonbehalfby": "Modificado por (delegado)",
+      "overriddencreatedon": "Fecha de creación del registro",
+      "owningbusinessunit": "Unidad de negocio propietaria",
+      "owningteam": "Equipo propietario",
+      "owninguser": "Usuario propietario",
+      "statecode": "Estado",
+      "statuscode": "Razón para el estado",
+      "timezoneruleversionnumber": "Número de versión de regla de zona horaria",
+      "utcconversiontimezonecode": "Código de zona horaria de conversión UTC",
+      "versionnumber": "Número de versión"
+    },
+    "PreferredName": "DVCVMaestros",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "DVCVMaestros (Vistas)",
+    "Name": "_cr59d_dvcvmaestro_3_views",
+    "RelatedEntityName": "DVCVMaestros",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "05354720-26e4-4bd7-8d85-ee44e11748b7": "DVCVMaestros activo",
+      "2465b2be-0e8d-4f8e-ac79-240df95dc6c4": "Vista de búsqueda de DVCVMaestro",
+      "37944a0e-1476-4462-be7f-055fa758d22d": "Vista de búsqueda avanzada de DVCVMaestro",
+      "c0c7a6e8-0e32-40e7-b00d-1bb9a2e99a4b": "DVCVMaestros inactivo",
+      "c31d4b2e-b401-4c90-8d02-26de55a7e796": "Vista asociada de DVCVMaestro"
+    }
+  },
+  {
+    "DisplayName": "Estado (DVCVMaestros)",
+    "Name": "cr59d_dvcvmaestro_3_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Activo",
+      "1": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "DVCVMaestros"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "DVCVMaestros",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razón para el estado (DVCVMaestros)",
+    "Name": "cr59d_dvcvmaestro_3_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Activo",
+      "2": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "DVCVMaestros"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "DVCVMaestros",
+    "Type": "OptionSetInfo"
+  }
+]
