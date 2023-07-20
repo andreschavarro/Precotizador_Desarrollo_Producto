@@ -1514,7 +1514,7 @@ ScreenResumen As screen:
         BorderColor: =RGBA(166, 166, 166, 1)
         DelayItemLoading: =true
         Height: =280
-        Items: =CustomGallerySample
+        Items: =Insumos
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
@@ -1539,6 +1539,7 @@ ScreenResumen As screen:
             HoverBorderColor: =RGBA(0, 0, 0, 1)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =
+            OnSelect: =First(Filter(Insumos , Descripcion = insumoSeleccionado)).Descripcion
             PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -1636,6 +1637,39 @@ ScreenResumen As screen:
             X: =563
             Y: =32
             ZIndex: =6
+
+        Label5 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =21
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =First(Filter(Insumos , Descripcion = insumoSeleccionado)).Descripcion
+            X: =158
+            Y: =50
+            ZIndex: =7
+
+        Label6 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =First(Filter(Insumos , Sku = skuInsumoSeleccionado)).Sku
+            X: =158
+            Y: =83
+            ZIndex: =8
 
     "Gallery4_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         BorderColor: =RGBA(166, 166, 166, 1)
