@@ -1125,7 +1125,7 @@ ScreenResumen As screen:
         BorderThickness: =1.5
         DelayItemLoading: =true
         Height: =165
-        Items: =Sort(Filter(ManoDeObras, sku = skuSeleccionadoVar),centro)
+        Items: =Sort(Filter(DVCVManoObras, Sku = skuSeleccionadoVar),Centro)
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
@@ -1157,7 +1157,7 @@ ScreenResumen As screen:
             Height: =15
             OnSelect: =Select(Parent)
             Size: =9.5
-            Text: =ThisItem.centro
+            Text: =ThisItem.Centro
             Width: =90
             X: =25
             Y: =13
@@ -1191,7 +1191,7 @@ ScreenResumen As screen:
             Height: =17
             OnSelect: =Select(Parent)
             Size: =9.5
-            Text: =ThisItem.subCentro
+            Text: =ThisItem.SubCentro
             Width: =109
             X: =190
             Y: =12
@@ -1225,7 +1225,7 @@ ScreenResumen As screen:
             Height: =17
             OnSelect: =Select(Parent)
             Size: =9.5
-            Text: =ThisItem.tiempo
+            Text: =ThisItem.Tiempo
             Width: =60
             X: =375
             Y: =12

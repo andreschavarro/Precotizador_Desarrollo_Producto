@@ -481,7 +481,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/21/2023 17:30:19",
+  "HeaderLastSavedDateTimeUTC": "07/21/2023 17:31:40",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "388ac5e9-3b84-4f35-944b-3f001a2fbf28": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/fa7fc0616d9e4101b275d158e1f1b066\""
@@ -1074,8 +1074,8 @@
     "DVCVMaestros\\cr59d_dvcvmaestro_3_statuscode": 1,
     "DVCVMaestros\\default.cds_cr59d_dvcvmaestro_3_views": 13,
     "DVCVManoObras": 30,
-    "DVCVManoObras\\cr59d_dvcvmanoobra_2_statecode": 10,
-    "DVCVManoObras\\cr59d_dvcvmanoobra_2_statuscode": 11,
+    "DVCVManoObras\\cr59d_dvcvmanoobra_2_statecode": 11,
+    "DVCVManoObras\\cr59d_dvcvmanoobra_2_statuscode": 10,
     "DVCVManoObras\\default.cds_cr59d_dvcvmanoobra_2_views": 18,
     "DVCVTallass": 26,
     "DVCVTallass\\cr59d_dvcvtallas_statecode": 2,
