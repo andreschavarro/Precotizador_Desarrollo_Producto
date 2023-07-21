@@ -981,8 +981,8 @@ ScreenTelas As screen:
         Size: =13
         Text: ="Partes de la prenda"
         Width: =180
-        X: =518
-        Y: =583
+        X: =566
+        Y: =584
         ZIndex: =43
 
     LabelLargoPrenda_2 As label:
@@ -998,9 +998,9 @@ ScreenTelas As screen:
         Height: =25
         Size: =13
         Text: ="Código de telas"
-        Width: =180
-        X: =998
-        Y: =585
+        Width: =160
+        X: =1015
+        Y: =584
         ZIndex: =44
 
     "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
@@ -1214,7 +1214,7 @@ ScreenTelas As screen:
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =29
+        Height: =25
         Size: =13
         Text: ="Tipo de tela"
         X: =829
