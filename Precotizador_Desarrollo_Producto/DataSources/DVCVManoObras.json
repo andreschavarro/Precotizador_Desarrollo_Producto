@@ -1,27 +1,29 @@
 [
   {
     "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
-    "EntitySetName": "cr59d_dd_manodeobras",
+    "EntitySetName": "cr59d_dvcvmanoobra_2s",
     "IsHidden": false,
     "IsSampleData": false,
     "IsWritable": true,
-    "LogicalName": "cr59d_dd_manodeobra",
-    "MaxGetRowsCount": 500,
-    "Name": "ManoDeObras",
+    "LogicalName": "cr59d_dvcvmanoobra_2",
+    "Name": "DVCVManoObras",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Propietario",
-      "cr59d_centro": "centro",
-      "cr59d_dd_manodeobra_AsyncOperations": "Trabajos del sistema",
-      "cr59d_dd_manodeobra_BulkDeleteFailures": "Errores de eliminación en masa",
-      "cr59d_dd_manodeobra_MailboxTrackingFolders": "Carpetas de seguimiento automático del buzón",
-      "cr59d_dd_manodeobra_PrincipalObjectAttributeAccesses": "Uso compartido de campos",
-      "cr59d_dd_manodeobra_ProcessSession": "Sesiones de proceso",
-      "cr59d_dd_manodeobra_SyncErrors": "Errores de sincronización",
-      "cr59d_dd_manodeobraid": "ManoDeObra",
+      "cr59d_centro": "Centro",
+      "cr59d_dvcvmanoobra_2_AsyncOperations": "Trabajos del sistema",
+      "cr59d_dvcvmanoobra_2_BulkDeleteFailures": "Errores de eliminación en masa",
+      "cr59d_dvcvmanoobra_2_MailboxTrackingFolders": "Carpetas de seguimiento automático del buzón",
+      "cr59d_dvcvmanoobra_2_PrincipalObjectAttributeAccesses": "Uso compartido de campos",
+      "cr59d_dvcvmanoobra_2_ProcessSession": "Sesiones de proceso",
+      "cr59d_dvcvmanoobra_2_SyncErrors": "Errores de sincronización",
+      "cr59d_dvcvmanoobra_2id": "DVCVManoObra",
       "cr59d_nombre": "Nombre",
-      "cr59d_sku": "sku",
-      "cr59d_subcentro": "subCentro",
-      "cr59d_tiempo": "tiempo",
+      "cr59d_partitionkey": "PartitionKey",
+      "cr59d_rowkey": "RowKey",
+      "cr59d_sku": "Sku",
+      "cr59d_subcentro": "SubCentro",
+      "cr59d_tiempo": "Tiempo",
+      "cr59d_timestamp": "Timestamp",
       "createdby": "Autor",
       "createdon": "Fecha de creación",
       "createdonbehalfby": "Autor (delegado)",
@@ -39,26 +41,26 @@
       "utcconversiontimezonecode": "Código de zona horaria de conversión UTC",
       "versionnumber": "Número de versión"
     },
-    "PreferredName": "ManoDeObras",
+    "PreferredName": "DVCVManoObras",
     "Type": "NativeCDSDataSourceInfo"
   },
   {
-    "DisplayName": "ManoDeObras (Vistas)",
-    "Name": "_cr59d_dd_manodeobra_views",
-    "RelatedEntityName": "ManoDeObras",
+    "DisplayName": "DVCVManoObras (Vistas)",
+    "Name": "_cr59d_dvcvmanoobra_2_views",
+    "RelatedEntityName": "DVCVManoObras",
     "TrimmedViewName": true,
     "Type": "ViewInfo",
     "ViewInfoNameMapping": {
-      "0cdecc9f-9b17-42c4-8e5c-2892a11b89ce": "Vista asociada de ManoDeObra",
-      "2f8d0464-2c54-4758-992e-cc07d027b3d5": "ManoDeObras activo",
-      "370d71a4-47de-4d78-84a6-c1d884d2134e": "ManoDeObras inactivo",
-      "42afb766-8558-4dbb-951c-74eeb81e0795": "Vista de búsqueda avanzada de ManoDeObra",
-      "6966432e-c434-49dd-8922-3e191a4ac4e2": "Vista de búsqueda de ManoDeObra"
+      "167d848d-cd24-4e7d-92c2-f4ca8fcb22ea": "Vista de búsqueda de DVCVManoObra",
+      "36280cd6-be5b-468d-a464-2c83ea89b162": "DVCVManoObras activo",
+      "3d00f48d-06f7-4a3c-814a-0812f604b1fd": "Vista de búsqueda avanzada de DVCVManoObra",
+      "63197820-7952-4240-8cbe-c76b6d862265": "DVCVManoObras inactivo",
+      "95918424-02d9-42b8-a64d-c40393f1004d": "Vista asociada de DVCVManoObra"
     }
   },
   {
-    "DisplayName": "Estado (ManoDeObras)",
-    "Name": "cr59d_dd_manodeobra_statecode",
+    "DisplayName": "Estado (DVCVManoObras)",
+    "Name": "cr59d_dvcvmanoobra_2_statecode",
     "OptionSetInfoNameMapping": {
       "0": "Activo",
       "1": "Inactivo"
@@ -68,17 +70,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "statecode",
-        "OptionSetReferenceEntityName": "ManoDeObras"
+        "OptionSetReferenceEntityName": "DVCVManoObras"
       }
     },
     "OptionSetTypeKey": "StateType",
     "RelatedColumnInvariantName": "statecode",
-    "RelatedEntityName": "ManoDeObras",
+    "RelatedEntityName": "DVCVManoObras",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Razón para el estado (ManoDeObras)",
-    "Name": "cr59d_dd_manodeobra_statuscode",
+    "DisplayName": "Razón para el estado (DVCVManoObras)",
+    "Name": "cr59d_dvcvmanoobra_2_statuscode",
     "OptionSetInfoNameMapping": {
       "1": "Activo",
       "2": "Inactivo"
@@ -88,12 +90,12 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "statuscode",
-        "OptionSetReferenceEntityName": "ManoDeObras"
+        "OptionSetReferenceEntityName": "DVCVManoObras"
       }
     },
     "OptionSetTypeKey": "StatusType",
     "RelatedColumnInvariantName": "statuscode",
-    "RelatedEntityName": "ManoDeObras",
+    "RelatedEntityName": "DVCVManoObras",
     "Type": "OptionSetInfo"
   }
 ]
