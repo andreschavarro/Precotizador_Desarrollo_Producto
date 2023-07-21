@@ -560,12 +560,13 @@ ScreenArea As screen:
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Seleccione Prenda"
+        IsSearchable: =false
         Items: =ListaConfiguracionTipoPrenda.TipoPrenda
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
         SearchFields: =["TipoPrenda"]
-        SearchItems: =Search(ListaConfiguracionTipoPrenda.TipoPrenda,ComboBoxSeleccionPrenda.SearchText,"TipoPrenda")
+        SearchItems: =[]
         SelectionFill: =RGBA(0, 120, 212, 1)
         SelectMultiple: =false
         Size: =13
@@ -587,18 +588,19 @@ ScreenArea As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayFields: =["Value"]
+        DisplayFields: =["Cliente"]
         Font: =Font.'Segoe UI'
         HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Cliente"
-        Items: =Distinct(ListaConfiguracionCliente,Cliente)
+        IsSearchable: =false
+        Items: =ListaConfiguracionCliente.Cliente
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
-        SearchFields: =["Value"]
-        SearchItems: =Search(Distinct(ListaConfiguracionCliente,Cliente),ComboBoxCliente.SearchText,"Value")
+        SearchFields: =["Cliente"]
+        SearchItems: =[]
         SelectionFill: =RGBA(0, 120, 212, 1)
         SelectMultiple: =false
         Size: =13
@@ -627,6 +629,10 @@ ScreenArea As screen:
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Asesor"
         Items: =["Pipe","Miguel","Mario","Vero","Johnes","Esteban","Juan","Ana","Elian"]
+        OnChange: |+
+            =false
+            
+            
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(0, 120, 212, 1)

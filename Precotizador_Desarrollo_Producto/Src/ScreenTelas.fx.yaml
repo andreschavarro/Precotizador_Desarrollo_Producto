@@ -228,36 +228,6 @@ ScreenTelas As screen:
         Y: =971
         ZIndex: =10
 
-    ComboBoxCliente_1 As combobox:
-        BorderColor: =RGBA(0, 0, 0, 1)
-        BorderThickness: =1.5
-        ChevronBackground: =RGBA(0, 0, 0, 0)
-        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-        ChevronFill: =RGBA(0, 0, 0, 1)
-        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
-        ChevronHoverFill: =RGBA(33, 33, 33, 1)
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Font: =Font.'Segoe UI'
-        HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        HoverColor: =RGBA(51, 51, 51, 1)
-        HoverFill: =RGBA(212, 212, 212, 1)
-        InputTextPlaceholder: ="Cliente"
-        Items: =ComboBoxSample
-        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        SearchItems: =Search(ComboBoxSample,ComboBoxCliente_1.SearchText,"Value1")
-        SelectionFill: =RGBA(0, 120, 212, 1)
-        Size: =13
-        Width: =125
-        X: =472
-        Y: =97
-        ZIndex: =11
-
     ComboBoxAsesor_1 As combobox:
         BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =1.5
@@ -291,7 +261,7 @@ ScreenTelas As screen:
     TextInputReferencia_1 As text:
         BorderThickness: =1.5
         Color: =RGBA(51, 51, 51, 1)
-        Default: ="Ingrese Referencia"
+        Default: =TextInputReferencia.Text
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -316,7 +286,7 @@ ScreenTelas As screen:
     TextInputPatronista_1 As text:
         BorderThickness: =1.5
         Color: =RGBA(51, 51, 51, 1)
-        Default: ="Ingrese Patronista"
+        Default: =TextInputPatronista.Text
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -341,7 +311,7 @@ ScreenTelas As screen:
     TextInputUsuario_1 As text:
         BorderThickness: =1.5
         Color: =RGBA(51, 51, 51, 1)
-        Default: ="Nombre Usuario"
+        Default: =User().FullName
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -367,7 +337,6 @@ ScreenTelas As screen:
         BorderThickness: =1.5
         CalendarHeaderFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         Color: =RGBA(51, 51, 51, 1)
-        DefaultDate: =
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1128,8 +1097,9 @@ ScreenTelas As screen:
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Lighter
+        Height: =37
         Text: =ComboBoxSeleccionPrenda.Selected.TipoPrenda
-        Width: =200
+        Width: =129
         X: =253
         Y: =97
         ZIndex: =46
@@ -1236,4 +1206,18 @@ ScreenTelas As screen:
         X: =941
         Y: =632
         ZIndex: =52
+
+    Label11 As label:
+        BorderThickness: =1.5
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Size: =13
+        Text: |
+            =ComboBoxCliente.Selected.Cliente
+        X: =417
+        Y: =96
+        ZIndex: =53
 
