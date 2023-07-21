@@ -382,14 +382,8 @@ ScreenInsumos As screen:
             HoverColor: =RGBA(51, 51, 51, 1)
             HoverFill: =RGBA(0, 0, 0, 0)
             OnCheck: |-
-                =Set(
-                    insumoSeleccionado,
-                    ThisItem.Descripcion
-                );
-                Set(
-                    skuInsumoSeleccionado,
-                    ThisItem.Sku
-                )
+                =Collect(InsumosSeleccionados,{DescripcionInsumo:ThisItem.Descripcion,skuInsumo:ThisItem.Sku})
+            OnUncheck: =RemoveIf(InsumosSeleccionados,  DescripcionInsumo = ThisItem.Descripcion, skuInsumo = ThisItem.Sku)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =RGBA(51, 51, 51, 1)
             PressedFill: =RGBA(0, 0, 0, 0)

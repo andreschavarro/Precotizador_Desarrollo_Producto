@@ -560,7 +560,7 @@ ScreenResumen As screen:
         BorderThickness: =1.5
         DelayItemLoading: =true
         Height: =177
-        Items: =CustomGallerySample
+        Items: =Gallery2.AllItems
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
@@ -1514,13 +1514,13 @@ ScreenResumen As screen:
         BorderColor: =RGBA(166, 166, 166, 1)
         DelayItemLoading: =true
         Height: =280
-        Items: =Insumos
+        Items: =InsumosSeleccionados
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
         TemplateSize: =154
         Width: =607
-        X: =774
+        X: =759
         Y: =440
         ZIndex: =57
 
@@ -1629,13 +1629,13 @@ ScreenResumen As screen:
             HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.Trash
-            OnSelect: =Select(Parent)
+            OnSelect: =RemoveIf(InsumosSeleccionados, DescripcionInsumo = ThisItem.DescripcionInsumo)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Width: =15
-            X: =563
-            Y: =32
+            X: =555
+            Y: =33
             ZIndex: =6
 
         Label5 As label:
@@ -1650,7 +1650,7 @@ ScreenResumen As screen:
             Height: =21
             OnSelect: =Select(Parent)
             Size: =13
-            Text: =First(Filter(Insumos , Descripcion = insumoSeleccionado)).Descripcion
+            Text: =ThisItem.DescripcionInsumo
             X: =158
             Y: =50
             ZIndex: =7
@@ -1666,7 +1666,7 @@ ScreenResumen As screen:
             Font: =Font.'Segoe UI'
             OnSelect: =Select(Parent)
             Size: =13
-            Text: =First(Filter(Insumos , Sku = skuInsumoSeleccionado)).Sku
+            Text: =ThisItem.skuInsumo
             X: =158
             Y: =83
             ZIndex: =8
@@ -1675,7 +1675,7 @@ ScreenResumen As screen:
         BorderColor: =RGBA(166, 166, 166, 1)
         DelayItemLoading: =true
         Height: =190
-        Items: =CustomGallerySample
+        Items: =procesosEspecialesSeleccionado
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
@@ -1696,7 +1696,7 @@ ScreenResumen As screen:
             FocusedBorderColor: =ColorFade(Self.Fill, -75%)
             Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Semibold
-            Height: =149
+            Height: =150
             HoverBorderColor: =RGBA(0, 0, 0, 1)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =
@@ -1789,7 +1789,7 @@ ScreenResumen As screen:
             HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.Trash
-            OnSelect: =Select(Parent)
+            OnSelect: =RemoveIf(procesosEspecialesSeleccionado, DescProcEspecial = ThisItem.DescProcEspecial)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
@@ -1797,4 +1797,58 @@ ScreenResumen As screen:
             X: =563
             Y: =32
             ZIndex: =6
+
+        Label8 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =30
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.DescProcEspecial
+            Width: =281
+            X: =175
+            Y: =47
+            ZIndex: =7
+
+        Label8_1 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =29
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.Precio
+            Width: =122
+            X: =175
+            Y: =90
+            ZIndex: =8
+
+        Label8_2 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =29
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.Proveedor
+            Width: =70
+            X: =315
+            Y: =90
+            ZIndex: =9
 
