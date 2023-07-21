@@ -1061,7 +1061,7 @@ ScreenTelas As screen:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
             Color: =RGBA(51, 51, 51, 1)
-            Default: =
+            Default: =ThisItem.CodigoTela
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1081,7 +1081,7 @@ ScreenTelas As screen:
             RadiusTopRight: =0
             Size: =13
             Width: =86
-            X: =469
+            X: =524
             Y: =13
             ZIndex: =8
 
@@ -1099,8 +1099,8 @@ ScreenTelas As screen:
             Size: =12
             Text: =ThisItem.TipoTela
             Width: =121
-            X: =555
-            Y: =6
+            X: =268
+            Y: =12
             ZIndex: =9
 
     LabelSeleccionPrenda As label:
