@@ -398,7 +398,6 @@ ScreenArea As screen:
             Image: =ThisItem.EnlaceImagen
             OnSelect: |-
                 =UpdateContext({ ShowToolTip: !ShowToolTip });
-                Collect(Medidas,{Medida1:ThisItem.Cliente,Medida2:ThisItem.Categoria})
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedFill: =RGBA(0, 0, 0, 0)
             Width: =165
@@ -543,24 +542,6 @@ ScreenArea As screen:
             X: =180
             Y: =38
             ZIndex: =13
-
-        Label4 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(152, 208, 70, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Fill: =RGBA(255, 191, 0, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            OnSelect: =Select(Parent)
-            Size: =13
-            Text: =ThisItem.Nombre
-            Visible: =
-            X: =54
-            Y: =119
-            ZIndex: =14
 
         ButtonLimpiar_3 As button:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -1439,7 +1420,7 @@ ScreenArea As screen:
             Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Bold
             Size: =16
-            Text: =
+            Text: =First(Medidas).medida1
             X: =40
             Y: =40
             ZIndex: =1
@@ -1454,8 +1435,10 @@ ScreenArea As screen:
             FocusedBorderThickness: =4
             Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Bold
+            Height: =33
             Size: =16
-            Text: ="Mediad y"
+            Text: ="ThisItem.medida2"
+            Width: =199
             X: =40
             Y: =107
             ZIndex: =2
