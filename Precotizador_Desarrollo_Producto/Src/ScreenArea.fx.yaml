@@ -397,7 +397,8 @@ ScreenArea As screen:
             HoverFill: =RGBA(0, 0, 0, 0)
             Image: =ThisItem.EnlaceImagen
             OnSelect: |-
-                =UpdateContext({ ShowToolTip: !ShowToolTip })
+                =UpdateContext({ ShowToolTip: !ShowToolTip });
+                Collect(Medidas,{Medida1:ThisItem.Cliente,Medida2:ThisItem.Categoria})
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedFill: =RGBA(0, 0, 0, 0)
             Width: =165
@@ -575,7 +576,8 @@ ScreenArea As screen:
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =
             OnSelect: |-
-                =UpdateContext({ ShowToolTip: !ShowToolTip })
+                =UpdateContext({ ShowToolTip: !ShowToolTip });
+                Collect(Medidas,{medida1:ThisItem.Cliente})
             PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -1437,7 +1439,7 @@ ScreenArea As screen:
             Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Bold
             Size: =16
-            Text: ="Medida x"
+            Text: =
             X: =40
             Y: =40
             ZIndex: =1
