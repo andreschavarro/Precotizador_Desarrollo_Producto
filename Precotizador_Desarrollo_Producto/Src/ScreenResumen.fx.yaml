@@ -557,6 +557,7 @@ ScreenResumen As screen:
         ZIndex: =24
 
     "Gallery2_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        BorderStyle: =BorderStyle.None
         BorderThickness: =1.5
         DelayItemLoading: =true
         Height: =177
@@ -911,6 +912,7 @@ ScreenResumen As screen:
         ZIndex: =37
 
     "Gallery2_2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        BorderStyle: =BorderStyle.None
         BorderThickness: =1.5
         DelayItemLoading: =true
         Height: =177
@@ -1119,6 +1121,7 @@ ScreenResumen As screen:
         ZIndex: =44
 
     "Gallery2_3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        BorderStyle: =BorderStyle.None
         BorderThickness: =1.5
         DelayItemLoading: =true
         Height: =165
@@ -1360,6 +1363,7 @@ ScreenResumen As screen:
         ZIndex: =51
 
     "Gallery2_4 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        BorderStyle: =BorderStyle.None
         BorderThickness: =1.5
         DelayItemLoading: =true
         Height: =72
@@ -1553,7 +1557,7 @@ ScreenResumen As screen:
         TemplateSize: =154
         Width: =607
         X: =774
-        Y: =440
+        Y: =450
         ZIndex: =57
 
         Rectangle_13 As button:
