@@ -6,7 +6,6 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr59d_dvcvmanoobra_2",
-    "MaxGetRowsCount": 500,
     "Name": "DVCVManoObras",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Propietario",
