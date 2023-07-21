@@ -534,7 +534,7 @@ ScreenResumen As screen:
         Size: =10
         Text: ="Descripción de tela"
         Width: =130
-        X: =1131
+        X: =1125
         Y: =212
         ZIndex: =23
 
@@ -595,7 +595,7 @@ ScreenResumen As screen:
             Size: =9.5
             Text: ="Descripción tela"
             Width: =109
-            X: =165
+            X: =154
             Y: =12
             ZIndex: =6
 
