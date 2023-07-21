@@ -34,17 +34,24 @@
       }
     },
     {
-      "Kind": "default.cds_cr59d_dd_manodeobra_forms",
-      "Namespace": "ManoDeObras (Formularios)",
-      "Values": {
-        "Información": "e1a7f20d-1673-4440-81a6-4bae91172f9d"
-      }
-    },
-    {
       "Kind": "default.cds_cr59d_dd_procesosespeciales_forms",
       "Namespace": "ProcesosEspecialess (Formularios)",
       "Values": {
         "Información": "dfa32afa-314d-4953-a98a-f3a1ad1bb8b5"
+      }
+    },
+    {
+      "Kind": "default.cds_cr59d_dvcvmanoobra_2_forms",
+      "Namespace": "DVCVManoObras (Formularios)",
+      "Values": {
+        "Información": "bf30645b-4f22-4d1a-b69a-a00b5283e6aa"
+      }
+    },
+    {
+      "Kind": "default.cds_cr59d_dd_manodeobra_forms",
+      "Namespace": "ManoDeObras (Formularios)",
+      "Values": {
+        "Información": "e1a7f20d-1673-4440-81a6-4bae91172f9d"
       }
     },
     {
@@ -94,13 +101,6 @@
       "Namespace": "DVCVMaestros (Formularios)11",
       "Values": {
         "Información": "fd39dfb9-0e5c-47ef-b114-effac79dbf06"
-      }
-    },
-    {
-      "Kind": "default.cds_cr59d_dvcvmanoobra_2_forms",
-      "Namespace": "DVCVManoObras (Formularios)",
-      "Values": {
-        "Información": "bf30645b-4f22-4d1a-b69a-a00b5283e6aa"
       }
     }
   ]
