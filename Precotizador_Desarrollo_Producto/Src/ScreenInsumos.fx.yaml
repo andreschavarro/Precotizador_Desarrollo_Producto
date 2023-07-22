@@ -484,9 +484,10 @@ ScreenInsumos As screen:
         BorderThickness: =1.5
         Color: =RGBA(51, 51, 51, 1)
         Default: =TextInputReferencia.Text
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(0, 0, 0, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -509,9 +510,10 @@ ScreenInsumos As screen:
         BorderThickness: =1.5
         Color: =RGBA(51, 51, 51, 1)
         Default: =User().FullName
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(0, 0, 0, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -534,9 +536,10 @@ ScreenInsumos As screen:
         BorderThickness: =1.5
         CalendarHeaderFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(0, 0, 0, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.Disabled
         Font: =Font.'Segoe UI'
         HoverDateFill: =RGBA(200, 200, 200, 1)
         IconBackground: =RGBA(56, 75, 90, 100)
@@ -1043,8 +1046,9 @@ ScreenInsumos As screen:
     Label4 As label:
         BorderThickness: =1.5
         Color: =RGBA(0, 0, 0, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(0, 0, 0, 1)
+        DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         Height: =42
@@ -1058,8 +1062,9 @@ ScreenInsumos As screen:
     Label7 As label:
         BorderThickness: =1.5
         Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(0, 0, 0, 1)
+        DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         Size: =13
@@ -1072,9 +1077,10 @@ ScreenInsumos As screen:
         BorderThickness: =1.5
         Color: =RGBA(51, 51, 51, 1)
         Default: =TextInputReferencia.Text
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(0, 0, 0, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.Disabled
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
