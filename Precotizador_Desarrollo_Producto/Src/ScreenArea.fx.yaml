@@ -1069,6 +1069,7 @@ ScreenArea As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(0, 0, 0, 1)
         HoverFill: =
+        OnSelect: =Set(PopUpAdvertencia,true)
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -1414,16 +1415,17 @@ ScreenArea As screen:
             ZIndex: =7
 
     PopUpReset As groupContainer.manualLayoutContainer:
-        DropShadow: =DropShadow.Light
+        DropShadow: =DropShadow.ExtraBold
         Fill: =RGBA(214, 214, 214, 1)
-        Height: =960
-        RadiusBottomLeft: =4
-        RadiusBottomRight: =4
-        RadiusTopLeft: =4
-        RadiusTopRight: =4
-        Visible: =false
-        Width: =1440
-        Y: =64
+        Height: =645
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Visible: =PopUpAdvertencia
+        Width: =1051
+        X: =190
+        Y: =195
         ZIndex: =62
 
         Button1 As button:
@@ -1431,24 +1433,20 @@ ScreenArea As screen:
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(0, 120, 212, 1)
+            Fill: =RGBA(66, 75, 90, 1)
             FocusedBorderColor: =ColorFade(Self.Fill, -75%)
             Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Semibold
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+            HoverFill: =
             PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
             Size: =15
             Text: ="SI"
-            X: =465
-            Y: =539
+            X: =297
+            Y: =411
             ZIndex: =1
 
         Button1_1 As button:
@@ -1456,24 +1454,21 @@ ScreenArea As screen:
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(0, 120, 212, 1)
+            Fill: =RGBA(66, 75, 90, 1)
             FocusedBorderColor: =ColorFade(Self.Fill, -75%)
             Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Semibold
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+            HoverFill: =
+            OnSelect: =Set(PopUpAdvertencia, false)
             PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
             Size: =15
             Text: ="NO"
-            X: =751
-            Y: =539
+            X: =583
+            Y: =411
             ZIndex: =2
 
         Label14 As label:
@@ -1481,18 +1476,18 @@ ScreenArea As screen:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
+            Color: =RGBA(0, 0, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
             Font: =Font.'Segoe UI'
-            Height: =124
-            Size: =13
+            Height: =238
+            Size: =30
             Text: |-
-                ="No se van a guardan sus datos
-                ¿Seguro desea reiniciar la aplicación?"
-            Width: =470
-            X: =448
-            Y: =356
+                ="No se van a guardan los datos de su cotización.
+                ¿Seguro desea crear una nueva cotización?"
+            Width: =561
+            X: =236
+            Y: =152
             ZIndex: =3
 

@@ -141,7 +141,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonAreas_3",
-      "ParentIndex": 16,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -441,7 +441,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonBuscar_2",
-      "ParentIndex": 19,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -761,7 +761,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonCotizacion_3",
-      "ParentIndex": 9,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1048,7 +1048,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonGuardar_3",
-      "ParentIndex": 37,
+      "ParentIndex": 32,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1371,7 +1371,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonHistorial_3",
-      "ParentIndex": 32,
+      "ParentIndex": 27,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1699,7 +1699,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonInsumos_3",
-      "ParentIndex": 24,
+      "ParentIndex": 19,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1991,7 +1991,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonLimpiar_2",
-      "ParentIndex": 36,
+      "ParentIndex": 31,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2300,7 +2300,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonProcesosEspeciales_3",
-      "ParentIndex": 26,
+      "ParentIndex": 21,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2621,7 +2621,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonReporte_3",
-      "ParentIndex": 30,
+      "ParentIndex": 25,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2942,7 +2942,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonResumen_3",
-      "ParentIndex": 28,
+      "ParentIndex": 23,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3270,7 +3270,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonTablero_3",
-      "ParentIndex": 34,
+      "ParentIndex": 29,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3598,7 +3598,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonTelas_3",
-      "ParentIndex": 21,
+      "ParentIndex": 16,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4537,7 +4537,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CircleProcesosEspeciales_3",
-      "ParentIndex": 25,
+      "ParentIndex": 20,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4718,7 +4718,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CircleReporte_3",
-      "ParentIndex": 29,
+      "ParentIndex": 24,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4899,7 +4899,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CircleResumen_3",
-      "ParentIndex": 27,
+      "ParentIndex": 22,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5451,7 +5451,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ComboBoxProceso",
-      "ParentIndex": 18,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5913,7 +5913,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Gallery1_2",
-      "ParentIndex": 22,
+      "ParentIndex": 17,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6166,7 +6166,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconCheckedAreas_1",
-      "ParentIndex": 15,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6387,7 +6387,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconCheckedTelas_1",
-      "ParentIndex": 20,
+      "ParentIndex": 15,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6608,7 +6608,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconCheckedTelas_2",
-      "ParentIndex": 23,
+      "ParentIndex": 18,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6821,7 +6821,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconCotizacion_3",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7037,7 +7037,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconHistorial_3",
-      "ParentIndex": 31,
+      "ParentIndex": 26,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7258,7 +7258,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconTablero_3",
-      "ParentIndex": 33,
+      "ParentIndex": 28,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8146,7 +8146,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "InsideButtonAreas_3",
-      "ParentIndex": 11,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8516,7 +8516,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "InsideButtonInsumos_3",
-      "ParentIndex": 13,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8879,7 +8879,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "InsideButtonProcesosEspeciales_3",
-      "ParentIndex": 14,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9249,7 +9249,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "InsideButtonTelas_3",
-      "ParentIndex": 12,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9891,7 +9891,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label15",
-      "ParentIndex": 10,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12924,7 +12924,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle 1_6",
-      "ParentIndex": 17,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -13101,7 +13101,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle 25_10",
-      "ParentIndex": 35,
+      "ParentIndex": 30,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
