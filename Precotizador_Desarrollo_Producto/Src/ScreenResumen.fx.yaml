@@ -57,6 +57,9 @@ ScreenResumen As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =
+        OnSelect: |-
+            =Clear(ColeccionDatosGaleria2);
+            Clear(ColeccionTelas);
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -561,7 +564,7 @@ ScreenResumen As screen:
         BorderThickness: =1.5
         DelayItemLoading: =true
         Height: =177
-        Items: =TelasIngresadas
+        Items: =ColeccionTelas
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
@@ -593,7 +596,7 @@ ScreenResumen As screen:
             Height: =15
             OnSelect: =Select(Parent)
             Size: =9.5
-            Text: =
+            Text: =ThisItem.TipoTela
             Width: =109
             X: =154
             Y: =12
@@ -617,7 +620,7 @@ ScreenResumen As screen:
             Align: =Align.Center
             BorderColor: =RGBA(214, 214, 214, 1)
             BorderThickness: =1
-            Color: =RGBA(214, 214, 214, 1)
+            Color: =RGBA(0, 0, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -625,7 +628,7 @@ ScreenResumen As screen:
             Height: =30
             OnSelect: =Select(Parent)
             Size: =9.5
-            Text: =ThisItem.codigo
+            Text: =ThisItem.Cantidad
             Width: =80
             X: =25
             Y: =5
@@ -915,15 +918,15 @@ ScreenResumen As screen:
         BorderStyle: =BorderStyle.None
         BorderThickness: =1.5
         DelayItemLoading: =true
-        Height: =177
-        Items: =Gallery2.AllItems 
+        Height: =175
+        Items: =ColeccionDatosGaleria2
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
-        TemplateSize: =39
+        TemplateSize: =37
         Width: =281
-        X: =627
-        Y: =236
+        X: =623
+        Y: =242
         ZIndex: =38
 
         Separator1_2 As rectangle:
@@ -947,8 +950,8 @@ ScreenResumen As screen:
             FontWeight: =FontWeight.Semibold
             Height: =15
             OnSelect: =Select(Parent)
-            Size: =9.5
-            Text: ="Talla"
+            Size: =7
+            Text: =ThisItem.numTalla
             Width: =40
             X: =46
             Y: =12
@@ -972,7 +975,7 @@ ScreenResumen As screen:
             Align: =Align.Center
             BorderStyle: =BorderStyle.None
             BorderThickness: =1
-            Color: =RGBA(214, 214, 214, 1)
+            Color: =RGBA(0, 0, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -980,7 +983,7 @@ ScreenResumen As screen:
             Height: =17
             OnSelect: =Select(Parent)
             Size: =9.5
-            Text: ="Proporción"
+            Text: =ThisItem.Cantidad
             Width: =80
             X: =170
             Y: =11

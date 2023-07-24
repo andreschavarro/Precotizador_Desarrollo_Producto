@@ -235,6 +235,20 @@ ScreenArea As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =
+        OnSelect: |
+            =Clear(ColeccionDatosGaleria2); // Limpiar la colección si ya tiene datos previos
+            
+            ForAll(
+                Gallery3.AllItems,
+                Collect(
+                    ColeccionDatosGaleria2,
+                    {
+                        Sku: skuSeleccionadoVar,
+                        numTalla:Talla.Text,
+                        Cantidad: InputProporcion1.Text // Ajusta el nombre del TextInput para la cantidad según corresponda
+                    }
+                )
+            )
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -400,6 +414,17 @@ ScreenArea As screen:
                 =UpdateContext({ ShowToolTip: !ShowToolTip });
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: |-
+                ="Las medidas de la prenda son 
+                ancho 
+                largo
+                ancho 
+                largo
+                ancho 
+                largo
+                ancho 
+                largo
+                "
             Width: =165
             X: =39
             Y: =63
@@ -543,7 +568,7 @@ ScreenArea As screen:
             Y: =38
             ZIndex: =13
 
-        ButtonLimpiar_3 As button:
+        btnMostrarPopup As button:
             BorderColor: =RGBA(0, 0, 0, 0)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -568,6 +593,7 @@ ScreenArea As screen:
             RadiusTopRight: =5
             Size: =15
             Text: =
+            Tooltip: ="Medidas de la prenda"
             Width: =15
             X: =185
             Y: =73
@@ -1182,7 +1208,7 @@ ScreenArea As screen:
             Y: =4
             ZIndex: =8
 
-        "'Talla 1_2' As label":
+        Talla As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             Color: =RGBA(0, 0, 0, 1)
@@ -1549,4 +1575,38 @@ ScreenArea As screen:
             X: =236
             Y: =152
             ZIndex: =3
+
+    ShowToolTip As groupContainer.manualLayoutContainer:
+        BorderThickness: =3
+        ContentLanguage: =ShowToolTip
+        DropShadow: =DropShadow.Light
+        Fill: =RGBA(230, 230, 230, 1)
+        Height: =462
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Visible: =ShowToolTip
+        Width: =354
+        X: =582
+        Y: =298
+        ZIndex: =63
+
+        Label4 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =38
+            Size: =20
+            Text: ="Medidas de la prenda"
+            Width: =288
+            X: =24
+            Y: =18
+            ZIndex: =1
 
