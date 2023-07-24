@@ -1236,6 +1236,7 @@ ScreenArea As screen:
             HoverFill: =RGBA(230, 230, 230, 1)
             InputTextPlaceholder: ="Seleccione Prenda"
             Items: =ListaConfiguracionTipoPrenda.TipoPrenda
+            NoSelectionText: ="Seleccione Prenda"
             PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(0, 120, 212, 1)
@@ -1270,6 +1271,7 @@ ScreenArea As screen:
             HoverFill: =RGBA(212, 212, 212, 1)
             InputTextPlaceholder: ="Cliente"
             Items: =ListaConfiguracionCliente.Cliente
+            NoSelectionText: ="Cliente"
             PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(0, 120, 212, 1)
@@ -1304,6 +1306,7 @@ ScreenArea As screen:
             HoverFill: =RGBA(212, 212, 212, 1)
             InputTextPlaceholder: ="Asesor"
             Items: =["Pipe","Miguel","Mario","Vero","Johnes","Esteban","Juan","Ana","Elian"]
+            NoSelectionText: ="Asesor"
             OnChange: |+
                 =false
                 
@@ -1331,7 +1334,9 @@ ScreenArea As screen:
             DisabledFill: =RGBA(244, 244, 244, 1)
             FocusedBorderThickness: =4
             Font: =Font.'Segoe UI'
-            HintText: ="Ingrese Referencia"
+            HintText: |-
+                =
+                "Ingrese Referencia"
             HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
             HoverColor: =RGBA(51, 51, 51, 1)
             HoverFill: =RGBA(255, 255, 255, 1)
