@@ -1235,6 +1235,7 @@ ScreenArea As screen:
             HoverColor: =RGBA(0, 0, 0, 1)
             HoverFill: =RGBA(230, 230, 230, 1)
             InputTextPlaceholder: ="Seleccione Prenda"
+            IsSearchable: =false
             Items: =ListaConfiguracionTipoPrenda.TipoPrenda
             NoSelectionText: ="Seleccione Prenda"
             PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -1242,7 +1243,7 @@ ScreenArea As screen:
             PressedFill: =RGBA(0, 120, 212, 1)
             Reset: =VarReset
             SearchFields: =["TipoPrenda"]
-            SearchItems: =Search(ListaConfiguracionTipoPrenda.TipoPrenda,ComboBoxSeleccionPrenda.SearchText,"TipoPrenda")
+            SearchItems: =[]
             SelectionFill: =RGBA(0, 120, 212, 1)
             SelectMultiple: =false
             Size: =13
@@ -1270,6 +1271,7 @@ ScreenArea As screen:
             HoverColor: =RGBA(51, 51, 51, 1)
             HoverFill: =RGBA(212, 212, 212, 1)
             InputTextPlaceholder: ="Cliente"
+            IsSearchable: =false
             Items: =ListaConfiguracionCliente.Cliente
             NoSelectionText: ="Cliente"
             PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -1277,7 +1279,7 @@ ScreenArea As screen:
             PressedFill: =RGBA(0, 120, 212, 1)
             Reset: =VarReset
             SearchFields: =["Cliente"]
-            SearchItems: =Search(ListaConfiguracionCliente.Cliente,ComboBoxCliente.SearchText,"Cliente")
+            SearchItems: =[]
             SelectionFill: =RGBA(0, 120, 212, 1)
             SelectMultiple: =false
             Size: =13
