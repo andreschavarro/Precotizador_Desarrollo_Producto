@@ -727,7 +727,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonAreas_2",
-      "ParentIndex": 11,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1348,7 +1348,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonCotizacion_2",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6585,7 +6585,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Contenedor filtros principales areas_4",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7237,7 +7237,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconCheckedAreas",
-      "ParentIndex": 10,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7672,7 +7672,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconCotizacion_2",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9002,7 +9002,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "InsideButtonAreas_2",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9365,7 +9365,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "InsideButtonInsumos_2",
-      "ParentIndex": 8,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9735,7 +9735,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "InsideButtonProcesosEspeciales_2",
-      "ParentIndex": 9,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10405,7 +10405,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "InsideButtonTelas_2",
-      "ParentIndex": 7,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -13347,7 +13347,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Line 1_9",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -13768,7 +13768,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "PopUpResetInsumos",
-      "ParentIndex": 1,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

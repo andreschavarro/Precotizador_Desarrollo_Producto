@@ -598,7 +598,7 @@ ScreenResumen As screen:
             Height: =15
             OnSelect: =Select(Parent)
             Size: =9.5
-            Text: =ThisItem.TipoTela
+            Text: =
             Width: =109
             X: =154
             Y: =12

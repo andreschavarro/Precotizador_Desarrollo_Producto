@@ -1355,7 +1355,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonBuscar",
-      "ParentIndex": 15,
+      "ParentIndex": 16,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1976,7 +1976,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonGuardar",
-      "ParentIndex": 38,
+      "ParentIndex": 39,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2304,7 +2304,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonHistorial",
-      "ParentIndex": 33,
+      "ParentIndex": 34,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2625,7 +2625,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonInsumos",
-      "ParentIndex": 25,
+      "ParentIndex": 26,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2917,7 +2917,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonLimpiar",
-      "ParentIndex": 37,
+      "ParentIndex": 38,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3233,7 +3233,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonProcesosEspeciales",
-      "ParentIndex": 27,
+      "ParentIndex": 28,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3554,7 +3554,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonReporte",
-      "ParentIndex": 31,
+      "ParentIndex": 32,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3875,7 +3875,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonResumen",
-      "ParentIndex": 29,
+      "ParentIndex": 30,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4203,7 +4203,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ButtonTablero",
-      "ParentIndex": 35,
+      "ParentIndex": 36,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5314,7 +5314,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CircleInsumos",
-      "ParentIndex": 24,
+      "ParentIndex": 25,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5495,7 +5495,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CircleProcesosEspeciales",
-      "ParentIndex": 26,
+      "ParentIndex": 27,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5676,7 +5676,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CircleReporte",
-      "ParentIndex": 30,
+      "ParentIndex": 31,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5857,7 +5857,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CircleResumen",
-      "ParentIndex": 28,
+      "ParentIndex": 29,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6038,7 +6038,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CircleTelas",
-      "ParentIndex": 16,
+      "ParentIndex": 17,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6657,7 +6657,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ComboBoxCategoria",
-      "ParentIndex": 14,
+      "ParentIndex": 15,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7914,7 +7914,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Curva_3",
-      "ParentIndex": 22,
+      "ParentIndex": 23,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8230,7 +8230,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Gallery1",
-      "ParentIndex": 17,
+      "ParentIndex": 19,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8418,7 +8418,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Gallery3",
-      "ParentIndex": 23,
+      "ParentIndex": 24,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9150,7 +9150,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconHistorial",
-      "ParentIndex": 32,
+      "ParentIndex": 33,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9371,7 +9371,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconTablero",
-      "ParentIndex": 34,
+      "ParentIndex": 35,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9843,7 +9843,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "InputAnchoPrenda",
-      "ParentIndex": 13,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10487,7 +10487,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "InputLargoPrenda",
-      "ParentIndex": 12,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10706,7 +10706,14 @@
           "NameMapSourceSchema": "?"
         },
         "Mode",
-        "Format",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Format",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "VirtualKeyboardMode",
         "DelayOutput",
         {
@@ -12208,7 +12215,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "InsideButtonResumen",
-      "ParentIndex": 39,
+      "ParentIndex": 40,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16223,7 +16230,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "PopUpResetAreas",
-      "ParentIndex": 40,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16576,7 +16583,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle 17_2",
-      "ParentIndex": 19,
+      "ParentIndex": 21,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16753,7 +16760,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle 248_3",
-      "ParentIndex": 21,
+      "ParentIndex": 22,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16930,7 +16937,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle 25_7",
-      "ParentIndex": 36,
+      "ParentIndex": 37,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
