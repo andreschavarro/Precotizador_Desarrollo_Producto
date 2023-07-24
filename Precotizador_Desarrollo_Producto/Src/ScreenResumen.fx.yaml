@@ -561,7 +561,7 @@ ScreenResumen As screen:
         BorderThickness: =1.5
         DelayItemLoading: =true
         Height: =177
-        Items: =Gallery2.AllItems
+        Items: =TelasIngresadas
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
@@ -593,7 +593,7 @@ ScreenResumen As screen:
             Height: =15
             OnSelect: =Select(Parent)
             Size: =9.5
-            Text: ="Descripción tela"
+            Text: =
             Width: =109
             X: =154
             Y: =12
@@ -625,7 +625,7 @@ ScreenResumen As screen:
             Height: =30
             OnSelect: =Select(Parent)
             Size: =9.5
-            Text: ="Código de tela"
+            Text: =ThisItem.codigo
             Width: =80
             X: =25
             Y: =5
@@ -916,7 +916,7 @@ ScreenResumen As screen:
         BorderThickness: =1.5
         DelayItemLoading: =true
         Height: =177
-        Items: =CustomGallerySample
+        Items: =Gallery2.AllItems 
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0

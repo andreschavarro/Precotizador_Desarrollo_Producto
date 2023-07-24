@@ -385,7 +385,13 @@ ScreenInsumos As screen:
             HoverColor: =RGBA(51, 51, 51, 1)
             HoverFill: =RGBA(0, 0, 0, 0)
             OnCheck: |-
-                =Collect(InsumosSeleccionados,{DescripcionInsumo:ThisItem.Descripcion,skuInsumo:ThisItem.Sku})
+                =Collect(
+                    InsumosSeleccionados,
+                    {
+                        DescripcionInsumo: ThisItem.Descripcion,
+                        skuInsumo: ThisItem.Sku
+                    }
+                )
             OnUncheck: =RemoveIf(InsumosSeleccionados,  DescripcionInsumo = ThisItem.Descripcion, skuInsumo = ThisItem.Sku)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =RGBA(51, 51, 51, 1)
@@ -505,6 +511,7 @@ ScreenInsumos As screen:
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
+        Reset: =VarReset
         SearchFields: =["Value"]
         SearchItems: =[]
         SelectionFill: =RGBA(0, 120, 212, 1)
@@ -962,6 +969,7 @@ ScreenInsumos As screen:
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
+        Reset: =VarReset
         SearchFields: =["cr59d_descripcion"]
         SearchItems: =[]
         SelectionFill: =RGBA(0, 120, 212, 1)
