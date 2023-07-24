@@ -1091,3 +1091,20 @@ ScreenProcesosEspeciales As screen:
             Y: =40
             ZIndex: =7
 
+    Label15 As label:
+        BorderThickness: =1.5
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(0, 0, 0, 1)
+        DisabledFill: =RGBA(237, 237, 237, 1)
+        DisplayMode: =DisplayMode.Disabled
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =37
+        Size: =13
+        Text: =Text(ComboBoxAsesor.Selected.Value)
+        Width: =122
+        X: =599
+        Y: =100
+        ZIndex: =64
+
