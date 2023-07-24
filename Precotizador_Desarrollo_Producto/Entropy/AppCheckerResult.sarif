@@ -5826,18 +5826,6 @@
               "message": {
                 "text": "Error al ejecutar la regla app-InefficientDelayLoading."
               }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 7
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error al ejecutar la regla app-InefficientDelayLoading."
-              }
             }
           ]
         }
@@ -6008,19 +5996,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenTelas.'Contenedor filtros principales areas_1'.ComboBoxAsesor_1.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenTelas.'Contenedor filtros principales areas_5'.TextInputReferencia_5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenTelas.'Contenedor filtros principales areas_1'.ComboBoxAsesor_1.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenTelas.'Contenedor filtros principales areas_5'.TextInputReferencia_5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ScreenTelas",
-                "type": "ScreenTelas.'Contenedor filtros principales areas_1'.ComboBoxAsesor_1"
+                "type": "ScreenTelas.'Contenedor filtros principales areas_5'.TextInputReferencia_5"
               }
             }
           ],
@@ -6038,19 +6026,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenTelas.'Contenedor filtros principales areas_1'.TextInputReferencia_1.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenInsumos.'Contenedor filtros principales areas_4'.InputDate_4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenTelas.'Contenedor filtros principales areas_1'.TextInputReferencia_1.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenInsumos.'Contenedor filtros principales areas_4'.InputDate_4.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ScreenTelas",
-                "type": "ScreenTelas.'Contenedor filtros principales areas_1'.TextInputReferencia_1"
+                "module": "ScreenInsumos",
+                "type": "ScreenInsumos.'Contenedor filtros principales areas_4'.InputDate_4"
               }
             }
           ],
@@ -6068,19 +6056,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenTelas.'Contenedor filtros principales areas_1'.TextInputPatronista_1.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenInsumos.'Contenedor filtros principales areas_4'.TextInputUsuario_4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenTelas.'Contenedor filtros principales areas_1'.TextInputPatronista_1.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenInsumos.'Contenedor filtros principales areas_4'.TextInputUsuario_4.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ScreenTelas",
-                "type": "ScreenTelas.'Contenedor filtros principales areas_1'.TextInputPatronista_1"
+                "module": "ScreenInsumos",
+                "type": "ScreenInsumos.'Contenedor filtros principales areas_4'.TextInputUsuario_4"
               }
             }
           ],
@@ -6098,19 +6086,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenTelas.'Contenedor filtros principales areas_1'.TextInputUsuario_1.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenInsumos.'Contenedor filtros principales areas_4'.TextInputPatronista_4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenTelas.'Contenedor filtros principales areas_1'.TextInputUsuario_1.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenInsumos.'Contenedor filtros principales areas_4'.TextInputPatronista_4.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ScreenTelas",
-                "type": "ScreenTelas.'Contenedor filtros principales areas_1'.TextInputUsuario_1"
+                "module": "ScreenInsumos",
+                "type": "ScreenInsumos.'Contenedor filtros principales areas_4'.TextInputPatronista_4"
               }
             }
           ],
@@ -6128,19 +6116,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenTelas.'Contenedor filtros principales areas_1'.InputDate_1.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenInsumos.'Contenedor filtros principales areas_4'.TextInputReferencia_4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenTelas.'Contenedor filtros principales areas_1'.InputDate_1.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenInsumos.'Contenedor filtros principales areas_4'.TextInputReferencia_4.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ScreenTelas",
-                "type": "ScreenTelas.'Contenedor filtros principales areas_1'.InputDate_1"
+                "module": "ScreenInsumos",
+                "type": "ScreenInsumos.'Contenedor filtros principales areas_4'.TextInputReferencia_4"
               }
             }
           ],
@@ -9278,19 +9266,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.'Contenedor filtros principales areas_2'.ComboBoxAsesor_2.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenTelas.'Contenedor filtros principales areas_5'.InputDate_5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.'Contenedor filtros principales areas_2'.ComboBoxAsesor_2.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenTelas.'Contenedor filtros principales areas_5'.InputDate_5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ScreenInsumos",
-                "type": "ScreenInsumos.'Contenedor filtros principales areas_2'.ComboBoxAsesor_2"
+                "module": "ScreenTelas",
+                "type": "ScreenTelas.'Contenedor filtros principales areas_5'.InputDate_5"
               }
             }
           ],
@@ -9308,19 +9296,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.'Contenedor filtros principales areas_2'.TextInputReferencia_2.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenTelas.'Contenedor filtros principales areas_5'.TextInputUsuario_5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.'Contenedor filtros principales areas_2'.TextInputReferencia_2.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenTelas.'Contenedor filtros principales areas_5'.TextInputUsuario_5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ScreenInsumos",
-                "type": "ScreenInsumos.'Contenedor filtros principales areas_2'.TextInputReferencia_2"
+                "module": "ScreenTelas",
+                "type": "ScreenTelas.'Contenedor filtros principales areas_5'.TextInputUsuario_5"
               }
             }
           ],
@@ -9338,79 +9326,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.'Contenedor filtros principales areas_2'.TextInputPatronista_2.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenTelas.'Contenedor filtros principales areas_5'.TextInputPatronista_5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.'Contenedor filtros principales areas_2'.TextInputPatronista_2.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenTelas.'Contenedor filtros principales areas_5'.TextInputPatronista_5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ScreenInsumos",
-                "type": "ScreenInsumos.'Contenedor filtros principales areas_2'.TextInputPatronista_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenInsumos.'Contenedor filtros principales areas_2'.TextInputUsuario_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenInsumos.'Contenedor filtros principales areas_2'.TextInputUsuario_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenInsumos",
-                "type": "ScreenInsumos.'Contenedor filtros principales areas_2'.TextInputUsuario_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenInsumos.'Contenedor filtros principales areas_2'.InputDate_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenInsumos.'Contenedor filtros principales areas_2'.InputDate_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenInsumos",
-                "type": "ScreenInsumos.'Contenedor filtros principales areas_2'.InputDate_2"
+                "module": "ScreenTelas",
+                "type": "ScreenTelas.'Contenedor filtros principales areas_5'.TextInputPatronista_5"
               }
             }
           ],
@@ -10322,36 +10250,6 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenProcesosEspeciales.'Contenedor filtros principales areas_3'.ComboBoxAsesor_3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenProcesosEspeciales.'Contenedor filtros principales areas_3'.ComboBoxAsesor_3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenProcesosEspeciales",
-                "type": "ScreenProcesosEspeciales.'Contenedor filtros principales areas_3'.ComboBoxAsesor_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
         },
         {
           "locations": [

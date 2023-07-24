@@ -972,7 +972,7 @@ ScreenInsumos As screen:
         Y: =236
         ZIndex: =60
 
-    "'Contenedor filtros principales areas_2' As groupContainer.manualLayoutContainer":
+    "'Contenedor filtros principales areas_4' As groupContainer.manualLayoutContainer":
         Height: =106
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
@@ -983,37 +983,7 @@ ScreenInsumos As screen:
         Y: =64
         ZIndex: =61
 
-        ComboBoxAsesor_2 As combobox:
-            BorderColor: =RGBA(0, 0, 0, 1)
-            BorderThickness: =1.5
-            ChevronBackground: =RGBA(0, 0, 0, 0)
-            ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-            ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-            ChevronFill: =RGBA(0, 0, 0, 1)
-            ChevronHoverBackground: =RGBA(212, 212, 212, 1)
-            ChevronHoverFill: =RGBA(33, 33, 33, 1)
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Font: =Font.'Segoe UI'
-            HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-            HoverColor: =RGBA(51, 51, 51, 1)
-            HoverFill: =RGBA(212, 212, 212, 1)
-            InputTextPlaceholder: ="Asesor"
-            Items: =ComboBoxSample
-            PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-            PressedColor: =RGBA(255, 255, 255, 1)
-            PressedFill: =RGBA(0, 120, 212, 1)
-            SearchItems: =Search(ComboBoxSample,ComboBoxAsesor_2.SearchText,"Value1")
-            SelectionFill: =RGBA(0, 120, 212, 1)
-            Size: =13
-            Width: =110
-            X: =372
-            Y: =40
-            ZIndex: =1
-
-        TextInputReferencia_2 As text:
+        TextInputReferencia_4 As text:
             BorderThickness: =1.5
             Color: =RGBA(51, 51, 51, 1)
             Default: =TextInputReferencia.Text
@@ -1039,7 +1009,7 @@ ScreenInsumos As screen:
             Y: =40
             ZIndex: =2
 
-        TextInputUsuario_2 As text:
+        TextInputUsuario_4 As text:
             BorderThickness: =1.5
             Color: =RGBA(51, 51, 51, 1)
             Default: =User().FullName
@@ -1065,7 +1035,7 @@ ScreenInsumos As screen:
             Y: =40
             ZIndex: =3
 
-        InputDate_2 As datepicker:
+        InputDate_4 As datepicker:
             BorderThickness: =1.5
             CalendarHeaderFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
             Color: =RGBA(51, 51, 51, 1)
@@ -1084,7 +1054,7 @@ ScreenInsumos As screen:
             Y: =40
             ZIndex: =4
 
-        LabelSeleccionPrenda_1 As label:
+        LabelSeleccionPrenda_3 As label:
             BorderThickness: =1.5
             Color: =RGBA(0, 0, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 1)
@@ -1102,7 +1072,7 @@ ScreenInsumos As screen:
             Y: =40
             ZIndex: =5
 
-        Label11_1 As label:
+        Label11_3 As label:
             BorderThickness: =1.5
             Color: =RGBA(51, 51, 51, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 1)
@@ -1120,7 +1090,7 @@ ScreenInsumos As screen:
             Y: =40
             ZIndex: =6
 
-        TextInputPatronista_2 As text:
+        TextInputPatronista_4 As text:
             BorderThickness: =1.5
             Color: =RGBA(51, 51, 51, 1)
             Default: =TextInputPatronista.Text
@@ -1145,4 +1115,20 @@ ScreenInsumos As screen:
             X: =677
             Y: =40
             ZIndex: =7
+
+        Label15_1 As label:
+            BorderThickness: =1.5
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(0, 0, 0, 1)
+            DisabledFill: =RGBA(237, 237, 237, 1)
+            DisplayMode: =DisplayMode.Disabled
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Size: =13
+            Text: =Text(ComboBoxAsesor.Selected.Value)
+            Width: =110
+            X: =372
+            Y: =40
+            ZIndex: =8
 
