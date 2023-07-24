@@ -193,9 +193,7 @@ ScreenTelas As screen:
             =Collect(
                 TelasIngresadas,
                 {
-                    parte: Gallery2.Selected.PartePrenda,
-                    tela: Gallery2.Selected.TipoTela,
-                    codigo: Gallery2.AllItems
+                    codigo:ForAll(Gallery2.AllItems,TextInput1.Text)
                 }
             )
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
