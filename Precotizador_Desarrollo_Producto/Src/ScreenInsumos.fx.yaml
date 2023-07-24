@@ -1110,7 +1110,7 @@ ScreenInsumos As screen:
         Live: |
             =Live.Off
         Size: =13
-        Text: =
+        Text: =Text(ComboBoxAsesor.Selected.Value)
         Width: =122
         X: =611
         Y: =95

@@ -229,36 +229,6 @@ ScreenTelas As screen:
         Y: =971
         ZIndex: =10
 
-    ComboBoxAsesor_1 As combobox:
-        BorderColor: =RGBA(0, 0, 0, 1)
-        BorderThickness: =1.5
-        ChevronBackground: =RGBA(0, 0, 0, 0)
-        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-        ChevronFill: =RGBA(0, 0, 0, 1)
-        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
-        ChevronHoverFill: =RGBA(33, 33, 33, 1)
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Font: =Font.'Segoe UI'
-        HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        HoverColor: =RGBA(51, 51, 51, 1)
-        HoverFill: =RGBA(212, 212, 212, 1)
-        InputTextPlaceholder: ="Asesor"
-        Items: =ComboBoxSample
-        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        SearchItems: =Search(ComboBoxSample,ComboBoxAsesor_1.SearchText,"Value1")
-        SelectionFill: =RGBA(0, 120, 212, 1)
-        Size: =13
-        Width: =110
-        X: =614
-        Y: =97
-        ZIndex: =12
-
     TextInputReferencia_1 As text:
         BorderThickness: =1.5
         Color: =RGBA(51, 51, 51, 1)
@@ -281,7 +251,7 @@ ScreenTelas As screen:
         RadiusTopRight: =0
         Size: =12
         Width: =156
-        X: =740
+        X: =759
         Y: =97
         ZIndex: =13
 
@@ -1232,4 +1202,19 @@ ScreenTelas As screen:
         X: =934
         Y: =97
         ZIndex: =54
+
+    Label14 As label:
+        BorderThickness: =1.5
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(0, 0, 0, 1)
+        DisabledFill: =RGBA(237, 237, 237, 1)
+        DisplayMode: =DisplayMode.Disabled
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Size: =13
+        Text: =Text(ComboBoxAsesor.Selected.Value)
+        X: =589
+        Y: =97
+        ZIndex: =55
 
