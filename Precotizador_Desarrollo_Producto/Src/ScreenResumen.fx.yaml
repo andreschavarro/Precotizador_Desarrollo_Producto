@@ -2041,7 +2041,7 @@ ScreenResumen As screen:
                 );
                 Clear(InsumosSeleccionados);
                 Clear(procesosEspecialesSeleccionado);
-                Clear(TelasIngresadas);
+                Clear(ColeccionTelas);
                 Set(
                     PopUpAdvertencia,
                     false
