@@ -490,6 +490,7 @@ ScreenTelas As screen:
         HoverColor: =RGBA(0, 0, 0, 1)
         HoverFill: =
         Icon: =Icon.Home
+        OnSelect: =Set(PopUpAdvertencia,true)
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
@@ -626,6 +627,7 @@ ScreenTelas As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =
         HoverFill: =
+        OnSelect: =Set(PopUpAdvertencia,true)
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -1119,7 +1121,7 @@ ScreenTelas As screen:
             Width: =156
             X: =498
             Y: =40
-            ZIndex: =2
+            ZIndex: =1
 
         TextInputUsuario_5 As text:
             BorderThickness: =1.5
@@ -1145,7 +1147,7 @@ ScreenTelas As screen:
             Width: =156
             X: =855
             Y: =40
-            ZIndex: =3
+            ZIndex: =2
 
         InputDate_5 As datepicker:
             BorderThickness: =1.5
@@ -1164,7 +1166,7 @@ ScreenTelas As screen:
             Width: =139
             X: =1041
             Y: =40
-            ZIndex: =4
+            ZIndex: =3
 
         LabelSeleccionPrenda_4 As label:
             BorderThickness: =1.5
@@ -1184,7 +1186,7 @@ ScreenTelas As screen:
             Width: =200
             X: =12
             Y: =40
-            ZIndex: =5
+            ZIndex: =4
 
         Label11_4 As label:
             BorderThickness: =1.5
@@ -1202,7 +1204,7 @@ ScreenTelas As screen:
             Width: =124
             X: =230
             Y: =40
-            ZIndex: =6
+            ZIndex: =5
 
         TextInputPatronista_5 As text:
             BorderThickness: =1.5
@@ -1228,7 +1230,7 @@ ScreenTelas As screen:
             Width: =156
             X: =677
             Y: =40
-            ZIndex: =7
+            ZIndex: =6
 
         Label15_2 As label:
             BorderThickness: =1.5
@@ -1244,5 +1246,131 @@ ScreenTelas As screen:
             Width: =110
             X: =372
             Y: =40
-            ZIndex: =8
+            ZIndex: =7
+
+    PopUpResetTelas As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.ExtraBold
+        Fill: =RGBA(214, 214, 214, 1)
+        Height: =645
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Visible: =PopUpAdvertencia
+        Width: =1051
+        X: =190
+        Y: =195
+        ZIndex: =54
+
+        Button1_2 As button:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(66, 75, 90, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =
+            OnSelect: |-
+                =Set(
+                    VarReset,
+                    true
+                );
+                Set(
+                    VarReset,
+                    false
+                );
+                Set(
+                    largoPrendaInf,
+                    0
+                );
+                Set(
+                    largoPrendaSup,
+                    0
+                );
+                Set(
+                    anchoPrendaInf,
+                    0
+                );
+                Set(
+                    anchoPrendaSup,
+                    0
+                );
+                Set(
+                    tipoPrendaVar,
+                    ""
+                );
+                Set(
+                    categoriaVar,
+                    ""
+                );
+                Set(
+                    skuSeleccionadoVar,
+                    ""
+                );
+                Set(
+                    SelectedID,
+                    ""
+                );
+                Clear(InsumosSeleccionados);
+                Clear(procesosEspecialesSeleccionado);
+                Clear(TelasIngresadas);
+                Set(
+                    PopUpAdvertencia,
+                    false
+                );
+                Navigate(ScreenArea)
+            PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            Size: =15
+            Text: ="SI"
+            X: =297
+            Y: =411
+            ZIndex: =1
+
+        Button1_3 As button:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(66, 75, 90, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =
+            OnSelect: =Set(PopUpAdvertencia, false)
+            PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            Size: =15
+            Text: ="NO"
+            X: =583
+            Y: =411
+            ZIndex: =2
+
+        Label14_1 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =238
+            Size: =30
+            Text: |-
+                ="No se van a guardan los datos de su cotización.
+                ¿Seguro desea crear una nueva cotización?"
+            Width: =561
+            X: =236
+            Y: =152
+            ZIndex: =3
 
