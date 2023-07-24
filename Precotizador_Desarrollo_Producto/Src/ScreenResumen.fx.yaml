@@ -287,6 +287,7 @@ ScreenResumen As screen:
         HoverColor: =RGBA(0, 0, 0, 1)
         HoverFill: =
         Icon: =Icon.Home
+        OnSelect: =Set(PopUpAdvertencia,true)
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
@@ -410,6 +411,7 @@ ScreenResumen As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =
         HoverFill: =
+        OnSelect: =Set(PopUpAdvertencia,true)
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -1683,10 +1685,11 @@ ScreenResumen As screen:
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
             Font: =Font.'Segoe UI'
-            Height: =21
+            Height: =22
             OnSelect: =Select(Parent)
             Size: =13
             Text: =ThisItem.DescripcionInsumo
+            Width: =381
             X: =158
             Y: =50
             ZIndex: =7
@@ -1703,9 +1706,29 @@ ScreenResumen As screen:
             OnSelect: =Select(Parent)
             Size: =13
             Text: =ThisItem.skuInsumo
+            X: =208
+            Y: =79
+            ZIndex: =8
+
+        Label6_1 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =32
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                ="SKU:"
+            Width: =50
             X: =158
             Y: =83
-            ZIndex: =8
+            ZIndex: =9
 
     "Gallery4_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1847,8 +1870,8 @@ ScreenResumen As screen:
             OnSelect: =Select(Parent)
             Size: =13
             Text: =ThisItem.DescProcEspecial
-            Width: =281
-            X: =175
+            Width: =381
+            X: =158
             Y: =47
             ZIndex: =7
 
@@ -1865,8 +1888,8 @@ ScreenResumen As screen:
             OnSelect: =Select(Parent)
             Size: =13
             Text: =ThisItem.Precio
-            Width: =122
-            X: =175
+            Width: =70
+            X: =230
             Y: =90
             ZIndex: =8
 
@@ -1884,9 +1907,49 @@ ScreenResumen As screen:
             Size: =13
             Text: =ThisItem.Proveedor
             Width: =70
-            X: =315
+            X: =410
             Y: =90
             ZIndex: =9
+
+        Label8_3 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =29
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                ="Proveedor:"
+            Width: =100
+            X: =310
+            Y: =90
+            ZIndex: =10
+
+        Label8_4 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =29
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                ="Precio:"
+            Width: =70
+            X: =165
+            Y: =90
+            ZIndex: =11
 
     LabelLargoPrenda_24 As label:
         Align: =Align.Center
@@ -1905,4 +1968,130 @@ ScreenResumen As screen:
         X: =1276
         Y: =210
         ZIndex: =59
+
+    PopUpResetResumen As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.ExtraBold
+        Fill: =RGBA(214, 214, 214, 1)
+        Height: =645
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Visible: =PopUpAdvertencia
+        Width: =1051
+        X: =190
+        Y: =195
+        ZIndex: =60
+
+        Button1_8 As button:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(66, 75, 90, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =
+            OnSelect: |-
+                =Set(
+                    VarReset,
+                    true
+                );
+                Set(
+                    VarReset,
+                    false
+                );
+                Set(
+                    largoPrendaInf,
+                    0
+                );
+                Set(
+                    largoPrendaSup,
+                    0
+                );
+                Set(
+                    anchoPrendaInf,
+                    0
+                );
+                Set(
+                    anchoPrendaSup,
+                    0
+                );
+                Set(
+                    tipoPrendaVar,
+                    ""
+                );
+                Set(
+                    categoriaVar,
+                    ""
+                );
+                Set(
+                    skuSeleccionadoVar,
+                    ""
+                );
+                Set(
+                    SelectedID,
+                    ""
+                );
+                Clear(InsumosSeleccionados);
+                Clear(procesosEspecialesSeleccionado);
+                Clear(TelasIngresadas);
+                Set(
+                    PopUpAdvertencia,
+                    false
+                );
+                Navigate(ScreenArea)
+            PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            Size: =15
+            Text: ="SI"
+            X: =297
+            Y: =411
+            ZIndex: =1
+
+        Button1_9 As button:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(66, 75, 90, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =
+            OnSelect: =Set(PopUpAdvertencia, false)
+            PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            Size: =15
+            Text: ="NO"
+            X: =583
+            Y: =411
+            ZIndex: =2
+
+        Label14_4 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =238
+            Size: =30
+            Text: |-
+                ="No se van a guardan los datos de su cotización.
+                ¿Seguro desea crear una nueva cotización?"
+            Width: =561
+            X: =236
+            Y: =152
+            ZIndex: =3
 
