@@ -3899,8 +3899,7 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "ShowNavigation",
-        "Default"
+        "ShowNavigation"
       ],
       "GalleryTemplateChildName": "galleryTemplate2_2",
       "HasDynamicProperties": false,
@@ -3924,11 +3923,6 @@
         {
           "Category": "Data",
           "PropertyName": "WrapCount",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "Default",
           "RuleProviderType": "Unknown"
         },
         {

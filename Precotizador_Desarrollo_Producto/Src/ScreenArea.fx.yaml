@@ -593,6 +593,7 @@ ScreenArea As screen:
         RadiusBottomRight: =0
         RadiusTopLeft: =0
         RadiusTopRight: =0
+        Reset: =VarReset
         Size: =12
         Width: =200
         X: =264
@@ -619,6 +620,7 @@ ScreenArea As screen:
         RadiusBottomRight: =0
         RadiusTopLeft: =0
         RadiusTopRight: =0
+        Reset: =VarReset
         Size: =12
         Width: =200
         X: =494
@@ -648,6 +650,7 @@ ScreenArea As screen:
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(0, 120, 212, 1)
+        Reset: =VarReset
         SearchFields: =["Value"]
         SearchItems: =Search(["Adulto" , "Junior"],ComboBoxCategoria.SearchText,"Value")
         SelectionFill: =RGBA(0, 120, 212, 1)
@@ -1232,14 +1235,14 @@ ScreenArea As screen:
             HoverColor: =RGBA(0, 0, 0, 1)
             HoverFill: =RGBA(230, 230, 230, 1)
             InputTextPlaceholder: ="Seleccione Prenda"
-            IsSearchable: =false
             Items: =ListaConfiguracionTipoPrenda.TipoPrenda
             NoSelectionText: ="Seleccione Prenda"
             PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(0, 120, 212, 1)
+            Reset: =VarReset
             SearchFields: =["TipoPrenda"]
-            SearchItems: =[]
+            SearchItems: =Search(ListaConfiguracionTipoPrenda.TipoPrenda,ComboBoxSeleccionPrenda.SearchText,"TipoPrenda")
             SelectionFill: =RGBA(0, 120, 212, 1)
             SelectMultiple: =false
             Size: =13
@@ -1267,14 +1270,14 @@ ScreenArea As screen:
             HoverColor: =RGBA(51, 51, 51, 1)
             HoverFill: =RGBA(212, 212, 212, 1)
             InputTextPlaceholder: ="Cliente"
-            IsSearchable: =false
             Items: =ListaConfiguracionCliente.Cliente
             NoSelectionText: ="Cliente"
             PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(0, 120, 212, 1)
+            Reset: =VarReset
             SearchFields: =["Cliente"]
-            SearchItems: =[]
+            SearchItems: =Search(ListaConfiguracionCliente.Cliente,ComboBoxCliente.SearchText,"Cliente")
             SelectionFill: =RGBA(0, 120, 212, 1)
             SelectMultiple: =false
             Size: =13
@@ -1311,6 +1314,7 @@ ScreenArea As screen:
             PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(0, 120, 212, 1)
+            Reset: =VarReset
             SearchFields: =["Value"]
             SearchItems: =Search(["Pipe","Miguel","Mario","Vero","Johnes","Esteban","Juan","Ana","Elian"],ComboBoxAsesor.SearchText,"Value")
             SelectionFill: =RGBA(0, 120, 212, 1)
@@ -1324,7 +1328,7 @@ ScreenArea As screen:
         TextInputReferencia As text:
             BorderThickness: =1.5
             Color: =RGBA(51, 51, 51, 1)
-            Default: =""
+            Default: =
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1343,6 +1347,7 @@ ScreenArea As screen:
             RadiusBottomRight: =0
             RadiusTopLeft: =0
             RadiusTopRight: =0
+            Reset: =VarReset
             Size: =12
             Width: =156
             X: =498
@@ -1352,7 +1357,7 @@ ScreenArea As screen:
         TextInputPatronista As text:
             BorderThickness: =1.5
             Color: =RGBA(51, 51, 51, 1)
-            Default: =""
+            Default: =
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -1369,6 +1374,7 @@ ScreenArea As screen:
             RadiusBottomRight: =0
             RadiusTopLeft: =0
             RadiusTopRight: =0
+            Reset: =VarReset
             Size: =12
             Width: =156
             X: =677
@@ -1395,6 +1401,7 @@ ScreenArea As screen:
             RadiusBottomRight: =0
             RadiusTopLeft: =0
             RadiusTopRight: =0
+            Reset: =VarReset
             Size: =12
             Width: =156
             X: =855
@@ -1445,6 +1452,53 @@ ScreenArea As screen:
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =
+            OnSelect: |-
+                =Set(
+                    VarReset,
+                    true
+                );
+                Set(
+                    VarReset,
+                    false
+                );
+                Set(
+                    largoPrendaInf,
+                    0
+                );
+                Set(
+                    largoPrendaSup,
+                    0
+                );
+                Set(
+                    anchoPrendaInf,
+                    0
+                );
+                Set(
+                    anchoPrendaSup,
+                    0
+                );
+                Set(
+                    tipoPrendaVar,
+                    ""
+                );
+                Set(
+                    categoriaVar,
+                    ""
+                );
+                Set(
+                    skuSeleccionadoVar,
+                    ""
+                );
+                Set(
+                    SelectedID,
+                    ""
+                );
+                Clear(InsumosSeleccionados);
+                Clear(procesosEspecialesSeleccionado);
+                Set(
+                    PopUpAdvertencia,
+                    false
+                )
             PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
