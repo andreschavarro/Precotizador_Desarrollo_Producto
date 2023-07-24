@@ -1154,6 +1154,7 @@ ScreenTelas As screen:
         LabelSeleccionPrenda_4 As label:
             BorderThickness: =1.5
             Color: =RGBA(0, 0, 0, 1)
+            ContentLanguage: =
             DisabledBorderColor: =RGBA(0, 0, 0, 1)
             DisabledColor: =RGBA(0, 0, 0, 1)
             DisabledFill: =RGBA(230, 230, 230, 1)
@@ -1164,6 +1165,7 @@ ScreenTelas As screen:
             FontWeight: =FontWeight.Lighter
             Text: |
                 =ComboBoxSeleccionPrenda.Selected.TipoPrenda
+            Tooltip: =
             Width: =200
             X: =12
             Y: =40

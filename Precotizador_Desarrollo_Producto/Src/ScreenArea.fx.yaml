@@ -1234,6 +1234,7 @@ ScreenArea As screen:
             InputTextPlaceholder: ="Seleccione Prenda"
             IsSearchable: =false
             Items: =ListaConfiguracionTipoPrenda.TipoPrenda
+            NoSelectionText: ="Seleccione Prenda"
             PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(0, 120, 212, 1)
@@ -1268,6 +1269,7 @@ ScreenArea As screen:
             InputTextPlaceholder: ="Cliente"
             IsSearchable: =false
             Items: =ListaConfiguracionCliente.Cliente
+            NoSelectionText: ="Cliente"
             PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(0, 120, 212, 1)
@@ -1301,6 +1303,7 @@ ScreenArea As screen:
             HoverFill: =RGBA(212, 212, 212, 1)
             InputTextPlaceholder: ="Asesor"
             Items: =["Pipe","Miguel","Mario","Vero","Johnes","Esteban","Juan","Ana","Elian"]
+            NoSelectionText: ="Asesor"
             OnChange: |+
                 =false
                 
@@ -1321,13 +1324,15 @@ ScreenArea As screen:
         TextInputReferencia As text:
             BorderThickness: =1.5
             Color: =RGBA(51, 51, 51, 1)
-            Default: ="Ingrese Referencia"
+            Default: =""
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
             FocusedBorderThickness: =4
             Font: =Font.'Segoe UI'
-            HintText: ="Ingrese Referencia"
+            HintText: |-
+                =
+                "Ingrese Referencia"
             HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
             HoverColor: =RGBA(51, 51, 51, 1)
             HoverFill: =RGBA(255, 255, 255, 1)
@@ -1347,7 +1352,7 @@ ScreenArea As screen:
         TextInputPatronista As text:
             BorderThickness: =1.5
             Color: =RGBA(51, 51, 51, 1)
-            Default: ="Ingrese Patronista"
+            Default: =""
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
