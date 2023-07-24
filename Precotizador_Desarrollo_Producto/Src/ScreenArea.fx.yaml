@@ -573,207 +573,6 @@ ScreenArea As screen:
             Y: =82
             ZIndex: =16
 
-    ComboBoxSeleccionPrenda As combobox:
-        BorderColor: =RGBA(0, 0, 0, 1)
-        BorderThickness: =1.5
-        ChevronBackground: =RGBA(0, 0, 0, 0)
-        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-        ChevronFill: =RGBA(0, 0, 0, 1)
-        ChevronHoverBackground: =RGBA(0, 84, 148, 1)
-        ChevronHoverFill: =RGBA(33, 33, 33, 1)
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayFields: =["TipoPrenda"]
-        Font: =Font.'Segoe UI'
-        HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        HoverColor: =RGBA(0, 0, 0, 1)
-        HoverFill: =RGBA(230, 230, 230, 1)
-        InputTextPlaceholder: ="Seleccione Prenda"
-        IsSearchable: =false
-        Items: =ListaConfiguracionTipoPrenda.TipoPrenda
-        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        SearchFields: =["TipoPrenda"]
-        SearchItems: =[]
-        SelectionFill: =RGBA(0, 120, 212, 1)
-        SelectMultiple: =false
-        Size: =13
-        Width: =200
-        X: =254
-        Y: =97
-        ZIndex: =15
-
-    ComboBoxCliente As combobox:
-        BorderColor: =RGBA(0, 0, 0, 1)
-        BorderThickness: =1.5
-        ChevronBackground: =RGBA(0, 0, 0, 0)
-        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-        ChevronFill: =RGBA(0, 0, 0, 1)
-        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
-        ChevronHoverFill: =RGBA(33, 33, 33, 1)
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayFields: =["Cliente"]
-        Font: =Font.'Segoe UI'
-        HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        HoverColor: =RGBA(51, 51, 51, 1)
-        HoverFill: =RGBA(212, 212, 212, 1)
-        InputTextPlaceholder: ="Cliente"
-        IsSearchable: =false
-        Items: =ListaConfiguracionCliente.Cliente
-        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        SearchFields: =["Cliente"]
-        SearchItems: =[]
-        SelectionFill: =RGBA(0, 120, 212, 1)
-        SelectMultiple: =false
-        Size: =13
-        Width: =125
-        X: =472
-        Y: =97
-        ZIndex: =16
-
-    ComboBoxAsesor As combobox:
-        BorderColor: =RGBA(0, 0, 0, 1)
-        BorderThickness: =1.5
-        ChevronBackground: =RGBA(0, 0, 0, 0)
-        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-        ChevronFill: =RGBA(0, 0, 0, 1)
-        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
-        ChevronHoverFill: =RGBA(33, 33, 33, 1)
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayFields: =["Value"]
-        Font: =Font.'Segoe UI'
-        HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        HoverColor: =RGBA(51, 51, 51, 1)
-        HoverFill: =RGBA(212, 212, 212, 1)
-        InputTextPlaceholder: ="Asesor"
-        Items: =["Pipe","Miguel","Mario","Vero","Johnes","Esteban","Juan","Ana","Elian"]
-        OnChange: |+
-            =false
-            
-            
-        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =RGBA(0, 120, 212, 1)
-        SearchFields: =["Value"]
-        SearchItems: =Search(["Pipe","Miguel","Mario","Vero","Johnes","Esteban","Juan","Ana","Elian"],ComboBoxAsesor.SearchText,"Value")
-        SelectionFill: =RGBA(0, 120, 212, 1)
-        SelectMultiple: =false
-        Size: =13
-        Width: =110
-        X: =614
-        Y: =97
-        ZIndex: =17
-
-    TextInputReferencia As text:
-        BorderThickness: =1.5
-        Color: =RGBA(51, 51, 51, 1)
-        Default: ="Ingrese Referencia"
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        HintText: ="Ingrese Referencia"
-        HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        HoverColor: =RGBA(51, 51, 51, 1)
-        HoverFill: =RGBA(255, 255, 255, 1)
-        PressedBorderColor: =RGBA(0, 120, 212, 1)
-        PressedColor: =RGBA(51, 51, 51, 1)
-        PressedFill: =RGBA(255, 255, 255, 1)
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =12
-        Width: =156
-        X: =740
-        Y: =97
-        ZIndex: =18
-
-    TextInputPatronista As text:
-        BorderThickness: =1.5
-        Color: =RGBA(51, 51, 51, 1)
-        Default: ="Ingrese Patronista"
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        HintText: ="Ingrese Patronista"
-        HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        HoverColor: =RGBA(51, 51, 51, 1)
-        HoverFill: =RGBA(255, 255, 255, 1)
-        PressedBorderColor: =RGBA(0, 120, 212, 1)
-        PressedColor: =RGBA(51, 51, 51, 1)
-        PressedFill: =RGBA(255, 255, 255, 1)
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =12
-        Width: =156
-        X: =919
-        Y: =97
-        ZIndex: =19
-
-    TextInputUsuario As text:
-        BorderThickness: =1.5
-        Color: =RGBA(51, 51, 51, 1)
-        Default: =User().FullName
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        HintText: ="Nombre Usuario"
-        HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        HoverColor: =RGBA(51, 51, 51, 1)
-        HoverFill: =RGBA(255, 255, 255, 1)
-        PressedBorderColor: =RGBA(0, 120, 212, 1)
-        PressedColor: =RGBA(51, 51, 51, 1)
-        PressedFill: =RGBA(255, 255, 255, 1)
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =12
-        Width: =156
-        X: =1097
-        Y: =97
-        ZIndex: =20
-
-    InputDate As datepicker:
-        BorderThickness: =1.5
-        CalendarHeaderFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Font: =Font.'Segoe UI'
-        HoverDateFill: =RGBA(200, 200, 200, 1)
-        IconBackground: =RGBA(56, 75, 90, 100)
-        PaddingTop: =5
-        SelectedDateFill: =RGBA(0, 120, 212, 1)
-        Size: =13
-        Width: =139
-        X: =1283
-        Y: =97
-        ZIndex: =21
-
     InputLargoPrenda As text:
         BorderThickness: =1.5
         Color: =RGBA(51, 51, 51, 1)
@@ -1132,6 +931,7 @@ ScreenArea As screen:
         HoverColor: =RGBA(0, 0, 0, 1)
         HoverFill: =
         Icon: =Icon.Home
+        OnSelect: =Set(PopUpAdvertencia,true)
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)
@@ -1444,5 +1244,300 @@ ScreenArea As screen:
             Text: ="Medida n"
             X: =40
             Y: =188
+            ZIndex: =3
+
+    "'Contenedor filtros principales areas' As groupContainer.manualLayoutContainer":
+        Height: =106
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1196
+        X: =244
+        Y: =64
+        ZIndex: =61
+
+        ComboBoxSeleccionPrenda As combobox:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderThickness: =1.5
+            ChevronBackground: =RGBA(0, 0, 0, 0)
+            ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+            ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+            ChevronFill: =RGBA(0, 0, 0, 1)
+            ChevronHoverBackground: =RGBA(0, 84, 148, 1)
+            ChevronHoverFill: =RGBA(33, 33, 33, 1)
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            DisplayFields: =["TipoPrenda"]
+            Font: =Font.'Segoe UI'
+            HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =RGBA(230, 230, 230, 1)
+            InputTextPlaceholder: ="Seleccione Prenda"
+            IsSearchable: =false
+            Items: =ListaConfiguracionTipoPrenda.TipoPrenda
+            PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            SearchFields: =["TipoPrenda"]
+            SearchItems: =[]
+            SelectionFill: =RGBA(0, 120, 212, 1)
+            SelectMultiple: =false
+            Size: =13
+            Width: =200
+            X: =12
+            Y: =40
+            ZIndex: =1
+
+        ComboBoxCliente As combobox:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderThickness: =1.5
+            ChevronBackground: =RGBA(0, 0, 0, 0)
+            ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+            ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+            ChevronFill: =RGBA(0, 0, 0, 1)
+            ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+            ChevronHoverFill: =RGBA(33, 33, 33, 1)
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            DisplayFields: =["Cliente"]
+            Font: =Font.'Segoe UI'
+            HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            HoverColor: =RGBA(51, 51, 51, 1)
+            HoverFill: =RGBA(212, 212, 212, 1)
+            InputTextPlaceholder: ="Cliente"
+            IsSearchable: =false
+            Items: =ListaConfiguracionCliente.Cliente
+            PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            SearchFields: =["Cliente"]
+            SearchItems: =[]
+            SelectionFill: =RGBA(0, 120, 212, 1)
+            SelectMultiple: =false
+            Size: =13
+            Width: =125
+            X: =230
+            Y: =40
+            ZIndex: =2
+
+        ComboBoxAsesor As combobox:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderThickness: =1.5
+            ChevronBackground: =RGBA(0, 0, 0, 0)
+            ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+            ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+            ChevronFill: =RGBA(0, 0, 0, 1)
+            ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+            ChevronHoverFill: =RGBA(33, 33, 33, 1)
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            DisplayFields: =["Value"]
+            Font: =Font.'Segoe UI'
+            HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            HoverColor: =RGBA(51, 51, 51, 1)
+            HoverFill: =RGBA(212, 212, 212, 1)
+            InputTextPlaceholder: ="Asesor"
+            Items: =["Pipe","Miguel","Mario","Vero","Johnes","Esteban","Juan","Ana","Elian"]
+            OnChange: |+
+                =false
+                
+                
+            PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            SearchFields: =["Value"]
+            SearchItems: =Search(["Pipe","Miguel","Mario","Vero","Johnes","Esteban","Juan","Ana","Elian"],ComboBoxAsesor.SearchText,"Value")
+            SelectionFill: =RGBA(0, 120, 212, 1)
+            SelectMultiple: =false
+            Size: =13
+            Width: =110
+            X: =372
+            Y: =40
+            ZIndex: =3
+
+        TextInputReferencia As text:
+            BorderThickness: =1.5
+            Color: =RGBA(51, 51, 51, 1)
+            Default: ="Ingrese Referencia"
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            HintText: ="Ingrese Referencia"
+            HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            HoverColor: =RGBA(51, 51, 51, 1)
+            HoverFill: =RGBA(255, 255, 255, 1)
+            PressedBorderColor: =RGBA(0, 120, 212, 1)
+            PressedColor: =RGBA(51, 51, 51, 1)
+            PressedFill: =RGBA(255, 255, 255, 1)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =12
+            Width: =156
+            X: =498
+            Y: =40
+            ZIndex: =4
+
+        TextInputPatronista As text:
+            BorderThickness: =1.5
+            Color: =RGBA(51, 51, 51, 1)
+            Default: ="Ingrese Patronista"
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            HintText: ="Ingrese Patronista"
+            HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            HoverColor: =RGBA(51, 51, 51, 1)
+            HoverFill: =RGBA(255, 255, 255, 1)
+            PressedBorderColor: =RGBA(0, 120, 212, 1)
+            PressedColor: =RGBA(51, 51, 51, 1)
+            PressedFill: =RGBA(255, 255, 255, 1)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =12
+            Width: =156
+            X: =677
+            Y: =40
+            ZIndex: =5
+
+        TextInputUsuario As text:
+            BorderThickness: =1.5
+            Color: =RGBA(51, 51, 51, 1)
+            Default: =User().FullName
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            HintText: ="Nombre Usuario"
+            HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            HoverColor: =RGBA(51, 51, 51, 1)
+            HoverFill: =RGBA(255, 255, 255, 1)
+            PressedBorderColor: =RGBA(0, 120, 212, 1)
+            PressedColor: =RGBA(51, 51, 51, 1)
+            PressedFill: =RGBA(255, 255, 255, 1)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =12
+            Width: =156
+            X: =855
+            Y: =40
+            ZIndex: =6
+
+        InputDate As datepicker:
+            BorderThickness: =1.5
+            CalendarHeaderFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Font: =Font.'Segoe UI'
+            HoverDateFill: =RGBA(200, 200, 200, 1)
+            IconBackground: =RGBA(56, 75, 90, 100)
+            PaddingTop: =5
+            SelectedDateFill: =RGBA(0, 120, 212, 1)
+            Size: =13
+            Width: =139
+            X: =1041
+            Y: =40
+            ZIndex: =7
+
+    PopUpReset As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Fill: =RGBA(214, 214, 214, 1)
+        Height: =960
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Visible: =false
+        Width: =1440
+        Y: =64
+        ZIndex: =62
+
+        Button1 As button:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(0, 120, 212, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+            PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =15
+            Text: ="SI"
+            X: =465
+            Y: =539
+            ZIndex: =1
+
+        Button1_1 As button:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(0, 120, 212, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+            PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =15
+            Text: ="NO"
+            X: =751
+            Y: =539
+            ZIndex: =2
+
+        Label14 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =124
+            Size: =13
+            Text: |-
+                ="No se van a guardan sus datos
+                ¿Seguro desea reiniciar la aplicación?"
+            Width: =470
+            X: =448
+            Y: =356
             ZIndex: =3
 
