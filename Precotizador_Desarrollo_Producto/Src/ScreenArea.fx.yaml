@@ -319,8 +319,8 @@ ScreenArea As screen:
         TemplateSize: =278
         Width: =949
         WrapCount: =4
-        X: =241
-        Y: =273
+        X: =245
+        Y: =289
         ZIndex: =14
 
         Card1_5 As button:
