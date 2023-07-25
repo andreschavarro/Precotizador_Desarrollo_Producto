@@ -60,8 +60,7 @@ ScreenResumen As screen:
         OnSelect: |-
             =Clear(ColeccionDatosGaleria2);
             Clear(ColeccionTelas);
-            
-            DVCV_Crear_excel_cotizacion.Run(ColeccionDatosGaleria2)
+            DVCV_Crear_excel_cotizacion.Run()
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -2081,4 +2080,19 @@ ScreenResumen As screen:
             X: =236
             Y: =152
             ZIndex: =3
+
+    Label7 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Size: =13
+        Text: =Text(ParseJSON(ColeccionDatosGaleria2))
+        X: =714
+        Y: =89
+        ZIndex: =61
 

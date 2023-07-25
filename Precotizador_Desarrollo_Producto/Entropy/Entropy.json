@@ -336,6 +336,7 @@
     "Label6_1": 58,
     "Label6_2": 415,
     "Label6_3": 416,
+    "Label7": 507,
     "Label7_2": 420,
     "Label7_3": 423,
     "Label8": 86,
@@ -510,11 +511,11 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/25/2023 19:49:47",
+  "HeaderLastSavedDateTimeUTC": "07/25/2023 20:02:38",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "388ac5e9-3b84-4f35-944b-3f001a2fbf28": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/fa7fc0616d9e4101b275d158e1f1b066\"",
-    "7e868264-0727-465d-ade9-9a048497c674": "\"/providers/Microsoft.PowerApps/apis/shared_logicflows/connections/8C52D18CFA5F414EA53DEDFC3C795F77-10B3FD79033DADE9\""
+    "a5751630-eb32-4d32-9c85-3e6f803a9bc7": "\"/providers/Microsoft.PowerApps/apis/shared_logicflows/connections/8C52D18CFA5F414EA53DEDFC3C795F77-10B3FD79033DADE9\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
@@ -1138,17 +1139,17 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 2,
+    "button": 3,
     "checkbox": 11,
     "circle": 7,
     "combobox": 10,
     "datepicker": 9,
     "gallery": 6,
     "groupContainer": 5,
-    "icon": 1,
+    "icon": 2,
     "image": 4,
-    "label": 3,
-    "rectangle": 0,
+    "label": 0,
+    "rectangle": 1,
     "text": 8
   },
   "OverridablePropertiesEntry": {
@@ -1486,6 +1487,7 @@
     "Label6_1": {},
     "Label6_2": {},
     "Label6_3": {},
+    "Label7": {},
     "Label7_2": {},
     "Label7_3": {},
     "Label8": {},
@@ -1995,6 +1997,7 @@
     "Label6_1": 294,
     "Label6_2": 32,
     "Label6_3": 33,
+    "Label7": 0,
     "Label7_2": 37,
     "Label7_3": 40,
     "Label8": 322,
