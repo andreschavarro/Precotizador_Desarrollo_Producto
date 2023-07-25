@@ -1150,6 +1150,7 @@ ScreenProcesosEspeciales As screen:
                 Clear(InsumosSeleccionados);
                 Clear(procesosEspecialesSeleccionado);
                 Clear(ColeccionTelas);
+                Clear(ColeccionDatosGaleria2);
                 Set(
                     PopUpAdvertencia,
                     false
