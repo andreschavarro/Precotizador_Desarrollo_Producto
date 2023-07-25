@@ -27,5 +27,31 @@
     "dependencies": {},
     "dependents": [],
     "id": "388ac5e9-3b84-4f35-944b-3f001a2fbf28"
+  },
+  "7e868264-0727-465d-ade9-9a048497c674": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1645/1.0.1645.3345/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "8c52d18c-fa5f-414e-a53d-edfc3c795f77"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "8c52d18c-fa5f-414e-a53d-edfc3c795f77"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "DVCV_Crear_excel_cotizacion"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "7e868264-0727-465d-ade9-9a048497c674"
   }
 }
