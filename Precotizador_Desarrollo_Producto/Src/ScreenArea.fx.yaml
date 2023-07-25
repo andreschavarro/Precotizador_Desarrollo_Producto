@@ -170,7 +170,7 @@ ScreenArea As screen:
         FocusedBorderThickness: =4
         Height: =816
         HoverFill: =
-        PressedFill: =RGBA(0, 120, 212, 1)
+        PressedFill: =
         Width: =1197
         X: =243
         Y: =208
@@ -1198,6 +1198,7 @@ ScreenArea As screen:
             RadiusBottomRight: =0
             RadiusTopLeft: =0
             RadiusTopRight: =0
+            Reset: =VarReset
             Size: =12
             Width: =200
             X: =10
@@ -1577,6 +1578,7 @@ ScreenArea As screen:
                 Clear(InsumosSeleccionados);
                 Clear(procesosEspecialesSeleccionado);
                 Clear(ColeccionTelas);
+                Clear(ColeccionDatosGaleria2);
                 Set(
                     PopUpAdvertencia,
                     false
