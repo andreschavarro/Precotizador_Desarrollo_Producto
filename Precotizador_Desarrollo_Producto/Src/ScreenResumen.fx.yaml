@@ -566,7 +566,7 @@ ScreenResumen As screen:
         BorderThickness: =1.5
         DelayItemLoading: =true
         Height: =177
-        Items: =ColeccionTelas
+        Items: =Distinct(Filter(DVCVTelass, Sku = skuSeleccionadoVar), CodigoTela)
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
@@ -584,25 +584,6 @@ ScreenResumen As screen:
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
-
-        Label1_1 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Semibold
-            Height: =15
-            OnSelect: =Select(Parent)
-            Size: =9.5
-            Text: =
-            Width: =109
-            X: =154
-            Y: =12
-            ZIndex: =6
 
         Rectangle1_1 As rectangle:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -630,7 +611,7 @@ ScreenResumen As screen:
             Height: =30
             OnSelect: =Select(Parent)
             Size: =9.5
-            Text: =ThisItem.Cantidad
+            Text: =ThisItem.Value
             Width: =80
             X: =25
             Y: =5
