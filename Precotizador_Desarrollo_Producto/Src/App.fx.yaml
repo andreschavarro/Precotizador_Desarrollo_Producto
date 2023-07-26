@@ -1,7 +1,8 @@
 App As appinfo:
     BackEnabled: =false
     OnStart: |
-        =Set(SelectedID , "dsa")
+        =Set(SelectedID , "dsa");
+        Set(JSONData, "")
 
     Host As hostControl.DefaultHostControlVariant:
         OnCancel: =false

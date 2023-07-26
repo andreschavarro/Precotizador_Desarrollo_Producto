@@ -37,15 +37,15 @@ ScreenResumen As screen:
         DisabledFill: =RGBA(166, 166, 166, 1)
         Fill: =RGBA(240, 240, 240, 1)
         FocusedBorderThickness: =4
-        Height: =68
+        Height: =36
         HoverFill: =
         PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =1197
-        X: =243
-        Y: =956
+        Width: =317
+        X: =935
+        Y: =625
         ZIndex: =3
 
-    ButtonGuardar_4 As button:
+    ButtonCrearExcel As button:
         BorderColor: =RGBA(0, 0, 0, 0)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -57,10 +57,12 @@ ScreenResumen As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =
-        OnSelect: |-
-            =Clear(ColeccionDatosGaleria2);
-            Clear(ColeccionTelas);
-            DVCV_Crear_excel_cotizacion.Run()
+        OnSelect: |+
+            =//Clear(ColeccionDatosGaleria2);;
+            //Clear(ColeccionTelas);;
+            
+            Set(JSONData, JSON(Gallery2_2.Selected.numTalla))
+            
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -910,7 +912,7 @@ ScreenResumen As screen:
         TemplateSize: =37
         Width: =281
         X: =623
-        Y: =242
+        Y: =238
         ZIndex: =38
 
         Separator1_2 As rectangle:
@@ -1543,8 +1545,8 @@ ScreenResumen As screen:
         TemplatePadding: =0
         TemplateSize: =154
         Width: =607
-        X: =774
-        Y: =450
+        X: =759
+        Y: =454
         ZIndex: =57
 
         Rectangle_13 As button:
@@ -1575,24 +1577,6 @@ ScreenResumen As screen:
             Width: =574
             X: =10
             ZIndex: =1
-
-        Image2 As image:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =101
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            OnSelect: =Select(Parent)
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Width: =120
-            X: =15
-            Y: =33
-            ZIndex: =3
 
         Rectangle_12 As button:
             BorderColor: =RGBA(0, 0, 0, 1)
@@ -1691,7 +1675,7 @@ ScreenResumen As screen:
             OnSelect: =Select(Parent)
             Size: =13
             Text: =ThisItem.skuInsumo
-            X: =208
+            X: =198
             Y: =79
             ZIndex: =8
 
@@ -1756,24 +1740,6 @@ ScreenResumen As screen:
             Width: =574
             X: =10
             ZIndex: =1
-
-        Image2_1 As image:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =101
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            OnSelect: =Select(Parent)
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Width: =120
-            X: =15
-            Y: =33
-            ZIndex: =3
 
         Rectangle_15 As button:
             BorderColor: =RGBA(0, 0, 0, 1)
@@ -1857,7 +1823,7 @@ ScreenResumen As screen:
             Text: =ThisItem.DescProcEspecial
             Width: =381
             X: =158
-            Y: =47
+            Y: =60
             ZIndex: =7
 
         Label8_1 As label:
@@ -2095,4 +2061,21 @@ ScreenResumen As screen:
         X: =714
         Y: =89
         ZIndex: =61
+
+    Label11 As label:
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =68
+        Size: =20
+        Text: |-
+            ="""4""
+            "
+        Width: =189
+        X: =1087
+        Y: =89
+        ZIndex: =63
 
