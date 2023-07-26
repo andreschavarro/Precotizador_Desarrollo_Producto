@@ -236,9 +236,7 @@ ScreenArea As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =
         OnSelect: |+
-            =
-            
-            Clear(ColeccionDatosGaleria2); // Limpiar la colección si ya tiene datos previos
+            =Clear(ColeccionDatosGaleria2); // Limpiar la colección si ya tiene datos previos
             
             
             
@@ -268,32 +266,6 @@ ScreenArea As screen:
         X: =1211
         Y: =970
         ZIndex: =11
-
-    ButtonLimpiar As button:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(66, 75, 90, 1)
-        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Semibold
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =
-        PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =15
-        Text: ="LIMPIAR"
-        Width: =138
-        X: =1054
-        Y: =970
-        ZIndex: =12
 
     InsideButtonResumen As button:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -1479,15 +1451,15 @@ ScreenArea As screen:
         ContentLanguage: =ShowToolTip
         DropShadow: =DropShadow.Light
         Fill: =RGBA(230, 230, 230, 1)
-        Height: =462
+        Height: =534
         RadiusBottomLeft: =10
         RadiusBottomRight: =10
         RadiusTopLeft: =10
         RadiusTopRight: =10
         Visible: =ShowToolTip
-        Width: =354
-        X: =582
-        Y: =298
+        Width: =534
+        X: =520
+        Y: =282
         ZIndex: =63
 
         Label4 As label:
@@ -1504,9 +1476,38 @@ ScreenArea As screen:
             Size: =20
             Text: ="Medidas de la prenda"
             Width: =288
-            X: =24
-            Y: =18
+            X: =123
+            Y: =15
             ZIndex: =1
+
+        btnMostrarPopup_1 As button:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(66, 75, 90, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Height: =23
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =
+            OnSelect: |-
+                =UpdateContext({ ShowToolTip: !ShowToolTip });
+            PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            RadiusBottomLeft: =7
+            RadiusBottomRight: =7
+            RadiusTopLeft: =7
+            RadiusTopRight: =7
+            Text: ="Ver detalle"
+            Tooltip: ="Medidas de la prenda"
+            Width: =38
+            X: =459
+            Y: =22
+            ZIndex: =2
 
     PopUpResetAreas As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.ExtraBold
