@@ -60,7 +60,8 @@ ScreenResumen As screen:
         OnSelect: |-
             =Clear(ColeccionDatosGaleria2);
             Clear(ColeccionTelas);
-            DVCV_Crear_excel_cotizacion.Run()
+            ClearCollect(ColleccionAreas , Filter(DVCVAreass, Sku = skuSeleccionadoVar))
+            //DVCV_Crear_excel_cotizacion.Run()
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)

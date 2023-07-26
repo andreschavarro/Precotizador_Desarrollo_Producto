@@ -102,6 +102,13 @@
       "Values": {
         "Información": "fd39dfb9-0e5c-47ef-b114-effac79dbf06"
       }
+    },
+    {
+      "Kind": "default.cds_cr59d_dvcvareas_forms",
+      "Namespace": "DVCVAreass (Formularios)",
+      "Values": {
+        "Información": "07370a31-efec-474a-9f30-a8feecf0a4e9"
+      }
     }
   ]
 }
