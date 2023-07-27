@@ -189,8 +189,11 @@ ScreenTelas As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =
-        OnSelect: |-
-            =Clear(ColeccionTelas); // Limpiar la colección si ya tiene datos previos
+        OnSelect: |+
+            =
+            Clear(ColeccionTelas); // Limpiar la colección si ya tiene datos previos
+            
+             
             
             ForAll(
                 Gallery2.AllItems,
@@ -204,7 +207,13 @@ ScreenTelas As screen:
                     }
                 )
             );
-            Notify("Telas guardadas exitosamente",NotificationType.Success)
+            
+            
+            Set(telaJSON,JSON(ColeccionTelas));
+            flujoJson.Run(telaJSON);
+            
+             Notify("Telas guardadas exitosamente",NotificationType.Success)
+            
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)

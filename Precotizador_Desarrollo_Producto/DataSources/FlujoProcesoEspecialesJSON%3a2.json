@@ -1,0 +1,9 @@
+[
+  {
+    "AddinConnectorId": "9f518e02-568d-48a3-a609-dbfe8d6fc4f1",
+    "AddinId": "6d1f157d-95bf-406d-b65d-cfd3240f724e",
+    "Name": "FlujoProcesoEspecialesJSON:2",
+    "ServiceKind": "AddinWadl",
+    "Type": "ServiceInfo"
+  }
+]
