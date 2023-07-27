@@ -58,22 +58,20 @@ ScreenResumen As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =
         OnSelect: |+
-            =/*Clear(ColeccionDatosGaleria2);;
-            Clear(ColeccionTelas);;
-            Clear(ColeccionVariebles);;
+            =
+            /*FlujoCurvaJSON_2.Run(VarcurvaJSON);;
+            flujoJson.Run(telaJSON);;
+            FlujoIsumoJSON_1.Run(VarIsumo);;
+            'FlujoProcesoEspecialesJSON:2_3'.Run(VarEspecialeJSON);;
             */
-            
-            FlujoCurvaJSON_2.Run(VarcurvaJSON);
-            flujoJson.Run(telaJSON);
-            FlujoIsumoJSON_1.Run(VarIsumo);
-            'FlujoProcesoEspecialesJSON:2_3'.Run(VarEspecialeJSON);
-            
             ClearCollect(ColeccionVariebles,JSON(ColeccionDatosGaleria2));
                 Collect(ColeccionVariebles,JSON(ColeccionTelas));
                 Collect(ColeccionVariebles,JSON(InsumosSeleccionados));
                 Collect(ColeccionVariebles,JSON(procesosEspecialesSeleccionado));
                 Set(JSONPadre,JSON(ColeccionVariebles));
                 ContenedorJSON_1.Run(JSONPadre);
+            
+            Notify("Datos creados exitosamente",NotificationType.Success)
             
             
             

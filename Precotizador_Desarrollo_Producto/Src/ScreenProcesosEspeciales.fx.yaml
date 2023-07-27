@@ -217,7 +217,7 @@ ScreenProcesosEspeciales As screen:
             =
             Set(VarEspecialeJSON, JSON(procesosEspecialesSeleccionado));
             //'FlujoProcesoEspecialesJSON:2_3'.Run(VarEspecialeJSON);;
-            Notify("Procesos especiales guardados exitosamente",NotificationType.Success)
+            Notify("Datos guardados exitosamente",NotificationType.Success)
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)

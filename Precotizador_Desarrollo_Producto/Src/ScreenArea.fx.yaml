@@ -251,6 +251,7 @@ ScreenArea As screen:
             );
             Set(VarcurvaJSON, JSON(ColeccionDatosGaleria2));
             //FlujoCurvaJSON_2.Run(VarcurvaJSON)
+            Notify("Datos guadados exitosamente",NotificationType.Success)
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
