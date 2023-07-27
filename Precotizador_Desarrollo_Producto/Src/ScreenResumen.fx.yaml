@@ -3,6 +3,20 @@ ScreenResumen As screen:
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
     Width: =1440
 
+    "'Rectangle 25_11' As rectangle":
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(240, 240, 240, 1)
+        FocusedBorderThickness: =4
+        Height: =68
+        HoverFill: =
+        PressedFill: =RGBA(0, 120, 212, 1)
+        Width: =1197
+        X: =244
+        Y: =956
+        ZIndex: =1
+
     "'Naviation Center_11' As rectangle":
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -14,7 +28,7 @@ ScreenResumen As screen:
         HoverFill: =
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =1440
-        ZIndex: =1
+        ZIndex: =2
 
     "'Line 1_11' As rectangle":
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -29,20 +43,6 @@ ScreenResumen As screen:
         Width: =5
         X: =239
         Y: =64
-        ZIndex: =2
-
-    "'Rectangle 25_11' As rectangle":
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(240, 240, 240, 1)
-        FocusedBorderThickness: =4
-        Height: =36
-        HoverFill: =
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =317
-        X: =935
-        Y: =625
         ZIndex: =3
 
     ButtonCrearExcel As button:
@@ -1497,44 +1497,6 @@ ScreenResumen As screen:
         Y: =750
         ZIndex: =54
 
-    Label1_16 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =18
-        OnSelect: =Navigate(ScreenTelas)
-        Size: =12
-        Text: ="Utilización"
-        Width: =90
-        X: =271
-        Y: =880
-        ZIndex: =55
-
-    Label1_17 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(214, 214, 214, 1)
-        BorderThickness: =1.5
-        Color: =RGBA(214, 214, 214, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =18
-        OnSelect: =Navigate(ScreenTelas)
-        Size: =12
-        Text: =""
-        Width: =50
-        X: =290
-        Y: =900
-        ZIndex: =56
-
     "Gallery4 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         BorderColor: =RGBA(166, 166, 166, 1)
         DelayItemLoading: =true
@@ -1547,7 +1509,7 @@ ScreenResumen As screen:
         Width: =607
         X: =759
         Y: =454
-        ZIndex: =57
+        ZIndex: =55
 
         Rectangle_13 As button:
             BorderColor: =RGBA(0, 0, 0, 1)
@@ -1564,7 +1526,6 @@ ScreenResumen As screen:
             HoverBorderColor: =RGBA(0, 0, 0, 1)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =
-            OnSelect: =First(Filter(Insumos , Descripcion = insumoSeleccionado)).Descripcion
             PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
@@ -1711,7 +1672,7 @@ ScreenResumen As screen:
         Width: =607
         X: =774
         Y: =700
-        ZIndex: =58
+        ZIndex: =56
 
         Rectangle_14 As button:
             BorderColor: =RGBA(0, 0, 0, 1)
@@ -1918,7 +1879,7 @@ ScreenResumen As screen:
         Width: =90
         X: =1276
         Y: =210
-        ZIndex: =59
+        ZIndex: =57
 
     PopUpResetResumen As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.ExtraBold
@@ -1932,7 +1893,7 @@ ScreenResumen As screen:
         Width: =1051
         X: =190
         Y: =195
-        ZIndex: =60
+        ZIndex: =58
 
         Button1_8 As button:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -2047,21 +2008,6 @@ ScreenResumen As screen:
             Y: =152
             ZIndex: =3
 
-    Label7 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        Size: =13
-        Text: =Text(ParseJSON(ColeccionDatosGaleria2))
-        X: =714
-        Y: =89
-        ZIndex: =61
-
     Button1 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -2085,41 +2031,7 @@ ScreenResumen As screen:
         RadiusTopRight: =0
         Size: =15
         Text: ="Botón"
-        X: =594
-        Y: =433
-        ZIndex: =62
-
-    Label11 As label:
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        Height: =68
-        Size: =20
-        Text: |-
-            ="""4""
-            "
-        Width: =189
-        X: =1087
+        X: =623
         Y: =89
-        ZIndex: =63
-
-    Label10 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        Height: =120
-        Size: =13
-        Text: =DatosJSONVar
-        Width: =235
-        X: =1097
-        Y: =566
-        ZIndex: =63
+        ZIndex: =59
 

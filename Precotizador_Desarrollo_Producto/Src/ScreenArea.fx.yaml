@@ -1464,7 +1464,7 @@ ScreenArea As screen:
             FocusedBorderThickness: =4
             Height: =35
             HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            HoverColor: =
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.OptionsList
             OnSelect: |-
@@ -1505,9 +1505,8 @@ ScreenArea As screen:
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
             TemplatePadding: =0
-            TemplateSize: =278
+            TemplateSize: =154
             Width: =949
-            WrapCount: =3
             Y: =44
             ZIndex: =1
 
@@ -1521,7 +1520,7 @@ ScreenArea As screen:
                 FocusedBorderColor: =ColorFade(Self.Fill, -75%)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
-                Height: =248
+                Height: =133
                 HoverBorderColor: =RGBA(0, 0, 0, 1)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =
@@ -1534,9 +1533,9 @@ ScreenArea As screen:
                 RadiusTopRight: =15
                 Size: =10
                 Text: =""
-                Width: =291
-                X: =5
-                Y: =30
+                Width: =913
+                X: =8
+                Y: =12
                 ZIndex: =1
 
             LabelLength1_12 As label:
@@ -1549,13 +1548,13 @@ ScreenArea As screen:
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Bold
-                Height: =69
+                Height: =35
                 OnSelect: =Select(Parent)
                 Size: =12
                 Text: ="Largo prenda"
-                Width: =67
-                X: =149
-                Y: =81
+                Width: =125
+                X: =341
+                Y: =61
                 ZIndex: =2
 
             LabelWidth1_7 As label:
@@ -1568,13 +1567,13 @@ ScreenArea As screen:
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Bold
-                Height: =69
+                Height: =35
                 OnSelect: =Select(Parent)
                 Size: =12
                 Text: ="Ancho prenda"
-                Width: =77
-                X: =148
-                Y: =159
+                Width: =125
+                X: =566
+                Y: =61
                 ZIndex: =3
 
             Image4_5 As image:
@@ -1584,7 +1583,7 @@ ScreenArea As screen:
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledFill: =RGBA(0, 0, 0, 0)
                 FocusedBorderThickness: =4
-                Height: =197
+                Height: =118
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverFill: =RGBA(0, 0, 0, 0)
                 Image: =ThisItem.EnlaceImagen
@@ -1603,9 +1602,9 @@ ScreenArea As screen:
                     ancho 
                     largo
                     "
-                Width: =125
-                X: =15
-                Y: =63
+                Width: =99
+                X: =26
+                Y: =19
                 ZIndex: =4
 
             Label6_4 As label:
@@ -1621,8 +1620,8 @@ ScreenArea As screen:
                 Size: =13
                 Text: =ThisItem.Sku
                 Width: =125
-                X: =120
-                Y: =30
+                X: =237
+                Y: =58
                 ZIndex: =5
 
             Label7_4 As label:
@@ -1641,8 +1640,8 @@ ScreenArea As screen:
                 Size: =11
                 Text: =Int(ThisItem.LargoPrenda)
                 Width: =40
-                X: =215
-                Y: =103
+                X: =466
+                Y: =66
                 ZIndex: =8
 
             LabelLength1_13 As label:
@@ -1659,8 +1658,8 @@ ScreenArea As screen:
                 Size: =12
                 Text: ="CM"
                 Width: =35
-                X: =252
-                Y: =103
+                X: =503
+                Y: =66
                 ZIndex: =9
 
             Label7_5 As label:
@@ -1679,8 +1678,8 @@ ScreenArea As screen:
                 Size: =11
                 Text: =Int(ThisItem.AnchoPrenda)
                 Width: =40
-                X: =215
-                Y: =181
+                X: =691
+                Y: =66
                 ZIndex: =10
 
             LabelLength1_14 As label:
@@ -1697,8 +1696,8 @@ ScreenArea As screen:
                 Size: =12
                 Text: ="CM"
                 Width: =35
-                X: =252
-                Y: =181
+                X: =728
+                Y: =66
                 ZIndex: =11
 
             Icon1_1 As icon.Add:
@@ -1726,8 +1725,8 @@ ScreenArea As screen:
                 PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                 PressedFill: =RGBA(0, 0, 0, 0)
                 Width: =25
-                X: =261
-                Y: =38
+                X: =891
+                Y: =65
                 ZIndex: =13
 
             btnMostrarPopup_1 As button:
@@ -1739,7 +1738,7 @@ ScreenArea As screen:
                 FocusedBorderColor: =ColorFade(Self.Fill, -75%)
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
-                Height: =23
+                Height: =35
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =
@@ -1755,9 +1754,9 @@ ScreenArea As screen:
                 RadiusTopRight: =7
                 Text: ="Ver detalle"
                 Tooltip: ="Medidas de la prenda"
-                Width: =120
-                X: =160
-                Y: =240
+                Width: =106
+                X: =776
+                Y: =60
                 ZIndex: =16
 
             Label6_5 As label:
@@ -1776,8 +1775,8 @@ ScreenArea As screen:
                 Text: |-
                     ="Referencia:"
                 Width: =110
-                X: =23
-                Y: =33
+                X: =140
+                Y: =61
                 ZIndex: =17
 
         Icon8 As icon.Waffle:
@@ -1789,7 +1788,7 @@ ScreenArea As screen:
             FocusedBorderThickness: =4
             Height: =35
             HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            HoverColor: =
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.Waffle
             OnSelect: |-
@@ -1808,15 +1807,15 @@ ScreenArea As screen:
         ContentLanguage: =ShowToolTip
         DropShadow: =DropShadow.Light
         Fill: =RGBA(230, 230, 230, 1)
-        Height: =534
+        Height: =773
         RadiusBottomLeft: =10
         RadiusBottomRight: =10
         RadiusTopLeft: =10
         RadiusTopRight: =10
         Visible: =ShowToolTip
-        Width: =474
-        X: =542
-        Y: =282
+        Width: =1092
+        X: =186
+        Y: =183
         ZIndex: =40
 
         Label4 As label:
@@ -1833,8 +1832,8 @@ ScreenArea As screen:
             Size: =20
             Text: ="Medidas de la prenda"
             Width: =288
-            X: =39
-            Y: =36
+            X: =374
+            Y: =12
             ZIndex: =1
 
         Icon6 As icon.CancelBadge:
@@ -1845,7 +1844,7 @@ ScreenArea As screen:
             FocusedBorderThickness: =4
             Height: =38
             HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            HoverColor: =
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.CancelBadge
             OnSelect: |-
@@ -1854,8 +1853,8 @@ ScreenArea As screen:
             PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Width: =46
-            X: =405
-            Y: =18
+            X: =1039
+            Y: =12
             ZIndex: =3
 
     PopUpResetAreas As groupContainer.manualLayoutContainer:
