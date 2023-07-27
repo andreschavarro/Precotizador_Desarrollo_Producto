@@ -173,7 +173,7 @@ ScreenArea As screen:
         PressedFill: =
         Width: =1197
         X: =243
-        Y: =183
+        Y: =208
         ZIndex: =8
 
     "'Rectangle 248_3' As rectangle":
