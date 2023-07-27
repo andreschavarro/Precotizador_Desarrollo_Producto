@@ -173,7 +173,7 @@ ScreenArea As screen:
         PressedFill: =
         Width: =1197
         X: =243
-        Y: =208
+        Y: =183
         ZIndex: =8
 
     "'Rectangle 248_3' As rectangle":
@@ -1479,7 +1479,6 @@ ScreenArea As screen:
             ZIndex: =2
 
     "'Galería vista rejilla' As groupContainer.manualLayoutContainer":
-        DropShadow: =DropShadow.Light
         Height: =707
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
@@ -1487,8 +1486,8 @@ ScreenArea As screen:
         RadiusTopRight: =4
         Visible: =VarRejillaVisible
         Width: =949
-        X: =265
-        Y: =269
+        X: =245
+        Y: =249
         ZIndex: =39
 
         "Gallery1_4 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
@@ -1780,6 +1779,29 @@ ScreenArea As screen:
                 X: =23
                 Y: =33
                 ZIndex: =17
+
+        Icon8 As icon.Waffle:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(66, 75, 90, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =35
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Waffle
+            OnSelect: |-
+                =Set(VarRejillaVisible,false);
+                Set(VarTarjetaVisible,true)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =35
+            X: =914
+            Y: =9
+            ZIndex: =2
 
     ShowToolTip As groupContainer.manualLayoutContainer:
         BorderThickness: =3
