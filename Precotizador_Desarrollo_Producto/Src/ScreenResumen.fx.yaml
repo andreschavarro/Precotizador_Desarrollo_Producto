@@ -57,13 +57,18 @@ ScreenResumen As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =
-        OnSelect: |+
-            =//Clear(ColeccionDatosGaleria2);;
-            //Clear(ColeccionTelas);;
+        OnSelect: |
+            =FlujoCurvaJSON_2.Run(VarcurvaJSON);
+            flujoJson.Run(telaJSON);
+            FlujoIsumoJSON_1.Run(VarIsumo);
+            'FlujoProcesoEspecialesJSON:2_3'.Run(VarEspecialeJSON);
             
-            //Set(JSONData; JSON(Gallery2_2.Selected.numTalla))
-            
-            
+            ClearCollect(ColeccionVariebles,JSON(ColeccionDatosGaleria2));
+                Collect(ColeccionVariebles,JSON(ColeccionTelas));
+                Collect(ColeccionVariebles,JSON(InsumosSeleccionados));
+                Collect(ColeccionVariebles,JSON(procesosEspecialesSeleccionado));
+                Set(JSONPadre,JSON(ColeccionVariebles));
+                ContenedorJSON_1.Run(JSONPadre)
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)

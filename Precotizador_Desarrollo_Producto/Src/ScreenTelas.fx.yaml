@@ -210,9 +210,9 @@ ScreenTelas As screen:
             
             
             Set(telaJSON,JSON(ColeccionTelas));
-            flujoJson.Run(telaJSON);
+            //flujoJson.Run(telaJSON);;
             
-             Notify("Telas guardadas exitosamente",NotificationType.Success)
+            Notify("Telas guardadas exitosamente",NotificationType.Success)
             
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)

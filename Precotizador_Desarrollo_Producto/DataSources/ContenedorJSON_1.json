@@ -1,0 +1,9 @@
+[
+  {
+    "AddinConnectorId": "a734b9ef-dd2f-4e82-9c39-316facb980dc",
+    "AddinId": "6d1f157d-95bf-406d-b65d-cfd3240f724e",
+    "Name": "ContenedorJSON_1",
+    "ServiceKind": "AddinWadl",
+    "Type": "ServiceInfo"
+  }
+]
