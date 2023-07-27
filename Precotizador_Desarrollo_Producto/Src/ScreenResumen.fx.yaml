@@ -57,8 +57,13 @@ ScreenResumen As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =
-        OnSelect: |
-            =FlujoCurvaJSON_2.Run(VarcurvaJSON);
+        OnSelect: |+
+            =/*Clear(ColeccionDatosGaleria2);;
+            Clear(ColeccionTelas);;
+            Clear(ColeccionVariebles);;
+            */
+            
+            FlujoCurvaJSON_2.Run(VarcurvaJSON);
             flujoJson.Run(telaJSON);
             FlujoIsumoJSON_1.Run(VarIsumo);
             'FlujoProcesoEspecialesJSON:2_3'.Run(VarEspecialeJSON);
@@ -68,7 +73,10 @@ ScreenResumen As screen:
                 Collect(ColeccionVariebles,JSON(InsumosSeleccionados));
                 Collect(ColeccionVariebles,JSON(procesosEspecialesSeleccionado));
                 Set(JSONPadre,JSON(ColeccionVariebles));
-                ContenedorJSON_1.Run(JSONPadre)
+                ContenedorJSON_1.Run(JSONPadre);
+            
+            
+            
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)

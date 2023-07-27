@@ -237,7 +237,8 @@ ScreenArea As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =
         OnSelect: |-
-            =ForAll(
+            =Clear(ColeccionDatosGaleria2);
+            ForAll(
                 Gallery3.AllItems,
                 Collect(
                     ColeccionDatosGaleria2,
