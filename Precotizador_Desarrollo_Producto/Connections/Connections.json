@@ -27,5 +27,31 @@
     "dependencies": {},
     "dependents": [],
     "id": "388ac5e9-3b84-4f35-944b-3f001a2fbf28"
+  },
+  "8e7830d1-e6e4-4ae0-a20d-6e2cced9d7d6": {
+    "connectionRef": {
+      "displayName": "Flujos lógicos",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1645/1.0.1645.3345/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "b24ef271-396a-43de-8970-fb10fa62e5be"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "b24ef271-396a-43de-8970-fb10fa62e5be"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "BotóndePowerApps"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "8e7830d1-e6e4-4ae0-a20d-6e2cced9d7d6"
   }
 }
