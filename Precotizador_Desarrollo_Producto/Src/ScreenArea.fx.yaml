@@ -1,6 +1,7 @@
 ScreenArea As screen:
     Height: =1024
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    OnVisible: =
     Width: =1440
 
     "'Naviation Center_7' As rectangle":
@@ -235,8 +236,8 @@ ScreenArea As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =
-        OnSelect: |
-            =Clear(ColeccionDatosGaleria2); // Limpiar la colección si ya tiene datos previos
+        OnSelect: |-
+            =//Clear(ColeccionDatosGaleria2);; // Limpiar la colección si ya tiene datos previos
             
             
             ForAll(
@@ -250,7 +251,8 @@ ScreenArea As screen:
                     }
                 )
             );
-            Notify("Tallas guardadas con exito",NotificationType.Success)
+            Set(varJSON,JSON(ColeccionDatosGaleria2));
+            BotóndePowerApps.Run(varJSON)
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
