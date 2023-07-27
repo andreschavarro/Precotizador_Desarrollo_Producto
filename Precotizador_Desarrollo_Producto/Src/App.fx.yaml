@@ -1,10 +1,10 @@
 App As appinfo:
     BackEnabled: =false
-    OnStart: |-
+    OnStart: |
         =Set(SelectedID , "dsa");
-        Set(JSONData, "");
         Set(VarTarjetaVisible,true);
         Set(VarRejillaVisible,false)
+    StartScreen: =
 
     Host As hostControl.DefaultHostControlVariant:
         OnCancel: =false
