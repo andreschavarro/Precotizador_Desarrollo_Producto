@@ -237,10 +237,7 @@ ScreenArea As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =
         OnSelect: |-
-            =//Clear(ColeccionDatosGaleria2);; // Limpiar la colección si ya tiene datos previos
-            
-            
-            ForAll(
+            =ForAll(
                 Gallery3.AllItems,
                 Collect(
                     ColeccionDatosGaleria2,
@@ -251,8 +248,8 @@ ScreenArea As screen:
                     }
                 )
             );
-            Set(varJSON,JSON(ColeccionDatosGaleria2));
-            BotóndePowerApps.Run(varJSON)
+            Set(VarcurvaJSON, JSON(ColeccionDatosGaleria2));
+            FlujoCurvaJSON_2.Run(VarcurvaJSON)
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)

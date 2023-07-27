@@ -62,7 +62,7 @@ ScreenResumen As screen:
             //Clear(ColeccionTelas);;
             
             //Set(JSONData; JSON(Gallery2_2.Selected.numTalla))
-            Set( VariableJSONString, JSON(VariableJSONString))
+            
             
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
