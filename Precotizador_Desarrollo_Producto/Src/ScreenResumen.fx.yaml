@@ -1,6 +1,7 @@
 ScreenResumen As screen:
     Height: =1024
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    OnVisible: =
     Width: =1440
 
     "'Rectangle 25_11' As rectangle":
@@ -57,24 +58,38 @@ ScreenResumen As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =
-        OnSelect: |+
+        OnSelect: |-
             =
             /*FlujoCurvaJSON_2.Run(VarcurvaJSON);;
             flujoJson.Run(telaJSON);;
             FlujoIsumoJSON_1.Run(VarIsumo);;
             'FlujoProcesoEspecialesJSON:2_3'.Run(VarEspecialeJSON);;
             */
-            ClearCollect(ColeccionVariebles,JSON(ColeccionDatosGaleria2));
-                Collect(ColeccionVariebles,JSON(ColeccionTelas));
-                Collect(ColeccionVariebles,JSON(InsumosSeleccionados));
-                Collect(ColeccionVariebles,JSON(procesosEspecialesSeleccionado));
-                Set(JSONPadre,JSON(ColeccionVariebles));
-                ContenedorJSON_1.Run(JSONPadre);
-            
-            Notify("Datos creados exitosamente",NotificationType.Success)
-            
-            
-            
+            ClearCollect(
+                ColeccionVariebles,
+                JSON(ColeccionDatosGaleria2)
+            );
+            Collect(
+                ColeccionVariebles,
+                JSON(ColeccionTelas)
+            );
+            Collect(
+                ColeccionVariebles,
+                JSON(InsumosSeleccionados)
+            );
+            Collect(
+                ColeccionVariebles,
+                JSON(procesosEspecialesSeleccionado)
+            );
+            Set(
+                JSONPadre,
+                JSON(ColeccionVariebles)
+            );
+            DVCV_Crear_excel_cotizacion.Run(JSONPadre);
+            Notify(
+                "Datos creados exitosamente",
+                NotificationType.Success
+            )
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
