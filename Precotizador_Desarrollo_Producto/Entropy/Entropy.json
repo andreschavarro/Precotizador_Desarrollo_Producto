@@ -529,7 +529,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/11/2023 20:44:04",
+  "HeaderLastSavedDateTimeUTC": "08/11/2023 20:49:08",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "18daac2a-d081-46e9-8f91-28f12ae2025d": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/e4c7a0fdab2c431f8639a3b5e9c4a381\"",
@@ -1128,7 +1128,6 @@
     "ColeccionDatosGaleria2": 51,
     "ColeccionTelas": 52,
     "ColeccionVariebles": 56,
-    "ColleccionVariables": 58,
     "ComboBoxSample": 37,
     "ContenedorJSON_1": 14,
     "CustomGallerySample": 38,

@@ -82,7 +82,7 @@ ScreenResumen As screen:
                 JSON(procesosEspecialesSeleccionado)
             );
             Collect(
-                ColleccionVariables,
+                ColeccionVariebles,
                 JSON(headerColl)
             );
             Set(
