@@ -65,6 +65,8 @@ ScreenResumen As screen:
             FlujoIsumoJSON_1.Run(VarIsumo);;
             'FlujoProcesoEspecialesJSON:2_3'.Run(VarEspecialeJSON);;
             */
+            ClearCollect(CollManoObra,Filter(DVCVManoObras, Sku = skuSeleccionadoVar));
+            
             ClearCollect(
                 ColeccionVariebles,
                 JSON(ColeccionDatosGaleria2)
@@ -85,6 +87,10 @@ ScreenResumen As screen:
                 ColeccionVariebles,
                 JSON(headerColl)
             );
+            /*Collect(
+                ColeccionVariebles;
+                JSON(CollManoObra)
+            );;*/
             Set(
                 JSONPadre,
                 JSON(ColeccionVariebles)
