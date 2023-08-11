@@ -2,6 +2,10 @@
   "DatasetName": "default.cds",
   "EntityName": "DVCVAreass",
   "InstanceUrl": "https://org7cd64359.crm.dynamics.com/",
+  "LocalReferenceDSJson": {
+    "entitySetName": "cr59d_dvcvareases",
+    "logicalName": "cr59d_dvcvareas"
+  },
   "state": "Configured",
   "TableDefinition": {
     "BooleanOptionSetAttribute": "{\"@odata.context\":\"https://org7cd64359.crm.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions('cr59d_dvcvareas')/Attributes/Microsoft.Dynamics.CRM.BooleanAttributeMetadata(MetadataId,LogicalName,SchemaName,DisplayName,OptionSet())\",\"value\":[]}",

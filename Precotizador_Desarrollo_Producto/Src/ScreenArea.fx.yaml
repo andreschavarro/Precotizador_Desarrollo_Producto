@@ -244,14 +244,34 @@ ScreenArea As screen:
                     ColeccionDatosGaleria2,
                     {
                         Sku: skuSeleccionadoVar,
-                        numTalla:Talla.Text,
-                        Cantidad: InputProporcion1.Text // Ajusta el nombre del TextInput para la cantidad según corresponda
+                        numTalla: Talla.Text,
+                        Cantidad: InputProporcion1.Text// Ajusta el nombre del TextInput para la cantidad según corresponda
                     }
                 )
             );
-            Set(VarcurvaJSON, JSON(ColeccionDatosGaleria2));
+            Set(
+                VarcurvaJSON,
+                JSON(ColeccionDatosGaleria2)
+            );
+            ClearCollect(
+                headerColl,
+                {
+                    desarrollador: User().FullName,
+                    cliente: ComboBoxCliente.Selected.Cliente,
+                    patronista: TextInputPatronista.Text,
+                    asesor: ComboBoxAsesor.Selected.Value,
+                    estabilidad: "3x3",
+                    referencia: skuSeleccionadoVar,
+                    composicionTela: "",
+                    tipoPrenda: ComboBoxSeleccionPrenda.Selected.TipoPrenda,
+                    tipoTela: ""
+                }
+            );
             //FlujoCurvaJSON_2.Run(VarcurvaJSON)
-            Notify("Datos guadados exitosamente",NotificationType.Success)
+            Notify(
+                "Datos guadados exitosamente",
+                NotificationType.Success
+            )
         PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
