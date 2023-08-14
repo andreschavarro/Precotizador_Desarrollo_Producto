@@ -200,9 +200,9 @@ ScreenTelas As screen:
                 Collect(
                     ColeccionTelas,
                     {
-                        //Sku: skuSeleccionadoVar;
-                        //TipoTela:Label9.Text;
-                        //descripcion: Label1.Text;
+                        Sku: skuSeleccionadoVar,
+                        TipoTela:Label9.Text,
+                        descripcion: Label1.Text,
                         Cantidad: TextInput1.Text // Ajusta el nombre del TextInput para la cantidad según corresponda
                     }
                 )
