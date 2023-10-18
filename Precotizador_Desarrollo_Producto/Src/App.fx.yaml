@@ -5,6 +5,7 @@ App As appinfo:
         Set(VarTarjetaVisible,true);
         Set(VarRejillaVisible,false)
     StartScreen: =
+    Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
         OnCancel: =false

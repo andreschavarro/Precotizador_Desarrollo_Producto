@@ -21,5 +21,6 @@
     "TableName": "cr59d_dvcvmanoobra_2",
     "Views": "{\"@odata.context\":\"https://org7cd64359.crm.dynamics.com/api/data/v9.0/$metadata#savedqueries(savedqueryid,name,querytype)\",\"value\":[{\"@odata.etag\":\"W/\\\"23626059\\\"\",\"savedqueryid\":\"3d00f48d-06f7-4a3c-814a-0812f604b1fd\",\"name\":\"Vista de b\\u00fasqueda avanzada de DVCVManoObra\",\"querytype\":1},{\"@odata.etag\":\"W/\\\"23626011\\\"\",\"savedqueryid\":\"36280cd6-be5b-468d-a464-2c83ea89b162\",\"name\":\"DVCVManoObras activo\",\"querytype\":0},{\"@odata.etag\":\"W/\\\"23626035\\\"\",\"savedqueryid\":\"95918424-02d9-42b8-a64d-c40393f1004d\",\"name\":\"Vista asociada de DVCVManoObra\",\"querytype\":2},{\"@odata.etag\":\"W/\\\"23626023\\\"\",\"savedqueryid\":\"63197820-7952-4240-8cbe-c76b6d862265\",\"name\":\"DVCVManoObras inactivo\",\"querytype\":0},{\"@odata.etag\":\"W/\\\"23626047\\\"\",\"savedqueryid\":\"167d848d-cd24-4e7d-92c2-f4ca8fcb22ea\",\"name\":\"Vista de b\\u00fasqueda de DVCVManoObra\",\"querytype\":64}]}"
   },
+  "UnusedDataSources": {},
   "webApiVersion": "v9.0"
 }

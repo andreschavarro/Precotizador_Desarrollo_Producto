@@ -21,5 +21,6 @@
     "TableName": "cr59d_dvcvmaestro_3",
     "Views": "{\"@odata.context\":\"https://org7cd64359.crm.dynamics.com/api/data/v9.0/$metadata#savedqueries(savedqueryid,name,querytype)\",\"value\":[{\"@odata.etag\":\"W/\\\"22195403\\\"\",\"savedqueryid\":\"37944a0e-1476-4462-be7f-055fa758d22d\",\"name\":\"Vista de b\\u00fasqueda avanzada de DVCVMaestro\",\"querytype\":1},{\"@odata.etag\":\"W/\\\"22195367\\\"\",\"savedqueryid\":\"c0c7a6e8-0e32-40e7-b00d-1bb9a2e99a4b\",\"name\":\"DVCVMaestros inactivo\",\"querytype\":0},{\"@odata.etag\":\"W/\\\"22195391\\\"\",\"savedqueryid\":\"2465b2be-0e8d-4f8e-ac79-240df95dc6c4\",\"name\":\"Vista de b\\u00fasqueda de DVCVMaestro\",\"querytype\":64},{\"@odata.etag\":\"W/\\\"22195379\\\"\",\"savedqueryid\":\"c31d4b2e-b401-4c90-8d02-26de55a7e796\",\"name\":\"Vista asociada de DVCVMaestro\",\"querytype\":2},{\"@odata.etag\":\"W/\\\"22195355\\\"\",\"savedqueryid\":\"05354720-26e4-4bd7-8d85-ee44e11748b7\",\"name\":\"DVCVMaestros activo\",\"querytype\":0}]}"
   },
+  "UnusedDataSources": {},
   "webApiVersion": "v9.0"
 }

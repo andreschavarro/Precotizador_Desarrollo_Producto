@@ -21,5 +21,6 @@
     "TableName": "cr59d_dvcvtallas",
     "Views": "{\"@odata.context\":\"https://org7cd64359.crm.dynamics.com/api/data/v9.0/$metadata#savedqueries(savedqueryid,name,querytype)\",\"value\":[{\"@odata.etag\":\"W/\\\"22679735\\\"\",\"savedqueryid\":\"58ae8b89-7d92-43ec-8963-1245d530799b\",\"name\":\"Vista de b\\u00fasqueda avanzada de DVCVTallas\",\"querytype\":1},{\"@odata.etag\":\"W/\\\"22679723\\\"\",\"savedqueryid\":\"d3c5f8ed-9ca9-4cca-b55e-23eca4fb4406\",\"name\":\"Vista de b\\u00fasqueda de DVCVTallas\",\"querytype\":64},{\"@odata.etag\":\"W/\\\"22679687\\\"\",\"savedqueryid\":\"c8dbd0ab-7cc6-4aa2-b399-6705bccfd63e\",\"name\":\"DVCVTallass activo\",\"querytype\":0},{\"@odata.etag\":\"W/\\\"22679699\\\"\",\"savedqueryid\":\"47d53d3f-13fa-414e-8a6c-70800776e483\",\"name\":\"DVCVTallass inactivo\",\"querytype\":0},{\"@odata.etag\":\"W/\\\"22679711\\\"\",\"savedqueryid\":\"012078a4-2d6b-41a8-bea9-e7206893e282\",\"name\":\"Vista asociada de DVCVTallas\",\"querytype\":2}]}"
   },
+  "UnusedDataSources": {},
   "webApiVersion": "v9.0"
 }

@@ -21,5 +21,6 @@
     "TableName": "cr59d_dvcvtelas",
     "Views": "{\"@odata.context\":\"https://org7cd64359.crm.dynamics.com/api/data/v9.0/$metadata#savedqueries(savedqueryid,name,querytype)\",\"value\":[{\"@odata.etag\":\"W/\\\"22507396\\\"\",\"savedqueryid\":\"1d3006cf-db1e-49cb-aba6-185c999ba96a\",\"name\":\"Vista asociada de DVCVTelas\",\"querytype\":2},{\"@odata.etag\":\"W/\\\"22507408\\\"\",\"savedqueryid\":\"b3e37f9e-2f9c-4dbd-80dd-22cb633d52e2\",\"name\":\"Vista de b\\u00fasqueda de DVCVTelas\",\"querytype\":64},{\"@odata.etag\":\"W/\\\"22507384\\\"\",\"savedqueryid\":\"038eb478-1a4e-46fb-ac5c-3748d7e05301\",\"name\":\"DVCVTelass inactivo\",\"querytype\":0},{\"@odata.etag\":\"W/\\\"22507420\\\"\",\"savedqueryid\":\"20859103-1fac-4103-ae08-e5bff9b757fb\",\"name\":\"Vista de b\\u00fasqueda avanzada de DVCVTelas\",\"querytype\":1},{\"@odata.etag\":\"W/\\\"22507372\\\"\",\"savedqueryid\":\"8525ea30-c5f6-4a76-91d2-ef98edce33e8\",\"name\":\"DVCVTelass activo\",\"querytype\":0}]}"
   },
+  "UnusedDataSources": {},
   "webApiVersion": "v9.0"
 }

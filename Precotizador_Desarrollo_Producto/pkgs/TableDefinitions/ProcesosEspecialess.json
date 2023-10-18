@@ -21,5 +21,6 @@
     "TableName": "cr59d_dd_procesosespeciales",
     "Views": "{\"@odata.context\":\"https://org7cd64359.crm.dynamics.com/api/data/v9.0/$metadata#savedqueries(savedqueryid,name,querytype)\",\"value\":[{\"@odata.etag\":\"W/\\\"22119247\\\"\",\"savedqueryid\":\"d3b8d429-9b48-422a-89a5-7e05da37d128\",\"name\":\"ProcesosEspecialess activo\",\"querytype\":0},{\"@odata.etag\":\"W/\\\"22119246\\\"\",\"savedqueryid\":\"b643fcce-fb95-437b-ab7d-865a67951233\",\"name\":\"Vista de b\\u00fasqueda avanzada de ProcesosEspeciales\",\"querytype\":1},{\"@odata.etag\":\"W/\\\"22119248\\\"\",\"savedqueryid\":\"f7bbae79-723a-4d3b-89ea-8e712d7fc8db\",\"name\":\"Vista asociada de ProcesosEspeciales\",\"querytype\":2},{\"@odata.etag\":\"W/\\\"22119282\\\"\",\"savedqueryid\":\"a5b251f2-fd5b-4ac0-baa4-bcba53a7b292\",\"name\":\"ProcesosEspecialess inactivo\",\"querytype\":0},{\"@odata.etag\":\"W/\\\"21366313\\\"\",\"savedqueryid\":\"dc76667e-4240-4e14-be5a-ebb04d62f035\",\"name\":\"Vista de b\\u00fasqueda de ProcesosEspeciales\",\"querytype\":64}]}"
   },
+  "UnusedDataSources": {},
   "webApiVersion": "v9.0"
 }

@@ -21,5 +21,6 @@
     "TableName": "cr59d_dvcvareas",
     "Views": "{\"@odata.context\":\"https://org7cd64359.crm.dynamics.com/api/data/v9.0/$metadata#savedqueries(savedqueryid,name,querytype)\",\"value\":[{\"@odata.etag\":\"W/\\\"23956755\\\"\",\"savedqueryid\":\"5915c669-efb8-441e-a57a-1a93c669dd08\",\"name\":\"DVCVAreass inactivo\",\"querytype\":0},{\"@odata.etag\":\"W/\\\"23956779\\\"\",\"savedqueryid\":\"c2bfa76e-171e-4236-b1f6-3195296c9ad9\",\"name\":\"Vista de b\\u00fasqueda de DVCVAreas\",\"querytype\":64},{\"@odata.etag\":\"W/\\\"23956791\\\"\",\"savedqueryid\":\"d62053b4-880f-416a-b622-35920c79e820\",\"name\":\"Vista de b\\u00fasqueda avanzada de DVCVAreas\",\"querytype\":1},{\"@odata.etag\":\"W/\\\"23956743\\\"\",\"savedqueryid\":\"dfdcf34d-a9cf-4048-a0e8-aaa90930b3a0\",\"name\":\"DVCVAreass activo\",\"querytype\":0},{\"@odata.etag\":\"W/\\\"23956767\\\"\",\"savedqueryid\":\"88c56046-4330-4ca8-a5ba-c7c44e41683e\",\"name\":\"Vista asociada de DVCVAreas\",\"querytype\":2}]}"
   },
+  "UnusedDataSources": {},
   "webApiVersion": "v9.0"
 }

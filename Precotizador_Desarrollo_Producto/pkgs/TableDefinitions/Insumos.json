@@ -21,5 +21,6 @@
     "TableName": "cr59d_insumos",
     "Views": "{\"@odata.context\":\"https://org7cd64359.crm.dynamics.com/api/data/v9.0/$metadata#savedqueries(savedqueryid,name,querytype)\",\"value\":[{\"@odata.etag\":\"W/\\\"21934238\\\"\",\"savedqueryid\":\"4092ca52-ac74-43f1-a687-67c5a93808d0\",\"name\":\"Insumos inactivo\",\"querytype\":0},{\"@odata.etag\":\"W/\\\"21934274\\\"\",\"savedqueryid\":\"27139f92-f9b9-4046-902b-738841fdde4d\",\"name\":\"Vista de b\\u00fasqueda avanzada de Insumos\",\"querytype\":1},{\"@odata.etag\":\"W/\\\"21934262\\\"\",\"savedqueryid\":\"e78d540d-d4a7-4932-a968-888034bcb142\",\"name\":\"Vista de b\\u00fasqueda de Insumos\",\"querytype\":64},{\"@odata.etag\":\"W/\\\"21934250\\\"\",\"savedqueryid\":\"cdf1851f-904a-43eb-b97b-8bfc13d34811\",\"name\":\"Vista asociada de Insumos\",\"querytype\":2},{\"@odata.etag\":\"W/\\\"21934226\\\"\",\"savedqueryid\":\"d9491e41-18a2-48a8-809f-94907973afc4\",\"name\":\"Insumos activo\",\"querytype\":0}]}"
   },
+  "UnusedDataSources": {},
   "webApiVersion": "v9.0"
 }
