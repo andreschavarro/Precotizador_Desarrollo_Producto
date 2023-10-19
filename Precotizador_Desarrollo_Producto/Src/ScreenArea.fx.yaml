@@ -24,8 +24,8 @@ ScreenArea As screen:
             Fill: =RGBA(240, 240, 240, 1)
             FocusedBorderThickness: =4
             Height: =68
-            HoverFill: =RGBA(0, 120, 212, 1)
-            PressedFill: =RGBA(0, 120, 212, 1)
+            HoverFill: =RGBA(240, 240, 240, 1)
+            PressedFill: =RGBA(240, 240, 240, 1)
             Width: =1197
             ZIndex: =1
 
