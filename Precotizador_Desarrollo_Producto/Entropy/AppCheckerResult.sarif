@@ -1792,19 +1792,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.Container5.'Naviation Center_9'.TabIndex"
+                  "fullyQualifiedName": "ScreenInsumos.'ContainerB-Navg'.'Naviation Center_9'.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container5.'Naviation Center_9'.TabIndex",
+                  "fullyQualifiedName": "ScreenInsumos.'ContainerB-Navg'.'Naviation Center_9'.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container5.'Naviation Center_9'"
+                "type": "ScreenInsumos.'ContainerB-Navg'.'Naviation Center_9'"
               }
             }
           ],
@@ -1822,19 +1822,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.Container5.'Naviation Center_9'.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenInsumos.'ContainerB-Navg'.'Naviation Center_9'.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container5.'Naviation Center_9'.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenInsumos.'ContainerB-Navg'.'Naviation Center_9'.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container5.'Naviation Center_9'"
+                "type": "ScreenInsumos.'ContainerB-Navg'.'Naviation Center_9'"
               }
             }
           ],
@@ -1852,19 +1852,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.IconCheckedTelas.TabIndex"
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.IconCheckedTelas.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.IconCheckedTelas.TabIndex",
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.IconCheckedTelas.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container6.IconCheckedTelas"
+                "type": "ScreenInsumos.ContainerMenuInsumos.IconCheckedTelas"
               }
             }
           ],
@@ -1882,19 +1882,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.IconCheckedTelas.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.IconCheckedTelas.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.IconCheckedTelas.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.IconCheckedTelas.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container6.IconCheckedTelas"
+                "type": "ScreenInsumos.ContainerMenuInsumos.IconCheckedTelas"
               }
             }
           ],
@@ -2032,19 +2032,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.CircleReporte_2.TabIndex"
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.CircleReporte_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.CircleReporte_2.TabIndex",
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.CircleReporte_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container6.CircleReporte_2"
+                "type": "ScreenInsumos.ContainerMenuInsumos.CircleReporte_2"
               }
             }
           ],
@@ -2062,19 +2062,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.CircleReporte_2.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.CircleReporte_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.CircleReporte_2.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.CircleReporte_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container6.CircleReporte_2"
+                "type": "ScreenInsumos.ContainerMenuInsumos.CircleReporte_2"
               }
             }
           ],
@@ -2092,19 +2092,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.CircleInsumos_2.TabIndex"
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.CircleInsumos_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.CircleInsumos_2.TabIndex",
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.CircleInsumos_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container6.CircleInsumos_2"
+                "type": "ScreenInsumos.ContainerMenuInsumos.CircleInsumos_2"
               }
             }
           ],
@@ -2122,19 +2122,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.CircleInsumos_2.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.CircleInsumos_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.CircleInsumos_2.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.CircleInsumos_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container6.CircleInsumos_2"
+                "type": "ScreenInsumos.ContainerMenuInsumos.CircleInsumos_2"
               }
             }
           ],
@@ -2152,19 +2152,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.ComboBoxDescripcion.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenInsumos.ContainerGaleryInsumos.Gallery1_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.ComboBoxDescripcion.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenInsumos.ContainerGaleryInsumos.Gallery1_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.ComboBoxDescripcion"
+                "type": "ScreenInsumos.ContainerGaleryInsumos.Gallery1_1"
               }
             }
           ],
@@ -2182,49 +2182,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.ComboBoxSku.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenInsumos.ContainerGaleryInsumos.Gallery1_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.ComboBoxSku.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenInsumos",
-                "type": "ScreenInsumos.ComboBoxSku"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.'Line 1_9'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.'Line 1_9'.TabIndex",
+                  "fullyQualifiedName": "ScreenInsumos.ContainerGaleryInsumos.Gallery1_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container6.'Line 1_9'"
+                "type": "ScreenInsumos.ContainerGaleryInsumos.Gallery1_1"
               }
             }
           ],
@@ -2242,79 +2212,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.'Line 1_9'.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.'Line 1_9'.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.'Line 1_9'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container6.'Line 1_9'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenInsumos.Gallery1_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Gallery1_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Gallery1_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenInsumos.Gallery1_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Gallery1_1.TabIndex",
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.'Line 1_9'.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Gallery1_1"
+                "type": "ScreenInsumos.ContainerMenuInsumos.'Line 1_9'"
               }
             }
           ],
@@ -2332,49 +2242,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.IconCheckedAreas.TabIndex"
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.'Line 1_9'.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.IconCheckedAreas.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container6.IconCheckedAreas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.IconCheckedAreas.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.IconCheckedAreas.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.'Line 1_9'.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container6.IconCheckedAreas"
+                "type": "ScreenInsumos.ContainerMenuInsumos.'Line 1_9'"
               }
             }
           ],
@@ -2392,49 +2272,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.IconTablero_2.TabIndex"
+                  "fullyQualifiedName": "ScreenInsumos.ContainerGaleryInsumos.ComboBoxDescripcion.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.IconTablero_2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container6.IconTablero_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.IconTablero_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.IconTablero_2.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenInsumos.ContainerGaleryInsumos.ComboBoxDescripcion.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container6.IconTablero_2"
+                "type": "ScreenInsumos.ContainerGaleryInsumos.ComboBoxDescripcion"
               }
             }
           ],
@@ -2452,49 +2302,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.IconHistorial_2.TabIndex"
+                  "fullyQualifiedName": "ScreenInsumos.ContainerGaleryInsumos.ComboBoxSku.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.IconHistorial_2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container6.IconHistorial_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.IconHistorial_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.IconHistorial_2.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenInsumos.ContainerGaleryInsumos.ComboBoxSku.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container6.IconHistorial_2"
+                "type": "ScreenInsumos.ContainerGaleryInsumos.ComboBoxSku"
               }
             }
           ],
@@ -2512,19 +2332,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.IconCotizacion_2.TabIndex"
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.IconCheckedAreas.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.IconCotizacion_2.TabIndex",
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.IconCheckedAreas.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container6.IconCotizacion_2"
+                "type": "ScreenInsumos.ContainerMenuInsumos.IconCheckedAreas"
               }
             }
           ],
@@ -2542,19 +2362,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.IconCotizacion_2.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.IconCheckedAreas.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.IconCotizacion_2.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.IconCheckedAreas.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container6.IconCotizacion_2"
+                "type": "ScreenInsumos.ContainerMenuInsumos.IconCheckedAreas"
               }
             }
           ],
@@ -2572,19 +2392,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.CircleResumen_2.TabIndex"
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.IconTablero_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.CircleResumen_2.TabIndex",
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.IconTablero_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container6.CircleResumen_2"
+                "type": "ScreenInsumos.ContainerMenuInsumos.IconTablero_2"
               }
             }
           ],
@@ -2602,19 +2422,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.CircleResumen_2.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.IconTablero_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.CircleResumen_2.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.IconTablero_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container6.CircleResumen_2"
+                "type": "ScreenInsumos.ContainerMenuInsumos.IconTablero_2"
               }
             }
           ],
@@ -2632,19 +2452,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.CircleProcesosEspeciales_2.TabIndex"
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.IconHistorial_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.CircleProcesosEspeciales_2.TabIndex",
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.IconHistorial_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container6.CircleProcesosEspeciales_2"
+                "type": "ScreenInsumos.ContainerMenuInsumos.IconHistorial_2"
               }
             }
           ],
@@ -2662,19 +2482,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.CircleProcesosEspeciales_2.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.IconHistorial_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.Container6.CircleProcesosEspeciales_2.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.IconHistorial_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.Container6.CircleProcesosEspeciales_2"
+                "type": "ScreenInsumos.ContainerMenuInsumos.IconHistorial_2"
               }
             }
           ],
@@ -2692,49 +2512,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.'Rectangle 25_9'.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.IconCotizacion_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.'Rectangle 25_9'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenInsumos",
-                "type": "ScreenInsumos.'Rectangle 25_9'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenInsumos.'Rectangle 25_9'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenInsumos.'Rectangle 25_9'.TabIndex",
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.IconCotizacion_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.'Rectangle 25_9'"
+                "type": "ScreenInsumos.ContainerMenuInsumos.IconCotizacion_2"
               }
             }
           ],
@@ -2746,6 +2536,156 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.IconCotizacion_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.IconCotizacion_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenInsumos",
+                "type": "ScreenInsumos.ContainerMenuInsumos.IconCotizacion_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.CircleResumen_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.CircleResumen_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ScreenInsumos",
+                "type": "ScreenInsumos.ContainerMenuInsumos.CircleResumen_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.CircleResumen_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.CircleResumen_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenInsumos",
+                "type": "ScreenInsumos.ContainerMenuInsumos.CircleResumen_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.CircleProcesosEspeciales_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.CircleProcesosEspeciales_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ScreenInsumos",
+                "type": "ScreenInsumos.ContainerMenuInsumos.CircleProcesosEspeciales_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.CircleProcesosEspeciales_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenInsumos.ContainerMenuInsumos.CircleProcesosEspeciales_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenInsumos",
+                "type": "ScreenInsumos.ContainerMenuInsumos.CircleProcesosEspeciales_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -9171,17 +9111,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.Desc_Ins"
+                  "fullyQualifiedName": "App.Var_Sku"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.Desc_Ins",
+                  "fullyQualifiedName": "App.Var_Sku",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "Desc_Ins",
+                "member": "Var_Sku",
                 "module": "App",
                 "type": "App"
               }
@@ -9201,17 +9141,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.Var_Sku"
+                  "fullyQualifiedName": "App.Desc_Ins"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.Var_Sku",
+                  "fullyQualifiedName": "App.Desc_Ins",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "Var_Sku",
+                "member": "Desc_Ins",
                 "module": "App",
                 "type": "App"
               }
