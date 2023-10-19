@@ -96,9 +96,9 @@ ScreenProcesosEspeciales As screen:
             LoadingSpinner: =LoadingSpinner.Data
             TemplatePadding: =0
             TemplateSize: =295
-            Width: =1190
+            Width: =1196
             WrapCount: =5
-            X: =6
+            X: =16
             Y: =87
             ZIndex: =2
 
@@ -111,7 +111,7 @@ ScreenProcesosEspeciales As screen:
                 RadiusTopLeft: =15
                 RadiusTopRight: =15
                 Width: =199
-                X: =18
+                X: =5
                 Y: =15
                 ZIndex: =25
 
