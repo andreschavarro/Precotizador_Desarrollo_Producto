@@ -588,6 +588,7 @@ ScreenArea As screen:
             TemplateSize: =278
             Width: =959
             WrapCount: =3
+            X: =3
             Y: =45
             ZIndex: =1
 
@@ -875,7 +876,7 @@ ScreenArea As screen:
             PressedFill: =RGBA(0, 0, 0, 0)
             Width: =35
             X: =914
-            Y: =2
+            Y: =12
             ZIndex: =2
 
     "'Galería vista rejilla' As groupContainer.manualLayoutContainer":
