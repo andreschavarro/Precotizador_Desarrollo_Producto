@@ -8061,49 +8061,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenProcesosEspeciales.'Naviation Center_10'.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenProcesosEspeciales.ContainerNavigP_Especiales.'Naviation Center_10'.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenProcesosEspeciales.'Naviation Center_10'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenProcesosEspeciales",
-                "type": "ScreenProcesosEspeciales.'Naviation Center_10'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenProcesosEspeciales.'Naviation Center_10'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenProcesosEspeciales.'Naviation Center_10'.TabIndex",
+                  "fullyQualifiedName": "ScreenProcesosEspeciales.ContainerNavigP_Especiales.'Naviation Center_10'.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ScreenProcesosEspeciales",
-                "type": "ScreenProcesosEspeciales.'Naviation Center_10'"
+                "type": "ScreenProcesosEspeciales.ContainerNavigP_Especiales.'Naviation Center_10'"
               }
             }
           ],
@@ -8115,6 +8085,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenProcesosEspeciales.ContainerNavigP_Especiales.'Naviation Center_10'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenProcesosEspeciales.ContainerNavigP_Especiales.'Naviation Center_10'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenProcesosEspeciales",
+                "type": "ScreenProcesosEspeciales.ContainerNavigP_Especiales.'Naviation Center_10'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -8421,79 +8421,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenProcesosEspeciales.'Rectangle 1_6'.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenProcesosEspeciales.ContainerGallery_Procesos.Gallery1_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenProcesosEspeciales.'Rectangle 1_6'.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenProcesosEspeciales.ContainerGallery_Procesos.Gallery1_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ScreenProcesosEspeciales",
-                "type": "ScreenProcesosEspeciales.'Rectangle 1_6'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenProcesosEspeciales.'Rectangle 1_6'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenProcesosEspeciales.'Rectangle 1_6'.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ScreenProcesosEspeciales",
-                "type": "ScreenProcesosEspeciales.'Rectangle 1_6'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenProcesosEspeciales.ComboBoxProceso.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenProcesosEspeciales.ComboBoxProceso.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenProcesosEspeciales",
-                "type": "ScreenProcesosEspeciales.ComboBoxProceso"
+                "type": "ScreenProcesosEspeciales.ContainerGallery_Procesos.Gallery1_2"
               }
             }
           ],
@@ -8571,19 +8511,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenProcesosEspeciales.Gallery1_2.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenProcesosEspeciales.ContainerGallery_Procesos.ComboBoxProceso.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenProcesosEspeciales.Gallery1_2.AccessibleLabel",
+                  "fullyQualifiedName": "ScreenProcesosEspeciales.ContainerGallery_Procesos.ComboBoxProceso.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ScreenProcesosEspeciales",
-                "type": "ScreenProcesosEspeciales.Gallery1_2"
+                "type": "ScreenProcesosEspeciales.ContainerGallery_Procesos.ComboBoxProceso"
               }
             }
           ],
@@ -8601,19 +8541,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenProcesosEspeciales.Gallery1_2.TabIndex"
+                  "fullyQualifiedName": "ScreenProcesosEspeciales.ContainerGallery_Procesos.Gallery1_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenProcesosEspeciales.Gallery1_2.TabIndex",
+                  "fullyQualifiedName": "ScreenProcesosEspeciales.ContainerGallery_Procesos.Gallery1_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ScreenProcesosEspeciales",
-                "type": "ScreenProcesosEspeciales.Gallery1_2"
+                "type": "ScreenProcesosEspeciales.ContainerGallery_Procesos.Gallery1_2"
               }
             }
           ],
