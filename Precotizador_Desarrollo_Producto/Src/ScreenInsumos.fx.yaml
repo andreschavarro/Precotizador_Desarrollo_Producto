@@ -4,19 +4,6 @@ ScreenInsumos As screen:
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
     Width: =1440
 
-    "'Naviation Center_9' As rectangle":
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(66, 75, 90, 1)
-        FocusedBorderThickness: =4
-        Height: =64
-        HoverFill: =
-        PressedFill: =RGBA(0, 120, 212, 1)
-        Width: =1440
-        ZIndex: =1
-
     "'Line 1_9' As rectangle":
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -153,8 +140,8 @@ ScreenInsumos As screen:
         ZIndex: =14
 
         Container3 As groupContainer.manualLayoutContainer:
-            BorderThickness: =1
             DropShadow: =DropShadow.Light
+            Fill: =RGBA(255, 255, 255, 1)
             Height: =266
             RadiusBottomLeft: =15
             RadiusBottomRight: =15
@@ -1204,4 +1191,27 @@ ScreenInsumos As screen:
             X: =394
             Y: =24
             ZIndex: =4
+
+    Container5 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Height: =64
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1440
+        ZIndex: =64
+
+        "'Naviation Center_9' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(66, 75, 90, 1)
+            FocusedBorderThickness: =4
+            Height: =64
+            HoverFill: =
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =1440
+            ZIndex: =1
 

@@ -1792,49 +1792,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenInsumos.'Naviation Center_9'.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenInsumos.Container5.'Naviation Center_9'.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenInsumos.'Naviation Center_9'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenInsumos",
-                "type": "ScreenInsumos.'Naviation Center_9'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenInsumos.'Naviation Center_9'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenInsumos.'Naviation Center_9'.TabIndex",
+                  "fullyQualifiedName": "ScreenInsumos.Container5.'Naviation Center_9'.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ScreenInsumos",
-                "type": "ScreenInsumos.'Naviation Center_9'"
+                "type": "ScreenInsumos.Container5.'Naviation Center_9'"
               }
             }
           ],
@@ -1846,6 +1816,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenInsumos.Container5.'Naviation Center_9'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenInsumos.Container5.'Naviation Center_9'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenInsumos",
+                "type": "ScreenInsumos.Container5.'Naviation Center_9'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
         },
         {
           "locations": [
