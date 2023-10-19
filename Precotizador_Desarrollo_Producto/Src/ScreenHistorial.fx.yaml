@@ -567,7 +567,6 @@ ScreenHistorial As screen:
                     ZIndex: =4
 
     ContainerBanner_Historial As groupContainer.manualLayoutContainer:
-        DropShadow: =DropShadow.Light
         Height: =166
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
@@ -674,8 +673,7 @@ ScreenHistorial As screen:
             Height: =2
             HoverFill: =
             PressedFill: =RGBA(0, 120, 212, 1)
-            Width: =1173
-            X: =23
+            Width: =1196
             Y: =82
             ZIndex: =4
 

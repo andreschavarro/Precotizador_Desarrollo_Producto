@@ -585,8 +585,8 @@ ScreenArea As screen:
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
             TemplatePadding: =0
-            TemplateSize: =278
-            Width: =959
+            TemplateSize: =271
+            Width: =933
             WrapCount: =3
             X: =3
             Y: =45
@@ -600,7 +600,7 @@ ScreenArea As screen:
                 RadiusBottomRight: =15
                 RadiusTopLeft: =15
                 RadiusTopRight: =15
-                Width: =291
+                Width: =282
                 X: =5
                 Y: =30
                 ZIndex: =18
@@ -620,7 +620,7 @@ ScreenArea As screen:
                     Size: =12
                     Text: ="Largo prenda"
                     Width: =67
-                    X: =147
+                    X: =139
                     Y: =66
                     ZIndex: =1
 
@@ -639,7 +639,7 @@ ScreenArea As screen:
                     Size: =12
                     Text: ="Ancho prenda"
                     Width: =77
-                    X: =146
+                    X: =138
                     Y: =144
                     ZIndex: =2
 
@@ -676,7 +676,7 @@ ScreenArea As screen:
                     Size: =11
                     Text: =Int(ThisItem.LargoPrenda)
                     Width: =40
-                    X: =213
+                    X: =205
                     Y: =88
                     ZIndex: =5
 
@@ -694,7 +694,7 @@ ScreenArea As screen:
                     Size: =12
                     Text: ="CM"
                     Width: =35
-                    X: =250
+                    X: =242
                     Y: =88
                     ZIndex: =6
 
@@ -714,7 +714,7 @@ ScreenArea As screen:
                     Size: =11
                     Text: =Int(ThisItem.AnchoPrenda)
                     Width: =40
-                    X: =213
+                    X: =205
                     Y: =166
                     ZIndex: =7
 
@@ -732,7 +732,7 @@ ScreenArea As screen:
                     Size: =12
                     Text: ="CM"
                     Width: =35
-                    X: =250
+                    X: =242
                     Y: =166
                     ZIndex: =8
 
@@ -791,7 +791,7 @@ ScreenArea As screen:
                     Text: ="Ver detalle"
                     Tooltip: ="Medidas de la prenda"
                     Width: =120
-                    X: =155
+                    X: =147
                     Y: =213
                     ZIndex: =10
 
@@ -815,46 +815,36 @@ ScreenArea As screen:
                     Y: =15
                     ZIndex: =11
 
-                Container4 As groupContainer.manualLayoutContainer:
-                    DropShadow: =DropShadow.Regular
+                Image4_4 As image:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
                     Height: =197
-                    RadiusBottomLeft: =4
-                    RadiusBottomRight: =4
-                    RadiusTopLeft: =4
-                    RadiusTopRight: =4
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: =ThisItem.EnlaceImagen
+                    OnSelect: |-
+                        =UpdateContext({ ShowToolTip: !ShowToolTip });
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Tooltip: |-
+                        ="Las medidas de la prenda son 
+                        ancho 
+                        largo
+                        ancho 
+                        largo
+                        ancho 
+                        largo
+                        ancho 
+                        largo
+                        "
                     Width: =125
-                    X: =13
-                    Y: =45
+                    X: =10
+                    Y: =40
                     ZIndex: =12
-
-                    Image4_4 As image:
-                        BorderColor: =RGBA(0, 0, 0, 0)
-                        BorderStyle: =BorderStyle.None
-                        BorderThickness: =2
-                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                        DisabledFill: =RGBA(0, 0, 0, 0)
-                        FocusedBorderThickness: =4
-                        Height: =197
-                        HoverBorderColor: =RGBA(0, 0, 0, 0)
-                        HoverFill: =RGBA(0, 0, 0, 0)
-                        Image: =ThisItem.EnlaceImagen
-                        OnSelect: |-
-                            =UpdateContext({ ShowToolTip: !ShowToolTip });
-                        PressedBorderColor: =RGBA(0, 0, 0, 0)
-                        PressedFill: =RGBA(0, 0, 0, 0)
-                        Tooltip: |-
-                            ="Las medidas de la prenda son 
-                            ancho 
-                            largo
-                            ancho 
-                            largo
-                            ancho 
-                            largo
-                            ancho 
-                            largo
-                            "
-                        Width: =125
-                        ZIndex: =1
 
         Icon7 As icon.OptionsList:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -1368,14 +1358,14 @@ ScreenArea As screen:
     "'ContainerBotones-Nvegador' As groupContainer.manualLayoutContainer":
         DropShadow: =DropShadow.Light
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =60
+        Height: =75
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
         Width: =1197
         X: =243
-        Y: =170
+        Y: =155
         ZIndex: =6
 
         InsideButtonAreas As button:
@@ -1403,7 +1393,7 @@ ScreenArea As screen:
             Text: ="Áreas"
             Width: =103
             X: =27
-            Y: =15
+            Y: =48
             ZIndex: =1
 
         InsideButtonTelas As button:
@@ -1433,7 +1423,7 @@ ScreenArea As screen:
             Text: ="Telas"
             Width: =103
             X: =145
-            Y: =15
+            Y: =48
             ZIndex: =2
 
         InsideButtonInsumos As button:
@@ -1463,7 +1453,7 @@ ScreenArea As screen:
             Text: ="Insumos"
             Width: =103
             X: =264
-            Y: =15
+            Y: =48
             ZIndex: =3
 
         InsideButtonProcesosEspeciales As button:
@@ -1492,13 +1482,13 @@ ScreenArea As screen:
             Size: =12.5
             Text: ="Procesos especiales"
             X: =381
-            Y: =15
+            Y: =48
             ZIndex: =4
 
     "'Contenedor filtros principales areas' As groupContainer.manualLayoutContainer":
         DropShadow: =DropShadow.Light
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =100
+        Height: =91
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
         RadiusTopLeft: =4

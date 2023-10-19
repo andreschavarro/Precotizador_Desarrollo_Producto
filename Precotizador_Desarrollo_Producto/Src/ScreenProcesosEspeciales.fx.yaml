@@ -43,21 +43,21 @@ ScreenProcesosEspeciales As screen:
             Size: =15
             Text: ="GUARDAR"
             Width: =141
-            X: =1000
-            Y: =14
+            X: =998
+            Y: =13
             ZIndex: =1
 
     ContainerGallery_Procesos As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Light
         Fill: =RGBA(217, 217, 217, 0.37)
-        Height: =748
+        Height: =726
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
         Width: =1201
         X: =239
-        Y: =208
+        Y: =230
         ZIndex: =2
 
         ButtonBuscar_2 As button:
@@ -90,15 +90,15 @@ ScreenProcesosEspeciales As screen:
         "Gallery1_2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
             BorderColor: =RGBA(166, 166, 166, 1)
             DelayItemLoading: =true
-            Height: =667
+            Height: =639
             Items: =ProcesosEspecialess
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
             TemplatePadding: =0
             TemplateSize: =295
-            Width: =1170
+            Width: =1190
             WrapCount: =5
-            X: =31
+            X: =6
             Y: =87
             ZIndex: =2
 
@@ -311,7 +311,7 @@ ScreenProcesosEspeciales As screen:
 
     ContainerBotonesGaleryP_Es As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Light
-        Height: =53
+        Height: =75
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
         RadiusTopLeft: =4
@@ -346,8 +346,8 @@ ScreenProcesosEspeciales As screen:
             Size: =12.5
             Text: ="Áreas"
             Width: =103
-            X: =40
-            Y: =19
+            X: =21
+            Y: =48
             ZIndex: =1
 
         InsideButtonTelas_3 As button:
@@ -376,8 +376,8 @@ ScreenProcesosEspeciales As screen:
             Size: =12.5
             Text: ="Telas"
             Width: =103
-            X: =158
-            Y: =19
+            X: =145
+            Y: =48
             ZIndex: =2
 
         InsideButtonInsumos_3 As button:
@@ -405,8 +405,8 @@ ScreenProcesosEspeciales As screen:
             Size: =12.5
             Text: ="Insumos"
             Width: =103
-            X: =277
-            Y: =19
+            X: =264
+            Y: =48
             ZIndex: =3
 
         InsideButtonProcesosEspeciales_3 As button:
@@ -432,8 +432,8 @@ ScreenProcesosEspeciales As screen:
             RadiusTopRight: =5
             Size: =12.5
             Text: ="Procesos especiales"
-            X: =394
-            Y: =19
+            X: =381
+            Y: =48
             ZIndex: =4
 
     ContainerMenu_Procesos As groupContainer.manualLayoutContainer:

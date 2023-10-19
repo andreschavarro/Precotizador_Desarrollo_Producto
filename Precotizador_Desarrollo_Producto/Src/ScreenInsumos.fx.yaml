@@ -43,8 +43,8 @@ ScreenInsumos As screen:
             Size: =15
             Text: ="GUARDAR"
             Width: =141
-            X: =981
-            Y: =14
+            X: =998
+            Y: =13
             ZIndex: =1
 
         InsideButtonResumen_2 As button:
@@ -69,7 +69,7 @@ ScreenInsumos As screen:
             Size: =15
             Text: ="VER RESUMEN"
             Width: =162
-            X: =40
+            X: =57
             Y: =14
             ZIndex: =2
 
@@ -526,14 +526,14 @@ ScreenInsumos As screen:
 
     ContainerGaleryInsumos As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Light
-        Height: =729
+        Height: =725
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
         Width: =1197
         X: =243
-        Y: =227
+        Y: =231
         ZIndex: =3
 
         ButtonLimpiar As button:
@@ -562,7 +562,7 @@ ScreenInsumos As screen:
             Text: ="LIMPIAR"
             Width: =146
             X: =530
-            Y: =9
+            Y: =25
             ZIndex: =1
 
         "Gallery1_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
@@ -579,9 +579,8 @@ ScreenInsumos As screen:
             LoadingSpinner: =LoadingSpinner.Data
             TemplatePadding: =0
             TemplateSize: =295
-            Width: =1170
+            Width: =1197
             WrapCount: =5
-            X: =27
             Y: =62
             ZIndex: =2
 
@@ -594,7 +593,7 @@ ScreenInsumos As screen:
                 RadiusTopLeft: =15
                 RadiusTopRight: =15
                 Width: =199
-                X: =18
+                X: =13
                 Y: =15
                 ZIndex: =24
 
@@ -758,7 +757,7 @@ ScreenInsumos As screen:
             Size: =13
             Width: =200
             X: =303
-            Y: =9
+            Y: =25
             ZIndex: =3
 
         ComboBoxDescripcion As combobox:
@@ -794,13 +793,13 @@ ScreenInsumos As screen:
             Size: =13
             Width: =200
             X: =73
-            Y: =9
+            Y: =25
             ZIndex: =4
 
     ContainerBotonesMenu As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Light
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =71
+        Height: =75
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
         RadiusTopLeft: =4
@@ -835,8 +834,8 @@ ScreenInsumos As screen:
             Size: =12.5
             Text: ="Áreas"
             Width: =103
-            X: =40
-            Y: =24
+            X: =27
+            Y: =48
             ZIndex: =1
 
         InsideButtonTelas_2 As button:
@@ -865,8 +864,8 @@ ScreenInsumos As screen:
             Size: =12.5
             Text: ="Telas"
             Width: =103
-            X: =158
-            Y: =24
+            X: =145
+            Y: =48
             ZIndex: =2
 
         InsideButtonInsumos_2 As button:
@@ -893,8 +892,8 @@ ScreenInsumos As screen:
             Size: =12.5
             Text: ="Insumos"
             Width: =103
-            X: =277
-            Y: =24
+            X: =264
+            Y: =48
             ZIndex: =3
 
         InsideButtonProcesosEspeciales_2 As button:
@@ -922,8 +921,8 @@ ScreenInsumos As screen:
             RadiusTopRight: =5
             Size: =12.5
             Text: ="Procesos especiales"
-            X: =394
-            Y: =24
+            X: =381
+            Y: =48
             ZIndex: =4
 
     "'Contenedor filtros principales areas_4' As groupContainer.manualLayoutContainer":

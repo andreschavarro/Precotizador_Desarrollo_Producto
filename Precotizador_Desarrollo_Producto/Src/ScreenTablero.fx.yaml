@@ -440,7 +440,6 @@ ScreenTablero As screen:
             ZIndex: =19
 
     ContainerBarraTablero As groupContainer.manualLayoutContainer:
-        DropShadow: =DropShadow.Light
         Height: =93
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
@@ -461,8 +460,7 @@ ScreenTablero As screen:
             Height: =2
             HoverFill: =
             PressedFill: =RGBA(0, 120, 212, 1)
-            Width: =1173
-            X: =23
+            Width: =1195
             Y: =91
             ZIndex: =1
 

@@ -64,8 +64,8 @@ ScreenTelas As screen:
             Size: =15
             Text: ="GUARDAR"
             Width: =141
-            X: =981
-            Y: =15
+            X: =998
+            Y: =13
             ZIndex: =1
 
         InsideButtonResumen_1 As button:
@@ -90,8 +90,8 @@ ScreenTelas As screen:
             Size: =15
             Text: ="VER RESUMEN"
             Width: =162
-            X: =40
-            Y: =15
+            X: =57
+            Y: =14
             ZIndex: =2
 
     ContainerTablaGalery As groupContainer.manualLayoutContainer:
@@ -508,7 +508,7 @@ ScreenTelas As screen:
     ContainerNavigTelas As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Light
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =60
+        Height: =75
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
         RadiusTopLeft: =4
@@ -544,8 +544,8 @@ ScreenTelas As screen:
             Size: =12.5
             Text: ="Áreas"
             Width: =103
-            X: =40
-            Y: =15
+            X: =27
+            Y: =48
             ZIndex: =1
 
         InsideButtonTelas_1 As button:
@@ -572,8 +572,8 @@ ScreenTelas As screen:
             Size: =12.5
             Text: ="Telas"
             Width: =103
-            X: =158
-            Y: =15
+            X: =145
+            Y: =48
             ZIndex: =2
 
         InsideButtonInsumos_1 As button:
@@ -602,8 +602,8 @@ ScreenTelas As screen:
             Size: =12.5
             Text: ="Insumos"
             Width: =103
-            X: =277
-            Y: =15
+            X: =264
+            Y: =48
             ZIndex: =3
 
         InsideButtonProcesosEspeciales_1 As button:
@@ -631,8 +631,8 @@ ScreenTelas As screen:
             RadiusTopRight: =5
             Size: =12.5
             Text: ="Procesos especiales"
-            X: =394
-            Y: =15
+            X: =381
+            Y: =48
             ZIndex: =4
 
     "'Contenedor filtros principales areas_5' As groupContainer.manualLayoutContainer":
