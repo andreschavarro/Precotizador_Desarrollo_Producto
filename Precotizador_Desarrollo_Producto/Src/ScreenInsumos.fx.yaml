@@ -631,7 +631,7 @@ ScreenInsumos As screen:
                     Text: =ThisItem.Sku
                     Width: =100
                     X: =72
-                    Y: =241
+                    Y: =238
                     ZIndex: =2
 
                 Checkbox2_1 As checkbox:
@@ -665,8 +665,8 @@ ScreenInsumos As screen:
                     Size: =10
                     Text: =""
                     Width: =30
-                    X: =165
-                    Y: =12
+                    X: =162
+                    Y: =8
                     ZIndex: =3
 
                 Image4_1 As image:
@@ -702,7 +702,7 @@ ScreenInsumos As screen:
                     Text: ="SKU"
                     Width: =50
                     X: =27
-                    Y: =241
+                    Y: =238
                     ZIndex: =5
 
                 LabelLength1_5 As label:
