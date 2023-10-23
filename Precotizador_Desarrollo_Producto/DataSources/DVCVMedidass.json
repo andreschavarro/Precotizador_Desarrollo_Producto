@@ -1,0 +1,101 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr59d_dvcvmedidases",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr59d_dvcvmedidas",
+    "MaxGetRowsCount": 500,
+    "Name": "DVCVMedidass",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Propietario",
+      "cr59d_cstalla": "CSTalla",
+      "cr59d_dvcvmedidas_AsyncOperations": "Trabajos del sistema",
+      "cr59d_dvcvmedidas_BulkDeleteFailures": "Errores de eliminación en masa",
+      "cr59d_dvcvmedidas_MailboxTrackingFolders": "Carpetas de seguimiento automático del buzón",
+      "cr59d_dvcvmedidas_PrincipalObjectAttributeAccesses": "Uso compartido de campos",
+      "cr59d_dvcvmedidas_ProcessSession": "Sesiones de proceso",
+      "cr59d_dvcvmedidas_SyncErrors": "Errores de sincronización",
+      "cr59d_dvcvmedidasid": "DVCVMedidas",
+      "cr59d_medidacm": "MedidaCm",
+      "cr59d_nombremedida": "NombreMedida",
+      "cr59d_partitionkey": "PartitionKey",
+      "cr59d_rowkey": "RowKey",
+      "cr59d_sku": "Sku",
+      "cr59d_timestamp": "Timestamp",
+      "createdby": "Autor",
+      "createdon": "Fecha de creación",
+      "createdonbehalfby": "Autor (delegado)",
+      "importsequencenumber": "Número de secuencia de importación",
+      "modifiedby": "Modificado por",
+      "modifiedon": "Fecha de modificación",
+      "modifiedonbehalfby": "Modificado por (delegado)",
+      "overriddencreatedon": "Fecha de creación del registro",
+      "owningbusinessunit": "Unidad de negocio propietaria",
+      "owningteam": "Equipo propietario",
+      "owninguser": "Usuario propietario",
+      "statecode": "Estado",
+      "statuscode": "Razón para el estado",
+      "timezoneruleversionnumber": "Número de versión de regla de zona horaria",
+      "utcconversiontimezonecode": "Código de zona horaria de conversión UTC",
+      "versionnumber": "Número de versión"
+    },
+    "PreferredName": "DVCVMedidass",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "DVCVMedidass (Vistas)",
+    "Name": "_cr59d_dvcvmedidas_views",
+    "RelatedEntityName": "DVCVMedidass",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "22aaa31f-0e66-4d3f-9268-685db9a31778": "DVCVMedidass inactivo",
+      "3495eeb9-5ef2-4126-ad18-d9f8e43216a5": "Vista asociada de DVCVMedidas",
+      "3624c184-3148-4ceb-b9b8-4bf9178660e0": "Vista de búsqueda avanzada de DVCVMedidas",
+      "b4afaf7a-6536-4da5-844f-9f44bfee263a": "Vista de búsqueda de DVCVMedidas",
+      "f95f4dae-6948-4db3-9339-8d4472993767": "DVCVMedidass activo"
+    }
+  },
+  {
+    "DisplayName": "Estado (DVCVMedidass)",
+    "Name": "cr59d_dvcvmedidas_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Activo",
+      "1": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "DVCVMedidass"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "DVCVMedidass",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razón para el estado (DVCVMedidass)",
+    "Name": "cr59d_dvcvmedidas_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Activo",
+      "2": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "DVCVMedidass"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "DVCVMedidass",
+    "Type": "OptionSetInfo"
+  }
+]
