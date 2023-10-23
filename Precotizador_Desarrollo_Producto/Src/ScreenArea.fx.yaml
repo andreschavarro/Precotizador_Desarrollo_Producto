@@ -657,7 +657,7 @@ ScreenArea As screen:
                     Text: =ThisItem.Sku
                     Width: =125
                     X: =118
-                    Y: =15
+                    Y: =8
                     ZIndex: =4
 
                 Label7_2 As label:
@@ -761,8 +761,8 @@ ScreenArea As screen:
                     PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                     PressedFill: =RGBA(0, 0, 0, 0)
                     Width: =25
-                    X: =256
-                    Y: =15
+                    X: =251
+                    Y: =10
                     ZIndex: =9
 
                 btnMostrarPopup As button:
@@ -812,7 +812,7 @@ ScreenArea As screen:
                         ="Referencia:"
                     Width: =110
                     X: =14
-                    Y: =15
+                    Y: =10
                     ZIndex: =11
 
                 Image4_4 As image:
