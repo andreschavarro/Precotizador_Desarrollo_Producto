@@ -37,6 +37,7 @@ ScreenResumen As screen:
                 'FlujoProcesoEspecialesJSON:2_3'.Run(VarEspecialeJSON);;
                 */
                 ClearCollect(CollManoObra,Filter(DVCVManoObras, Sku = skuSeleccionadoVar));
+                ClearCollect(CollAreas,Filter(DVCVAreass, Sku = skuSeleccionadoVar));
                 
                 ClearCollect(
                     ColeccionVariebles,
@@ -58,10 +59,10 @@ ScreenResumen As screen:
                     ColeccionVariebles,
                     JSON(headerColl)
                 );
-                /*Collect(
-                    ColeccionVariebles;
-                    JSON(CollManoObra)
-                );;*/
+                Collect(
+                    ColeccionVariebles,
+                    JSON(CollAreas)
+                );
                 Set(
                     JSONPadre,
                     JSON(ColeccionVariebles)
