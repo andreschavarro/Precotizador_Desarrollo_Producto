@@ -2,10 +2,6 @@
   "DatasetName": "default.cds",
   "EntityName": "DVCVMedidass",
   "InstanceUrl": "https://org7cd64359.crm.dynamics.com/",
-  "LocalReferenceDSJson": {
-    "entitySetName": "cr59d_dvcvmedidases",
-    "logicalName": "cr59d_dvcvmedidas"
-  },
   "state": "Configured",
   "TableDefinition": {
     "BooleanOptionSetAttribute": "{\"@odata.context\":\"https://org7cd64359.crm.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions('cr59d_dvcvmedidas')/Attributes/Microsoft.Dynamics.CRM.BooleanAttributeMetadata(MetadataId,LogicalName,SchemaName,DisplayName,OptionSet())\",\"value\":[]}",
