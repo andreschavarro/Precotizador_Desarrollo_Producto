@@ -61,7 +61,7 @@ ScreenResumen As screen:
                 );
                 Collect(
                     ColeccionVariebles,
-                    JSON(CollAreas)
+                    JSON(CollAreas , JSONFormat.IgnoreBinaryData & JSONFormat.IgnoreUnsupportedTypes)
                 );
                 Set(
                     JSONPadre,
