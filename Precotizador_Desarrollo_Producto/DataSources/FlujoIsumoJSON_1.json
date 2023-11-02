@@ -1,9 +1,0 @@
-[
-  {
-    "AddinConnectorId": "f5625d3b-2554-4720-8004-f2ce64cb39ea",
-    "AddinId": "6d1f157d-95bf-406d-b65d-cfd3240f724e",
-    "Name": "FlujoIsumoJSON_1",
-    "ServiceKind": "AddinWadl",
-    "Type": "ServiceInfo"
-  }
-]

@@ -1,9 +1,0 @@
-[
-  {
-    "AddinConnectorId": "8c52d18c-fa5f-414e-a53d-edfc3c795f77",
-    "AddinId": "6d1f157d-95bf-406d-b65d-cfd3240f724e",
-    "Name": "DVCV_Crear_excel_cotizacion",
-    "ServiceKind": "AddinWadl",
-    "Type": "ServiceInfo"
-  }
-]

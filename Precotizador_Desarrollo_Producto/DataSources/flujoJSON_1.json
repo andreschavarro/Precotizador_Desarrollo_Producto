@@ -1,9 +1,0 @@
-[
-  {
-    "AddinConnectorId": "f43ae6fb-b6f3-47bf-8840-bb9bceecccd6",
-    "AddinId": "6d1f157d-95bf-406d-b65d-cfd3240f724e",
-    "Name": "flujoJSON",
-    "ServiceKind": "AddinWadl",
-    "Type": "ServiceInfo"
-  }
-]

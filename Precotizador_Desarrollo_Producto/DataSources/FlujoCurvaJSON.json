@@ -1,9 +1,0 @@
-[
-  {
-    "AddinConnectorId": "6dece1dd-0d84-4e96-9fea-691caae9a52f",
-    "AddinId": "6d1f157d-95bf-406d-b65d-cfd3240f724e",
-    "Name": "FlujoCurvaJSON",
-    "ServiceKind": "AddinWadl",
-    "Type": "ServiceInfo"
-  }
-]
