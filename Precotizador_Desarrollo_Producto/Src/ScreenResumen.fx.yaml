@@ -58,6 +58,10 @@ ScreenResumen As screen:
                     ColeccionVariebles,
                     JSON(headerColl)
                 );
+                Collect(
+                    ColeccionVariebles,
+                    JSON(CollManoObra,JSONFormat.IgnoreBinaryData & JSONFormat.IgnoreUnsupportedTypes)
+                );
                 Set(
                     JSONPadre,
                     JSON(ColeccionVariebles)
@@ -865,7 +869,7 @@ ScreenResumen As screen:
             BorderThickness: =1.5
             DelayItemLoading: =true
             Height: =177
-            Items: =Distinct(ColeccionTelas, Cantidad)
+            Items: =Distinct(ColeccionTelas, Codigo)
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
             TemplatePadding: =0

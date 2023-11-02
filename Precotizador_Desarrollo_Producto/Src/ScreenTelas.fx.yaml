@@ -43,7 +43,7 @@ ScreenTelas As screen:
                             Sku: skuSeleccionadoVar,
                             TipoTela:Label9.Text,
                             descripcion: PartePrenda,
-                            Cantidad: TextInput1.Text // Ajusta el nombre del TextInput para la cantidad según corresponda
+                            Codigo: TextInput1.Text // Ajusta el nombre del TextInput para la cantidad según corresponda
                         }
                     )
                 );

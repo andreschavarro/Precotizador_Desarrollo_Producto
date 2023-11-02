@@ -588,7 +588,6 @@ ScreenArea As screen:
             TemplateSize: =271
             Width: =933
             WrapCount: =3
-            X: =3
             Y: =45
             ZIndex: =1
 
