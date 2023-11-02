@@ -62,7 +62,7 @@ ScreenResumen As screen:
                     JSONPadre,
                     JSON(ColeccionVariebles)
                 );
-                DVCV_Crear_excel_cotizacion.Run(JSONPadre);
+                DVCV_Crear_excel_cotizacion.Run(JSONPadre,skuSeleccionadoVar);
                 Notify(
                     "Datos creados exitosamente",
                     NotificationType.Success

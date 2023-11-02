@@ -27,5 +27,53 @@
     "dependencies": {},
     "dependents": [],
     "id": "388ac5e9-3b84-4f35-944b-3f001a2fbf28"
+  },
+  "5f10bb52-a6dd-4f2f-84cb-9ba9182e23f4": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "bfb59649-ce53-4f57-bcc8-ab937e961f0a": {
+          "value": "shared_commondataserviceforapps"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "8c52d18c-fa5f-414e-a53d-edfc3c795f77"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_commondataserviceforapps": {
+          "value": "bfb59649-ce53-4f57-bcc8-ab937e961f0a"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "8c52d18c-fa5f-414e-a53d-edfc3c795f77"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "DVCV_Crear_excel_cotizacion"
+    ],
+    "dependencies": {
+      "shared_commondataserviceforapps": "bfb59649-ce53-4f57-bcc8-ab937e961f0a"
+    },
+    "dependents": [],
+    "id": "5f10bb52-a6dd-4f2f-84cb-9ba9182e23f4"
+  },
+  "bfb59649-ce53-4f57-bcc8-ab937e961f0a": {
+    "connectionRef": {
+      "displayName": "Microsoft Dataverse",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/commondataserviceforapps/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_commondataserviceforapps"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "5f10bb52-a6dd-4f2f-84cb-9ba9182e23f4"
+    ],
+    "id": "bfb59649-ce53-4f57-bcc8-ab937e961f0a"
   }
 }
