@@ -8861,36 +8861,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.VarcurvaJSON"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.VarcurvaJSON",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "VarcurvaJSON",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.telaJSON"
                 }
               ],
@@ -9052,6 +9022,36 @@
               },
               "properties": {
                 "member": "JSONFormateadoVar",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.VarcurvaJSON"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.VarcurvaJSON",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "VarcurvaJSON",
                 "module": "App",
                 "type": "App"
               }
