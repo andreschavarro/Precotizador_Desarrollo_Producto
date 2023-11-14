@@ -39,39 +39,48 @@ ScreenResumen As screen:
                 ClearCollect(CollManoObra,Filter(DVCVManoObras, Sku = skuSeleccionadoVar));
                 
                 ClearCollect(
-                    ColeccionVariebles,
+                    ColeccionVariables,
                     JSON(ColeccionDatosGaleria2)
                 );
-                ClearCollect(collManodeObra,
-                    {
-                        centro: 
-                        subCentro:
-                        tiempo: 
-                    }
+                //creacion de la coleccion de mano de obra
+                ForAll(
+                    GalleryManoDeObra.AllItems,
+                    Collect(
+                        ColeccionManoDeObra,
+                        {
+                            Centro: Label1_8.Text,
+                            subCentro: Label1_9.Text,
+                            tiempo: Label1_11.Text
+                        }
+                    )
                 );
                 Collect(
-                    ColeccionVariebles,
+                    ColeccionVariables,
+                    JSON(ColeccionManoDeObra)
+                );
+                Collect(
+                    ColeccionVariables,
                     JSON(ColeccionTelas)
                 );
                 Collect(
-                    ColeccionVariebles,
+                    ColeccionVariables,
                     JSON(InsumosSeleccionados)
                 );
                 Collect(
-                    ColeccionVariebles,
+                    ColeccionVariables,
                     JSON(procesosEspecialesSeleccionado)
                 );
                 Collect(
-                    ColeccionVariebles,
+                    ColeccionVariables,
                     JSON(headerColl)
                 );
                 Collect(
-                    ColeccionVariebles,
+                    ColeccionVariables,
                     JSON(CollManoObra,JSONFormat.IgnoreBinaryData & JSONFormat.IgnoreUnsupportedTypes)
                 );
                 Set(
                     JSONPadre,
-                    JSON(ColeccionVariebles)
+                    JSON(ColeccionVariables)
                 );
                 DVCV_Crear_excel_cotizacion.Run(JSONPadre,skuSeleccionadoVar);
                 Notify(
@@ -132,7 +141,7 @@ ScreenResumen As screen:
             Y: =25
             ZIndex: =1
 
-        "Gallery2_3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        "GalleryManoDeObra As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
             BorderStyle: =BorderStyle.None
             BorderThickness: =1.5
             DelayItemLoading: =true
@@ -241,35 +250,6 @@ ScreenResumen As screen:
                 Y: =12
                 ZIndex: =10
 
-        Rectangle_8 As button:
-            BorderColor: =RGBA(0, 0, 0, 1)
-            BorderThickness: =1
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(0, 0, 0, 0)
-            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Semibold
-            Height: =205
-            HoverBorderColor: =RGBA(0, 0, 0, 1)
-            HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =
-            PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
-            PressedColor: =RGBA(255, 255, 255, 1)
-            PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-            RadiusBottomLeft: =5
-            RadiusBottomRight: =5
-            RadiusTopLeft: =5
-            RadiusTopRight: =5
-            Size: =15
-            Text: =""
-            Width: =470
-            X: =2
-            Y: =24
-            ZIndex: =3
-
         LabelCentro As label:
             Align: =Align.Center
             BorderStyle: =BorderStyle.None
@@ -341,6 +321,20 @@ ScreenResumen As screen:
             X: =366
             Y: =33
             ZIndex: =7
+
+        Rectangle5 As rectangle:
+            BorderColor: =RGBA(128, 128, 128, 1)
+            BorderThickness: =1
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =165
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =468
+            X: =1
+            Y: =61
+            ZIndex: =8
 
     ContainerGalleryProcesosEspeciales As groupContainer.manualLayoutContainer:
         Height: =256
