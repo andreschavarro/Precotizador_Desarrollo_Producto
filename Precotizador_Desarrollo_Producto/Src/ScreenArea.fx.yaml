@@ -44,13 +44,13 @@ ScreenArea As screen:
             OnSelect: |-
                 =Clear(ColeccionDatosGaleria2);
                 ForAll(
-                    Gallery3.AllItems,
+                    GalleryCurva.AllItems,
                     Collect(
                         ColeccionDatosGaleria2,
                         {
                             Sku: skuSeleccionadoVar,
                             numTalla: Talla.Text,
-                            Cantidad: InputProporcion1.Text// Ajusta el nombre del TextInput para la cantidad según corresponda
+                            Cantidad: valorCurva
                         }
                     )
                 );
@@ -1240,7 +1240,7 @@ ScreenArea As screen:
             Y: =4
             ZIndex: =3
 
-        "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        "GalleryCurva As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
             BorderColor: =RGBA(166, 166, 166, 1)
             DelayItemLoading: =true
             Height: =626
@@ -1289,10 +1289,19 @@ ScreenArea As screen:
                     HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
                     HoverColor: =RGBA(51, 51, 51, 1)
                     HoverFill: =RGBA(255, 255, 255, 1)
-                    OnChange: |+
-                        =
-                        
-                        
+                    OnChange: |-
+                        =Set(valorCurva, InputProporcion1.Text);
+                        ForAll(
+                            GalleryCurva.AllItems,
+                            Collect(
+                                ColeccionDatosGaleria2,
+                                {
+                                    Sku: skuSeleccionadoVar,
+                                    numTalla: Talla.Text,
+                                    Cantidad: valorCurva
+                                }
+                            )
+                        );
                     OnSelect: =
                     PressedBorderColor: =RGBA(0, 120, 212, 1)
                     PressedColor: =RGBA(51, 51, 51, 1)

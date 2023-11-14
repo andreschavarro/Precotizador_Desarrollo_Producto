@@ -42,6 +42,13 @@ ScreenResumen As screen:
                     ColeccionVariebles,
                     JSON(ColeccionDatosGaleria2)
                 );
+                ClearCollect(collManodeObra,
+                    {
+                        centro: 
+                        subCentro:
+                        tiempo: 
+                    }
+                );
                 Collect(
                     ColeccionVariebles,
                     JSON(ColeccionTelas)
