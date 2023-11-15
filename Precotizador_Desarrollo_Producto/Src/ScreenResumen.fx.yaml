@@ -40,7 +40,7 @@ ScreenResumen As screen:
                 
                 ClearCollect(
                     ColeccionVariables,
-                    JSON(ColeccionDatosGaleria2)
+                    JSON(ColeccionCurva)
                 );
                 //creacion de la coleccion de mano de obra
                 ForAll(
@@ -321,20 +321,6 @@ ScreenResumen As screen:
             X: =366
             Y: =33
             ZIndex: =7
-
-        Rectangle5 As rectangle:
-            BorderColor: =RGBA(128, 128, 128, 1)
-            BorderThickness: =1
-            DisabledFill: =RGBA(166, 166, 166, 1)
-            Fill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =165
-            HoverFill: =RGBA(0, 120, 212, 1)
-            PressedFill: =RGBA(0, 120, 212, 1)
-            Width: =468
-            X: =1
-            Y: =61
-            ZIndex: =8
 
     ContainerGalleryProcesosEspeciales As groupContainer.manualLayoutContainer:
         Height: =256
@@ -1120,7 +1106,7 @@ ScreenResumen As screen:
             BorderThickness: =1.5
             DelayItemLoading: =true
             Height: =175
-            Items: =ColeccionDatosGaleria2
+            Items: =ColeccionCurva
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
             TemplatePadding: =0
@@ -1152,7 +1138,7 @@ ScreenResumen As screen:
                 Height: =15
                 OnSelect: =Select(Parent)
                 Size: =7
-                Text: =ThisItem.numTalla
+                Text: =ThisItem.talla
                 Width: =40
                 X: =46
                 Y: =12
@@ -1184,7 +1170,7 @@ ScreenResumen As screen:
                 Height: =17
                 OnSelect: =Select(Parent)
                 Size: =9.5
-                Text: =ThisItem.Cantidad
+                Text: =ThisItem.cantidad
                 Width: =80
                 X: =170
                 Y: =11
@@ -1876,7 +1862,7 @@ ScreenResumen As screen:
                 Clear(InsumosSeleccionados);
                 Clear(procesosEspecialesSeleccionado);
                 Clear(ColeccionTelas);
-                Clear(ColeccionDatosGaleria2);
+                Clear(ColeccionCurva);
                 Set(
                     PopUpAdvertencia,
                     false

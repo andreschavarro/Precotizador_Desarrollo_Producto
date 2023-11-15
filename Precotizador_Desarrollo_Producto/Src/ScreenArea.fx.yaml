@@ -42,29 +42,28 @@ ScreenArea As screen:
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =
             OnSelect: |-
-                =Clear(ColeccionDatosGaleria2);
-                Set(
-                    TempInputValue,
-                    InputProporcion1.Text
-                );
+                =/*Clear(ColeccionCurva);;
+                ForAll(
+                        GalleryCurva.AllItems;
+                        Collect(ColeccionCurva;
+                        {
+                            numTalla: Talla.Text;
+                            Cantidad: InputProporcion1.Text
+                        }
+                ));;*/
                 ClearCollect(
-                    ColeccionDatosGaleria2,
+                    ColeccionCurva,
                     ForAll(
                         GalleryCurva.AllItems,
                         {
-                            Sku: skuSeleccionadoVar,
-                            numTalla: Talla.Text,
-                            Cantidad: TempInputValue
+                            talla: TallaLabel.Text,
+                            cantidad: TextInputproporcion.Text
                         }
                     )
                 );
                 Set(
-                    TempInputValue,
-                    ""
-                );
-                Set(
                     VarcurvaJSON,
-                    JSON(ColeccionDatosGaleria2)
+                    JSON(ColeccionCurva)
                 );
                 ClearCollect(
                     headerColl,
@@ -1272,92 +1271,64 @@ ScreenArea As screen:
                 Y: =91
                 ZIndex: =5
 
-            Container2 As groupContainer.manualLayoutContainer:
-                DropShadow: =DropShadow.Light
-                Height: =88
-                RadiusBottomLeft: =4
-                RadiusBottomRight: =4
-                RadiusTopLeft: =4
-                RadiusTopRight: =4
-                Width: =221
-                ZIndex: =10
+            TextInputproporcion As text:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                Default: ="Entrada de texto"
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                HoverColor: =RGBA(51, 51, 51, 1)
+                HoverFill: =RGBA(255, 255, 255, 1)
+                OnSelect: =Select(Parent)
+                PressedBorderColor: =RGBA(0, 120, 212, 1)
+                PressedColor: =RGBA(51, 51, 51, 1)
+                PressedFill: =RGBA(255, 255, 255, 1)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =13
+                Width: =174
+                X: =11
+                Y: =33
+                ZIndex: =6
 
-                InputProporcion1 As text:
-                    BorderThickness: =1.5
-                    Color: =RGBA(51, 51, 51, 1)
-                    Default: =""
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    DisabledFill: =RGBA(244, 244, 244, 1)
-                    FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
-                    Format: =TextFormat.Number
-                    Height: =45
-                    HintText: ="Ingrese proporción"
-                    HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
-                    HoverColor: =RGBA(51, 51, 51, 1)
-                    HoverFill: =RGBA(255, 255, 255, 1)
-                    OnChange: =
-                    OnSelect: =
-                    PressedBorderColor: =RGBA(0, 120, 212, 1)
-                    PressedColor: =RGBA(51, 51, 51, 1)
-                    PressedFill: =RGBA(255, 255, 255, 1)
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Reset: =VarReset
-                    Size: =12
-                    Width: =200
-                    X: =8
-                    Y: =34
-                    ZIndex: =1
+            TallaLabel As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =33
+                OnSelect: =Select(Parent)
+                Size: =13
+                Text: =Int(ThisItem.CSTalla)+1
+                Width: =86
+                X: =99
+                ZIndex: =7
 
-                "'Talla 1' As label":
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    Color: =RGBA(0, 0, 0, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Bold
-                    Height: =18
-                    LineHeight: =1.285714
-                    PaddingBottom: =0
-                    PaddingLeft: =0
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Size: =10.5
-                    Text: ="Talla"
-                    VerticalAlign: =VerticalAlign.Top
-                    Width: =48
-                    X: =8
-                    Y: =4
-                    ZIndex: =2
-
-                Talla As label:
-                    BorderColor: =RGBA(0, 0, 0, 0)
-                    BorderStyle: =BorderStyle.None
-                    Color: =RGBA(0, 0, 0, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(166, 166, 166, 1)
-                    FocusedBorderThickness: =4
-                    Font: =Font.'Segoe UI'
-                    FontWeight: =FontWeight.Bold
-                    Height: =18
-                    LineHeight: =1.285714
-                    PaddingBottom: =0
-                    PaddingLeft: =0
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Size: =10.5
-                    Text: =Int(ThisItem.CSTalla)+1
-                    VerticalAlign: =VerticalAlign.Top
-                    Width: =48
-                    X: =56
-                    Y: =4
-                    ZIndex: =3
+            Rectangle6 As rectangle:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledFill: =RGBA(166, 166, 166, 1)
+                Fill: =RGBA(0, 120, 212, 1)
+                FocusedBorderThickness: =4
+                Height: =0
+                HoverFill: =RGBA(0, 120, 212, 1)
+                OnSelect: =Select(Parent)
+                PressedFill: =RGBA(0, 120, 212, 1)
+                Width: =203
+                Y: =91
+                ZIndex: =8
 
     "'ContainerBotones-Nvegador' As groupContainer.manualLayoutContainer":
         DropShadow: =DropShadow.Light
@@ -1862,7 +1833,7 @@ ScreenArea As screen:
                 Clear(InsumosSeleccionados);
                 Clear(procesosEspecialesSeleccionado);
                 Clear(ColeccionTelas);
-                Clear(ColeccionDatosGaleria2);
+                Clear(ColeccionCurva);
                 Set(
                     PopUpAdvertencia,
                     false
